@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: nemosis
+Version: 3.7.0
+Summary: A tool for accessing AEMO data.
+Home-page: https://github.com/UNSW-CEEM/NEMOSIS
+Author: Nicholas Gorman, Abhijith Prakash
+Author-email: n.gorman305@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: joblib
+Requires-Dist: pyarrow
+Requires-Dist: feather-format
+Requires-Dist: pandas
+Requires-Dist: xlrd
+Requires-Dist: beautifulsoup4
+Requires-Dist: openpyxl
+
+A tool for accessing AEMO data.

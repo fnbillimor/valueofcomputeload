@@ -1,0 +1,8 @@
+source_group,source_name,source_type,used_for
+official_gpu_vendor,NVIDIA product pages and datasheets,official_datasheet_or_vendor_spec,GPU TDP values where official specs are available
+official_cpu_vendor,Intel ARK / Intel Xeon product pages,official_vendor_spec,CPU TDP values for directly identifiable Intel SKUs
+official_cpu_vendor,AMD EPYC product pages / datasheets,official_vendor_spec,CPU TDP values for directly identifiable AMD SKUs
+cloud_vendor,AWS EC2 instance documentation,cloud_vendor_reference,Processor family identification and local-NVMe instance-store context
+ssd_reference,TechPowerUp SSD database (intended proxy class),proxy_reference,Enterprise NVMe SSD proxy selection for local SSD idle/active power
+ssd_vendor_crosscheck,Samsung PM9A3 / Kioxia CD6 public datasheets,proxy_reference_crosscheck,Idle and active SSD power values for chosen enterprise NVMe proxies
+assumption,User-specified RAM coefficients and other-components factor,model_assumption,RAM idle-active W/GB values and f=0.2 uplift for other components

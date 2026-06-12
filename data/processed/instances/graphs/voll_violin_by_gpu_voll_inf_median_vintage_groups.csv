@@ -1,0 +1,88 @@
+gpu_model_clean,voll_usd_per_mwh_inf_median,instance_type,gpu_vintage_group
+QA100,13894.030501089326,dl2q.24xlarge,Mainstream Modern AI
+K520,2812.192723697149,g2.2xlarge,Legacy / Older Vintage
+K520,2812.192723697149,g2.8xlarge,Legacy / Older Vintage
+M60,3823.170731707317,g3.16xlarge,Legacy / Older Vintage
+M60,3823.170731707317,g3.4xlarge,Legacy / Older Vintage
+M60,3823.170731707317,g3.8xlarge,Legacy / Older Vintage
+M60,2899.8242530755715,g3s.xlarge,Legacy / Older Vintage
+V520,3900.6134969325153,g4ad.16xlarge,Legacy / Older Vintage
+V520,2663.624161073826,g4ad.2xlarge,Legacy / Older Vintage
+V520,3900.6134969325153,g4ad.4xlarge,Legacy / Older Vintage
+V520,3900.6134969325153,g4ad.8xlarge,Legacy / Older Vintage
+V520,1954.694835680752,g4ad.xlarge,Legacy / Older Vintage
+T4,7299.745547073791,g4dn.12xlarge,Transitional / Early AI
+T4,9331.773879142302,g4dn.16xlarge,Transitional / Early AI
+T4,6936.687631027254,g4dn.2xlarge,Transitional / Early AI
+T4,7546.438746438747,g4dn.4xlarge,Transitional / Early AI
+T4,8311.111111111113,g4dn.8xlarge,Transitional / Early AI
+T4,7299.745547073791,g4dn.metal,Transitional / Early AI
+T4,6349.519890260633,g4dn.xlarge,Transitional / Early AI
+A10G,9368.168168168168,g5.12xlarge,Mainstream Modern AI
+A10G,14869.966996699672,g5.16xlarge,Mainstream Modern AI
+A10G,11311.111111111111,g5.24xlarge,Mainstream Modern AI
+A10G,8546.153846153846,g5.2xlarge,Mainstream Modern AI
+A10G,11311.111111111111,g5.48xlarge,Mainstream Modern AI
+A10G,10092.65536723164,g5.4xlarge,Mainstream Modern AI
+A10G,12295.890410958906,g5.8xlarge,Mainstream Modern AI
+A10G,7605.498281786943,g5.xlarge,Mainstream Modern AI
+T4G,13415.111111111111,g5g.16xlarge,Mainstream Modern AI
+T4G,8114.096185737979,g5g.2xlarge,Mainstream Modern AI
+T4G,10379.48717948718,g5g.4xlarge,Mainstream Modern AI
+T4G,13415.111111111111,g5g.8xlarge,Mainstream Modern AI
+T4G,13415.111111111111,g5g.metal,Mainstream Modern AI
+T4G,6677.506775067752,g5g.xlarge,Mainstream Modern AI
+L4,13140.602284527522,g6.12xlarge,Mainstream Modern AI
+L4,16050.17182130584,g6.16xlarge,Mainstream Modern AI
+L4,14363.693270735526,g6.24xlarge,Mainstream Modern AI
+L4,12533.333333333334,g6.2xlarge,Mainstream Modern AI
+L4,14363.693270735526,g6.48xlarge,Mainstream Modern AI
+L4,13628.464419475653,g6.4xlarge,Mainstream Modern AI
+L4,14891.397849462368,g6.8xlarge,Mainstream Modern AI
+L4,11756.706507304116,g6.xlarge,Mainstream Modern AI
+L40S,8327.460317460318,g6e.12xlarge,Mainstream Modern AI
+L40S,17256.563146997934,g6e.16xlarge,Mainstream Modern AI
+L40S,10960.423280423283,g6e.24xlarge,Mainstream Modern AI
+L40S,7340.208333333336,g6e.2xlarge,Mainstream Modern AI
+L40S,10960.423280423283,g6e.48xlarge,Mainstream Modern AI
+L40S,9256.638655462186,g6e.4xlarge,Mainstream Modern AI
+L40S,12484.862155388471,g6e.8xlarge,Mainstream Modern AI
+L40S,6289.093701996929,g6e.xlarge,Mainstream Modern AI
+L4,14045.698924731185,g6f.2xlarge,Mainstream Modern AI
+L4,14045.698924731185,g6f.4xlarge,Mainstream Modern AI
+L4,16644.194756554305,g6f.large,Mainstream Modern AI
+L4,14045.698924731185,g6f.xlarge,Mainstream Modern AI
+GB202,7365.422222222222,g7e.12xlarge,Mainstream Modern AI
+GB202,7365.422222222222,g7e.24xlarge,Mainstream Modern AI
+GB202,6533.174392935984,g7e.2xlarge,Mainstream Modern AI
+GB202,7365.400000000001,g7e.48xlarge,Mainstream Modern AI
+GB202,7422.818565400844,g7e.4xlarge,Mainstream Modern AI
+GB202,8984.527131782947,g7e.8xlarge,Mainstream Modern AI
+L4,15853.183520599248,gr6.4xlarge,Mainstream Modern AI
+L4,18084.946236559143,gr6.8xlarge,Mainstream Modern AI
+L4,15760.752688172046,gr6f.4xlarge,Mainstream Modern AI
+Inf1,3434.589947089947,inf1.24xlarge,Transitional / Early AI
+Inf1,3847.342995169082,inf1.2xlarge,Transitional / Early AI
+Inf1,3433.862433862434,inf1.6xlarge,Transitional / Early AI
+Inf1,2933.333333333334,inf1.xlarge,Transitional / Early AI
+Inf2,9014.72222222222,inf2.24xlarge,Mainstream Modern AI
+Inf2,9014.791666666666,inf2.48xlarge,Mainstream Modern AI
+Inf2,12440.74712643678,inf2.8xlarge,Mainstream Modern AI
+Inf2,8298.706467661692,inf2.xlarge,Mainstream Modern AI
+K80,6622.0735785953175,p2.16xlarge,Legacy / Older Vintage
+K80,6622.0735785953175,p2.8xlarge,Legacy / Older Vintage
+K80,3479.789103690686,p2.xlarge,Legacy / Older Vintage
+V100,11257.52508361204,p3.16xlarge,Transitional / Early AI
+V100,11257.52508361204,p3.2xlarge,Transitional / Early AI
+V100,11257.52508361204,p3.8xlarge,Transitional / Early AI
+V100,13245.833333333336,p3dn.24xlarge,Transitional / Early AI
+A100,7602.568460812087,p4d.24xlarge,Mainstream Modern AI
+A100,9503.245199874096,p4de.24xlarge,Mainstream Modern AI
+H100,10920.634920634922,p5.48xlarge,Mainstream Modern AI
+H100,11261.904761904763,p5.4xlarge,Mainstream Modern AI
+H200,12447.590953785646,p5en.48xlarge,Emerging / Frontier AI
+B200,16005.885057471263,p6-b200.48xlarge,Emerging / Frontier AI
+B300,18322.52631578948,p6-b300.48xlarge,Emerging / Frontier AI
+Inf1,15102.733077905496,trn1.2xlarge,Transitional / Early AI
+Inf1,15102.171136653897,trn1.32xlarge,Transitional / Early AI
+Inf1,17406.13026819924,trn1n.32xlarge,Transitional / Early AI

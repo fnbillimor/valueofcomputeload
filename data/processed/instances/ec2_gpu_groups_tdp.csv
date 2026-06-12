@@ -1,0 +1,21 @@
+gpu_model_clean,gpu_tdp_w_per_gpu,gpu_source_type,status
+A100,400,official_vendor_spec,resolved
+A10G,150,official_vendor_spec,resolved
+AWST2,500,AWS public statement inference,resolved
+B200,1000,official_vendor_spec,resolved
+B300,1100,official_vendor_spec,resolved
+GB202,600,official_vendor_spec,resolved
+H100,700,official_vendor_spec,resolved
+H200,700,official_vendor_spec,resolved
+Inf1,75,Public third-party,resolved
+Inf2,100,Public third-party,resolved
+K520,225,official_vendor_spec,resolved
+K80,300,official_datasheet,resolved
+L4,72,official_datasheet,resolved
+L40S,350,official_datasheet,resolved
+M60,300,official_datasheet,resolved
+QA100,75,official_vendor_spec,resolved
+T4,70,official_datasheet,resolved
+T4G,70,official_datasheet,resolved
+V100,300,official_vendor_spec,resolved
+V520,225,official_vendor_spec,resolved

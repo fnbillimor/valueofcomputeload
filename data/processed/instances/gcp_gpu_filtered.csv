@@ -1,0 +1,27 @@
+Instance Name,API Name,Instance Memory,vCPUs,Memory per vCPU,GPUs,Network Performance,Generation,Local SSD,Shared CPU,Linux On Demand cost,Linux Spot cost,Windows On Demand cost,Windows Spot cost
+A2 Highgpu 1g,a2-highgpu-1g,85 GiB,12,7.08 GiB/vCPU,1,Variable,current,No,No,$0.8328 hourly,$0.3698 hourly,$1.3848 hourly,$0.9218 hourly
+A2 Highgpu 2g,a2-highgpu-2g,170 GiB,24,7.08 GiB/vCPU,2,Variable,current,No,No,$1.6656 hourly,$0.7395 hourly,$2.7696 hourly,$1.8435 hourly
+A2 Highgpu 4g,a2-highgpu-4g,340 GiB,48,7.08 GiB/vCPU,4,Variable,current,No,No,$3.3312 hourly,$1.479 hourly,$5.5392 hourly,$3.687 hourly
+A2 Highgpu 8g,a2-highgpu-8g,680 GiB,96,7.08 GiB/vCPU,8,Variable,current,No,No,$6.6624 hourly,$2.958 hourly,$11.0784 hourly,$7.374 hourly
+A2 Megagpu 16g,a2-megagpu-16g,1360 GiB,96,14.17 GiB/vCPU,16,Variable,current,No,No,$9.9066 hourly,$4.3982 hourly,$14.3226 hourly,$8.8142 hourly
+A2 Ultragpu 1g,a2-ultragpu-1g,170 GiB,12,14.17 GiB/vCPU,1,Variable,current,No,No,$1.2383 hourly,$0.5498 hourly,$1.7903 hourly,$1.1018 hourly
+A2 Ultragpu 2g,a2-ultragpu-2g,340 GiB,24,14.17 GiB/vCPU,2,Variable,current,No,No,$2.4767 hourly,$1.0996 hourly,$3.5807 hourly,$2.2036 hourly
+A2 Ultragpu 4g,a2-ultragpu-4g,680 GiB,48,14.17 GiB/vCPU,4,Variable,current,No,No,$4.9533 hourly,$2.1991 hourly,$7.1613 hourly,$4.4071 hourly
+A2 Ultragpu 8g,a2-ultragpu-8g,1360 GiB,96,14.17 GiB/vCPU,8,Variable,current,No,No,$9.9066 hourly,$4.3982 hourly,$14.3226 hourly,$8.8142 hourly
+A3 Edgegpu 8g,a3-edgegpu-8g,1872 GiB,208,9 GiB/vCPU,8,Variable,current,No,No,$9.4601 hourly,$2.4948 hourly,$19.0281 hourly,$12.0628 hourly
+A3 Edgegpu 8g nolssd,a3-edgegpu-8g-nolssd,1872 GiB,208,9 GiB/vCPU,8,Variable,current,No,No,$9.4601 hourly,$2.4948 hourly,$19.0281 hourly,$12.0628 hourly
+A3 Highgpu 1g,a3-highgpu-1g,234 GiB,26,9 GiB/vCPU,1,Variable,current,No,No,$1.1825 hourly,$0.3118 hourly,$2.3785 hourly,$1.5078 hourly
+A3 Highgpu 2g,a3-highgpu-2g,468 GiB,52,9 GiB/vCPU,2,Variable,current,No,No,$2.365 hourly,$0.6237 hourly,$4.757 hourly,$3.0157 hourly
+A3 Highgpu 4g,a3-highgpu-4g,936 GiB,104,9 GiB/vCPU,4,Variable,current,No,No,$4.73 hourly,$1.2474 hourly,$9.514 hourly,$6.0314 hourly
+A3 Highgpu 8g,a3-highgpu-8g,1872 GiB,208,9 GiB/vCPU,8,Variable,current,No,No,$9.4601 hourly,$2.4948 hourly,$19.0281 hourly,$12.0628 hourly
+A3 Megagpu 8g,a3-megagpu-8g,1872 GiB,208,9 GiB/vCPU,8,Variable,current,No,No,$9.4601 hourly,$2.4948 hourly,$19.0281 hourly,$12.0628 hourly
+A3 Ultragpu 8g,a3-ultragpu-8g,2952 GiB,224,13.18 GiB/vCPU,8,Variable,current,No,No,$12.266 hourly,$3.2352 hourly,$22.57 hourly,$13.5392 hourly
+A3 Ultragpu 8g nolssd,a3-ultragpu-8g-nolssd,2952 GiB,224,13.18 GiB/vCPU,8,Variable,current,No,No,$12.266 hourly,$3.2352 hourly,$22.57 hourly,$13.5392 hourly
+G2 Standard 12,g2-standard-12,48 GiB,12,4 GiB/vCPU,1,Variable,current,No,No,$0.4404 hourly,$0.1755 hourly,$0.9924 hourly,$0.7275 hourly
+G2 Standard 16,g2-standard-16,64 GiB,16,4 GiB/vCPU,1,Variable,current,No,No,$0.5872 hourly,$0.234 hourly,$1.3232 hourly,$0.97 hourly
+G2 Standard 24,g2-standard-24,96 GiB,24,4 GiB/vCPU,2,Variable,current,No,No,$0.8808 hourly,$0.3511 hourly,$1.9848 hourly,$1.4551 hourly
+G2 Standard 32,g2-standard-32,128 GiB,32,4 GiB/vCPU,1,Variable,current,No,No,$1.1743 hourly,$0.4681 hourly,$2.6463 hourly,$1.9401 hourly
+G2 Standard 4,g2-standard-4,16 GiB,4,4 GiB/vCPU,1,Variable,current,No,No,$0.1468 hourly,$0.0585 hourly,$0.3308 hourly,$0.2425 hourly
+G2 Standard 48,g2-standard-48,192 GiB,48,4 GiB/vCPU,4,Variable,current,No,No,$1.7615 hourly,$0.7021 hourly,$3.9695 hourly,$2.9101 hourly
+G2 Standard 8,g2-standard-8,32 GiB,8,4 GiB/vCPU,1,Variable,current,No,No,$0.2936 hourly,$0.117 hourly,$0.6616 hourly,$0.485 hourly
+G2 Standard 96,g2-standard-96,384 GiB,96,4 GiB/vCPU,8,Variable,current,No,No,$3.523 hourly,$1.4043 hourly,$7.939 hourly,$5.8203 hourly

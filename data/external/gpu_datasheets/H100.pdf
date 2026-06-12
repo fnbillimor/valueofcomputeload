@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="4anLTtfvItETEzZbNY2RCvRy6D0GcCoMrpM5EBoMdbEYvCJFymAaC_cotkIIQh004YIAxT9y4OLFl9t2_4d82Q" />
+<title>NVIDIA H100 GPU Datasheet</title>
+<link rel="icon" type="image/x-icon" href="https://resources.nvidia.com/_pfcdnapp/lbhq-production/10412/thumbnails/original/1a53d015-3f8b-4152-a6e7-b397ba726c21.png">
+<meta name="description" content="This datasheet details the performance and product specifications of the NVIDIA H100 Tensor Core GPU. It also explains the technological breakthroughs of the NVIDIA Hopper architecture.">
+<link rel="canonical" href="https://resources.nvidia.com/en-us-hopper-architecture/nvidia-tensor-core-gpu-datasheet">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="NVIDIA H100 GPU Datasheet">
+<meta property="og:description" content="This datasheet details the performance and product specifications of the NVIDIA H100 Tensor Core GPU. It also explains the technological breakthroughs of the NVIDIA Hopper architecture.">
+<meta property="og:site_name" content="NVIDIA">
+<meta property="og:url" content="https://resources.nvidia.com/en-us-hopper-architecture/nvidia-tensor-core-gpu-datasheet">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://resources.nvidia.com/_pfcdn/assets/10412/contents/440589/thumbnails/600x/h100-datasheet-2287922.png">
+<meta property="og:image:height" content="384">
+<meta property="og:image:width" content="576">
+<meta name="twitter:title" content="NVIDIA H100 GPU Datasheet">
+<meta name="twitter:description" content="This datasheet details the performance and product specifications of the NVIDIA H100 Tensor Core GPU. It also explains the technological breakthroughs of the NVIDIA Hopper architecture.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://resources.nvidia.com/_pfcdn/assets/10412/contents/440589/thumbnails/600x/h100-datasheet-2287922.png">
+<link href="https://resources.nvidia.com/_pfcdn/web-fonts/roboto_lato/roboto_lato.css" media="screen" rel="stylesheet" type="text/css">
+<link href="https://resources.nvidia.com/_pfcdn/web-fonts/font-awesome/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css">
+<link href="https://resources.nvidia.com/_pfcdn/web-fonts/overpass/overpass.css" rel="stylesheet" type="text/css">
+<link href="https://resources.nvidia.com/_pfcdn/web-fonts/primeicons/primeicons.css" rel="stylesheet" type="text/css">
+
+<style>
+	@font-face {
+    font-family: NVIDIASansWBd;
+    src: url('https://resources.nvidia.com/_pfcdn/assets/2/fonts/24bc8386-6985-4360-9f61-7107cd1e37f8.woff2') format('woff2');
+  }
+	@font-face {
+    font-family: NVIDIASansWBdIt;
+    src: url('https://resources.nvidia.com/_pfcdn/assets/2/fonts/f169550d-f0dc-436f-a410-a126b54fbbbb.woff2') format('woff2');
+  }
+	@font-face {
+    font-family: NVIDIASansWIt;
+    src: url('https://resources.nvidia.com/_pfcdn/assets/2/fonts/8a9216fb-6ac7-496c-bedb-7543dcf11d81.woff2') format('woff2');
+  }
+	@font-face {
+    font-family: NVIDIASansWLt;
+    src: url('https://resources.nvidia.com/_pfcdn/assets/2/fonts/43b86a56-d2be-4e84-8396-e4c2d71cf4d9.woff2') format('woff2');
+  }
+	@font-face {
+    font-family: NVIDIASansWLtIt;
+    src: url('https://resources.nvidia.com/_pfcdn/assets/2/fonts/ce922b2e-51c5-40e6-8e81-0dcfea65dc4f.woff2') format('woff2');
+  }
+	@font-face {
+    font-family: NVIDIASansWMd;
+    src: url('https://resources.nvidia.com/_pfcdn/assets/2/fonts/720a495d-45b5-441d-a0da-80cd8eb0af28.woff2') format('woff2');
+  }
+	@font-face {
+    font-family: NVIDIASansWMdIt;
+    src: url('https://resources.nvidia.com/_pfcdn/assets/2/fonts/bf17431d-f89c-483b-ae00-01ef2bd57854.woff2') format('woff2');
+  }
+	@font-face {
+    font-family: NVIDIASansWRg;
+    src: url('https://resources.nvidia.com/_pfcdn/assets/2/fonts/ad4ba864-75dc-44ab-a48b-a3c63972f646.woff2') format('woff2');
+  }</style>
+ 
+  
+
+
+  <script type="javascript/pathfactory">
+   (function() {
+     var didInit = false;
+     function initMunchkin() {
+       if(didInit === false) {
+         didInit = true;
+         Munchkin.init('156-OFN-742');
+
+          var webpageTrackTriggered = false;
+          var totalTimeSpent = 0;
+          const threshold = 20;
+          const totalTimer = setInterval(() => {
+            if (!webpageTrackTriggered && !window.formModalOpen && !document.hidden) {
+              totalTimeSpent++;
+              if (totalTimeSpent >= threshold) {
+                trackWebPage(true);
+                webpageTrackTriggered = true;
+                clearInterval(totalTimer);
+              }
+            }
+          }, 1000);
+       }
+     }
+     function trackWebPage(thresholdPassed) {
+       var url = document.location.pathname;
+       var params = "funnel_stage=Top of Funnel&amp;business_unit=HPC &amp;topic=HPC &amp; AI&amp;topic=HPC&amp;industry=HPC / Scientific Computing&amp;topic=HPC &amp; Supercomputing&amp;campaign_manager_nam=Allison Wagner&amp;email_address=alwagner@nvidia.com&amp;funnel_stage=top-of-funnel&amp;business_unit=hpc&amp;topic=hpc-ai&amp;topic=hpc&amp;industry=hpc-scientific-computing&amp;topic=hpc-supercomputing&amp;campaign_manager_nam=allison-wagner&amp;email_address=alwagner-nvidia-com&amp;content_type=Data Sheet&amp;content_type=data-sheet";
+       var queryString = "";
+
+       if (thresholdPassed) {
+         url = url + ", Met Threshold";
+         params = "threshold_passed=true" + (params ? "&" + params : "");
+       }
+       params = params + (queryString ? "&" + queryString : "");
+
+       window.mktoMunchkinFunction('visitWebPage', {
+         url: url,
+         params: params
+       });
+     }
+     var s = document.createElement('script');
+     s.type = 'text/javascript';
+     s.async = true;
+     s.src = '//munchkin.marketo.net/munchkin.js';
+     s.onreadystatechange = function() {
+       if (this.readyState == 'complete' || this.readyState == 'loaded') {
+         initMunchkin();
+       }
+     };
+     s.onload = initMunchkin;
+     document.getElementsByTagName('head')[0].appendChild(s);
+   })();
+  </script>
+
+
+
+
+<script>
+  window.__PATHFACTORY__ = {"environment":{"apiHost":"https://resources.nvidia.com","appId":"0c527753-20eb-4bd8-885a-7288228baf8c","accessProtectionSsoDomains":[],"baseUrl":"https://resources.nvidia.com","clientId":"LB-AEE03768-10412","consentDeclinedCookieLifetimeDays":"1/48","contentId":440589,"contentUuid":"328f9ccf-b29c-4049-b706-9ac2aa0ce243","cookieLifetimeDays":"730","cookieWhitelist":["ELOQUA","_mkto_trk","RegExp::^visitor_id[0-9]+$::pardot_visitor_id","hubspotutk"],"cfCollectionUuid":null,"cfContextConfig":null,"cfContexts":null,"newFeatures":null,"collectionUuid":"1ab8905b-1886-4301-ae6f-fb8d2be9c5fa","childTrackExperienceUuid":null,"dynamicCloudFrontHost":"https://resources.nvidia.com/_pfcdn","enableSnowplowForCampaignTools":true,"enableHippoTracking":true,"enableSnowplowTracking":true,"enableRadwareBotDetection":false,"enableDemandbase":false,"enableNvidiaNcidCookie":true,"enableSixSense":true,"environment":"production","experienceId":99245,"experienceType":"target","experienceTypeValue":1,"experienceUuid":"1ab8905b-1886-4301-ae6f-fb8d2be9c5fa","landingPageContentUuid":null,"gdprCookieConsentEnabled":true,"landingExperienceId":null,"landingExperienceLink":"","landingPageId":null,"marketingAutomationPlatform":"marketo","requestIp":"23.34.83.27","rocketChatEndpoint":"https://rocket.pathfactory.com","showCookieConsent":true,"standardCookieConsentEnabled":false,"experienceUniqueId":null,"snowplowCollector":"spcollector.pathfactory.com","enableCustomSnowplowCollector":false},"global":{"cookieWhitelist":["ELOQUA","_mkto_trk","RegExp::^visitor_id[0-9]+$::pardot_visitor_id","hubspotutk"],"customFonts":[{"title":"NVIDIASansWBd","fontFiles":"https://cdn.pathfactory.com/assets/2/fonts/24bc8386-6985-4360-9f61-7107cd1e37f8.woff2"},{"title":"NVIDIASansWBdIt","fontFiles":"https://cdn.pathfactory.com/assets/2/fonts/f169550d-f0dc-436f-a410-a126b54fbbbb.woff2"},{"title":"NVIDIASansWIt","fontFiles":"https://cdn.pathfactory.com/assets/2/fonts/8a9216fb-6ac7-496c-bedb-7543dcf11d81.woff2"},{"title":"NVIDIASansWLt","fontFiles":"https://cdn.pathfactory.com/assets/2/fonts/43b86a56-d2be-4e84-8396-e4c2d71cf4d9.woff2"},{"title":"NVIDIASansWLtIt","fontFiles":"https://cdn.pathfactory.com/assets/2/fonts/ce922b2e-51c5-40e6-8e81-0dcfea65dc4f.woff2"},{"title":"NVIDIASansWMd","fontFiles":"https://cdn.pathfactory.com/assets/2/fonts/720a495d-45b5-441d-a0da-80cd8eb0af28.woff2"},{"title":"NVIDIASansWMdIt","fontFiles":"https://cdn.pathfactory.com/assets/2/fonts/bf17431d-f89c-483b-ae00-01ef2bd57854.woff2"},{"title":"NVIDIASansWRg","fontFiles":"https://cdn.pathfactory.com/assets/2/fonts/ad4ba864-75dc-44ab-a48b-a3c63972f646.woff2"}],"showCookieConsent":true,"currentContent":{"id":440589,"imageOverrideId":null,"nextPromoterTitle":null,"nextSignpostTitle":null,"nextSignpostBehavior":null,"openExternallyEnabled":false,"previousSignpostTitle":null,"targetDelay":0,"titleOverride":null,"descriptionOverride":null,"thumbnailOverride":null,"videoStartTime":null,"videoRelatedEnabled":null,"videoAutoplayDisabled":false,"enableCaption":false,"languageCode":null,"customSlug":null,"createdAt":"2022-09-15T21:34:29.000-07:00","imageId":1467405,"slug":"nvidia-tensor-core-gpu-datasheet","thumbnail":"https://cdn.pathfactory.com/assets/10412/contents/440589/thumbnails/600x/h100-datasheet-2287922.png","title":"NVIDIA H100 GPU Datasheet","canonicalUrl":null,"description":"This datasheet details the performance and product specifications of the NVIDIA H100 Tensor Core GPU. It also explains the technological breakthroughs of the NVIDIA Hopper architecture.","rating":null,"contentUuid":"328f9ccf-b29c-4049-b706-9ac2aa0ce243","mediaType":"webpage","sourceUrl":"https://nvdam.widen.net/s/q6rttxs2pw/h100-datasheet-2287922","languageId":0,"contentTypeName":"Data Sheet","contentTypeId":5567,"experienceId":99245,"views":0,"engagementThreshold":20,"url":"https://resources.nvidia.com/en-us-hopper-architecture/nvidia-tensor-core-gpu-datasheet","altText":"","topics":["HPC \u0026 AI","HPC","HPC \u0026 Supercomputing"],"contentTypes":[{"id":5567,"name":"Data Sheet"}],"topicsJson":[{"contentId":440589,"name":"HPC \u0026 AI","id":36783,"type":"ContentTopic"},{"contentId":440589,"name":"HPC","id":37843,"type":"ContentTopic"},{"contentId":440589,"name":"HPC \u0026 Supercomputing","id":53311,"type":"ContentTopic"}],"languageNames":["English"],"languageJson":[{"id":0,"name":"English"}],"personas":[],"personasJson":[],"industries":["HPC / Scientific Computing"],"industriesJson":[{"contentId":440589,"name":"HPC / Scientific Computing","id":43895,"type":"ContentIndustry"}],"businessUnits":["HPC "],"businessUnitsJson":[{"contentId":440589,"name":"HPC ","id":16049,"type":"ContentBusinessUnit"}],"products":[],"productsJson":[],"solutions":[],"solutionsJson":[],"funnelStages":["Top of Funnel"],"funnelStagesJson":[{"contentId":440589,"name":"Top of Funnel","id":844,"type":"ContentFunnelStage"}],"assetTypes":[],"language":"English","ecCreatedAt":"2022-09-19T01:41:04.000-04:00","updatedAt":"2026-02-13T10:56:08.000-08:00","parameterizedContentTypeName":"data-sheet"},"experienceContent":[{"id":956500,"imageOverrideId":null,"nextPromoterTitle":null,"nextSignpostTitle":null,"nextSignpostBehavior":null,"openExternallyEnabled":false,"previousSignpostTitle":null,"targetDelay":0,"titleOverride":null,"descriptionOverride":null,"thumbnailOverride":null,"videoStartTime":null,"videoRelatedEnabled":null,"videoAutoplayDisabled":false,"enableCaption":false,"languageCode":null,"customSlug":null,"createdAt":"2025-04-28T03:05:50.000-07:00","imageId":1467408,"slug":"nvidia-h100-tensor-c","thumbnail":"https://cdn.pathfactory.com/assets/10412/contents/956500/thumbnails/600x/nvidia-h100-tensor-core-hopper-whitepaper.png","title":"NVIDIA H100 GPU Whitepaper","canonicalUrl":"","description":"","rating":null,"contentUuid":"3f0e3d0d-f917-4728-8aeb-5a3b68077e94","mediaType":"webpage","sourceUrl":"https://nvdam.widen.net/s/lszrvk5jkm/nvidia-h100-tensor-core-hopper-whitepaper","languageId":0,"contentTypeName":"White Paper","contentTypeId":2493,"experienceId":99245,"views":0,"engagementThreshold":20,"url":"https://resources.nvidia.com/en-us-hopper-architecture/nvidia-h100-tensor-c","altText":"","topics":["Data Center / Cloud"],"contentTypes":[{"id":2493,"name":"White Paper"}],"topicsJson":[{"contentId":956500,"name":"Data Center / Cloud","id":96040,"type":"ContentTopic"}],"languageNames":["English"],"languageJson":[{"id":0,"name":"English"}],"personas":[],"personasJson":[],"industries":["HPC / Scientific Computing","Cloud Services","Hardware / Semiconductor"],"industriesJson":[{"contentId":956500,"name":"HPC / Scientific Computing","id":43895,"type":"ContentIndustry"},{"contentId":956500,"name":"Cloud Services","id":68461,"type":"ContentIndustry"},{"contentId":956500,"name":"Hardware / Semiconductor","id":68462,"type":"ContentIndustry"}],"businessUnits":["HPC ","Data Center"],"businessUnitsJson":[{"contentId":956500,"name":"HPC ","id":16049,"type":"ContentBusinessUnit"},{"contentId":956500,"name":"Data Center","id":87692,"type":"ContentBusinessUnit"}],"products":[],"productsJson":[],"solutions":[],"solutionsJson":[],"funnelStages":["Middle of Funnel"],"funnelStagesJson":[{"contentId":956500,"name":"Middle of Funnel","id":846,"type":"ContentFunnelStage"}],"assetTypes":[],"language":"English","ecCreatedAt":"2025-04-28T07:23:23.000-04:00","updatedAt":"2026-02-13T10:56:09.000-08:00","parameterizedContentTypeName":"white-paper"},{"id":440589,"imageOverrideId":null,"nextPromoterTitle":null,"nextSignpostTitle":null,"nextSignpostBehavior":null,"openExternallyEnabled":false,"previousSignpostTitle":null,"targetDelay":0,"titleOverride":null,"descriptionOverride":null,"thumbnailOverride":null,"videoStartTime":null,"videoRelatedEnabled":null,"videoAutoplayDisabled":false,"enableCaption":false,"languageCode":null,"customSlug":null,"createdAt":"2022-09-15T21:34:29.000-07:00","imageId":1467405,"slug":"nvidia-tensor-core-gpu-datasheet","thumbnail":"https://cdn.pathfactory.com/assets/10412/contents/440589/thumbnails/600x/h100-datasheet-2287922.png","title":"NVIDIA H100 GPU Datasheet","canonicalUrl":null,"description":"This datasheet details the performance and product specifications of the NVIDIA H100 Tensor Core GPU. It also explains the technological breakthroughs of the NVIDIA Hopper architecture.","rating":null,"contentUuid":"328f9ccf-b29c-4049-b706-9ac2aa0ce243","mediaType":"webpage","sourceUrl":"https://nvdam.widen.net/s/q6rttxs2pw/h100-datasheet-2287922","languageId":0,"contentTypeName":"Data Sheet","contentTypeId":5567,"experienceId":99245,"views":0,"engagementThreshold":20,"url":"https://resources.nvidia.com/en-us-hopper-architecture/nvidia-tensor-core-gpu-datasheet","altText":"","topics":["HPC \u0026 AI","HPC","HPC \u0026 Supercomputing"],"contentTypes":[{"id":5567,"name":"Data Sheet"}],"topicsJson":[{"contentId":440589,"name":"HPC \u0026 AI","id":36783,"type":"ContentTopic"},{"contentId":440589,"name":"HPC","id":37843,"type":"ContentTopic"},{"contentId":440589,"name":"HPC \u0026 Supercomputing","id":53311,"type":"ContentTopic"}],"languageNames":["English"],"languageJson":[{"id":0,"name":"English"}],"personas":[],"personasJson":[],"industries":["HPC / Scientific Computing"],"industriesJson":[{"contentId":440589,"name":"HPC / Scientific Computing","id":43895,"type":"ContentIndustry"}],"businessUnits":["HPC "],"businessUnitsJson":[{"contentId":440589,"name":"HPC ","id":16049,"type":"ContentBusinessUnit"}],"products":[],"productsJson":[],"solutions":[],"solutionsJson":[],"funnelStages":["Top of Funnel"],"funnelStagesJson":[{"contentId":440589,"name":"Top of Funnel","id":844,"type":"ContentFunnelStage"}],"assetTypes":[],"language":"English","ecCreatedAt":"2022-09-19T01:41:04.000-04:00","updatedAt":"2026-02-13T10:56:08.000-08:00","parameterizedContentTypeName":"data-sheet"},{"id":561041,"imageOverrideId":null,"nextPromoterTitle":null,"nextSignpostTitle":null,"nextSignpostBehavior":null,"openExternallyEnabled":false,"previousSignpostTitle":null,"targetDelay":0,"titleOverride":null,"descriptionOverride":null,"thumbnailOverride":null,"videoStartTime":null,"videoRelatedEnabled":null,"videoAutoplayDisabled":false,"enableCaption":false,"languageCode":null,"customSlug":null,"createdAt":"2023-11-27T23:37:38.000-08:00","imageId":1467403,"slug":"hpc-datasheet-sc23","thumbnail":"https://cdn.pathfactory.com/assets/10412/contents/561041/thumbnails/600x/hpc-datasheet-sc23-h200-datasheet-3002446.png","title":"NVIDIA H200 GPU Datasheet","canonicalUrl":null,"description":"This datasheet details the performance and product specifications of the NVIDIA H200 Tensor Core GPU. It also explains the technological breakthroughs of the NVIDIA Hopper architecture.","rating":null,"contentUuid":"07efb8ee-42d7-4d22-a042-2d707d10dcbf","mediaType":"webpage","sourceUrl":"https://nvdam.widen.net/s/nb5zzzsjdf/hpc-datasheet-sc23-h200-datasheet-3002446","languageId":0,"contentTypeName":"Data Sheet","contentTypeId":5567,"experienceId":99245,"views":0,"engagementThreshold":20,"url":"https://resources.nvidia.com/en-us-hopper-architecture/hpc-datasheet-sc23","altText":"","topics":["Data Center","HPC \u0026 AI","HPC"],"contentTypes":[{"id":5567,"name":"Data Sheet"}],"topicsJson":[{"contentId":561041,"name":"Data Center","id":16043,"type":"ContentTopic"},{"contentId":561041,"name":"HPC \u0026 AI","id":36783,"type":"ContentTopic"},{"contentId":561041,"name":"HPC","id":37843,"type":"ContentTopic"}],"languageNames":["English"],"languageJson":[{"id":0,"name":"English"}],"personas":[],"personasJson":[],"industries":[],"industriesJson":[],"businessUnits":["Data Center"],"businessUnitsJson":[{"contentId":561041,"name":"Data Center","id":87692,"type":"ContentBusinessUnit"}],"products":[],"productsJson":[],"solutions":[],"solutionsJson":[],"funnelStages":["Top of Funnel"],"funnelStagesJson":[{"contentId":561041,"name":"Top of Funnel","id":844,"type":"ContentFunnelStage"}],"assetTypes":[],"language":"English","ecCreatedAt":"2025-04-28T07:23:23.000-04:00","updatedAt":"2026-02-13T10:56:06.000-08:00","parameterizedContentTypeName":"data-sheet"},{"id":956501,"imageOverrideId":null,"nextPromoterTitle":null,"nextSignpostTitle":null,"nextSignpostBehavior":null,"openExternallyEnabled":false,"previousSignpostTitle":null,"targetDelay":0,"titleOverride":null,"descriptionOverride":null,"thumbnailOverride":null,"videoStartTime":null,"videoRelatedEnabled":null,"videoAutoplayDisabled":false,"enableCaption":false,"languageCode":null,"customSlug":null,"createdAt":"2025-04-28T03:05:50.000-07:00","imageId":1467404,"slug":"hpc-hgx-h100-hgx-h20","thumbnail":"https://cdn.pathfactory.com/assets/10412/contents/956501/thumbnails/600x/hpc-hgx-h100-hgx-h200-datasheet-nvidia-web.png","title":"NVIDIA HGX H200 and HGX H100 Datasheet","canonicalUrl":"","description":"","rating":null,"contentUuid":"52607a15-0c8f-4cda-a58d-85ff3c3ef255","mediaType":"webpage","sourceUrl":"https://nvdam.widen.net/s/8cpbq9shhg/hpc-hgx-h100-hgx-h200-datasheet-nvidia-web","languageId":0,"contentTypeName":"Data Sheet","contentTypeId":5567,"experienceId":99245,"views":0,"engagementThreshold":20,"url":"https://resources.nvidia.com/en-us-hopper-architecture/hpc-hgx-h100-hgx-h20","altText":"","topics":["Data Center / Cloud"],"contentTypes":[{"id":5567,"name":"Data Sheet"}],"topicsJson":[{"contentId":956501,"name":"Data Center / Cloud","id":96040,"type":"ContentTopic"}],"languageNames":["English"],"languageJson":[{"id":0,"name":"English"}],"personas":[],"personasJson":[],"industries":["HPC / Scientific Computing","Cloud Services","Hardware / Semiconductor"],"industriesJson":[{"contentId":956501,"name":"HPC / Scientific Computing","id":43895,"type":"ContentIndustry"},{"contentId":956501,"name":"Cloud Services","id":68461,"type":"ContentIndustry"},{"contentId":956501,"name":"Hardware / Semiconductor","id":68462,"type":"ContentIndustry"}],"businessUnits":["HPC ","Data Center"],"businessUnitsJson":[{"contentId":956501,"name":"HPC ","id":16049,"type":"ContentBusinessUnit"},{"contentId":956501,"name":"Data Center","id":87692,"type":"ContentBusinessUnit"}],"products":[],"productsJson":[],"solutions":[],"solutionsJson":[],"funnelStages":["Middle of Funnel"],"funnelStagesJson":[{"contentId":956501,"name":"Middle of Funnel","id":846,"type":"ContentFunnelStage"}],"assetTypes":[],"language":"English","ecCreatedAt":"2025-04-28T07:23:23.000-04:00","updatedAt":"2026-02-13T10:56:07.000-08:00","parameterizedContentTypeName":"data-sheet"},{"id":925187,"imageOverrideId":null,"nextPromoterTitle":null,"nextSignpostTitle":null,"nextSignpostBehavior":null,"openExternallyEnabled":false,"previousSignpostTitle":null,"targetDelay":0,"titleOverride":null,"descriptionOverride":null,"thumbnailOverride":null,"videoStartTime":null,"videoRelatedEnabled":null,"videoAutoplayDisabled":false,"enableCaption":false,"languageCode":null,"customSlug":null,"createdAt":"2025-03-19T10:53:35.000-07:00","imageId":1085673,"slug":"deploying-nvidia-h200","thumbnail":"https://cdn.pathfactory.com/assets/10412/contents/925187/thumbnails/600x/nvidia-h200-nvl-1.jpg","title":"Deploying NVIDIA H200 NVL at Scale","canonicalUrl":"","description":"Last month at the Supercomputing 2024 conference, NVIDIA announced the availability of NVIDIA H200 NVL, the latest NVIDIA Hopper platform.","rating":null,"contentUuid":"875f4e5a-00e7-48e6-a09c-9f1a33c047f1","mediaType":"webpage","sourceUrl":"https://developer.nvidia.com/blog/deploying-nvidia-h200-nvl-at-scale-with-new-enterprise-reference-architecture/","languageId":0,"contentTypeName":"Blog","contentTypeId":2489,"experienceId":99245,"views":0,"engagementThreshold":20,"url":"https://resources.nvidia.com/en-us-hopper-architecture/deploying-nvidia-h200","altText":"","topics":["Other"],"contentTypes":[{"id":2489,"name":"Blog"}],"topicsJson":[{"contentId":925187,"name":"Other","id":93869,"type":"ContentTopic"}],"languageNames":["English"],"languageJson":[{"id":0,"name":"English"}],"personas":[],"personasJson":[],"industries":[],"industriesJson":[],"businessUnits":["Other"],"businessUnitsJson":[{"contentId":925187,"name":"Other","id":93870,"type":"ContentBusinessUnit"}],"products":[],"productsJson":[],"solutions":[],"solutionsJson":[],"funnelStages":["Top of Funnel"],"funnelStagesJson":[{"contentId":925187,"name":"Top of Funnel","id":844,"type":"ContentFunnelStage"}],"assetTypes":[],"language":"English","ecCreatedAt":"2025-04-28T07:23:23.000-04:00","updatedAt":"2025-10-27T12:07:26.000-07:00","parameterizedContentTypeName":"blog"},{"id":956502,"imageOverrideId":null,"nextPromoterTitle":null,"nextSignpostTitle":null,"nextSignpostBehavior":null,"openExternallyEnabled":false,"previousSignpostTitle":null,"targetDelay":0,"titleOverride":null,"descriptionOverride":null,"thumbnailOverride":null,"videoStartTime":null,"videoRelatedEnabled":null,"videoAutoplayDisabled":false,"enableCaption":false,"languageCode":null,"customSlug":null,"createdAt":"2025-04-28T03:05:51.000-07:00","imageId":1147933,"slug":"boosting-llama-3-1-4","thumbnail":"https://cdn.pathfactory.com/assets/10412/contents/956502/thumbnails/600x/HGX-H200-product-photo-close-up-copy-2.jpg","title":"Boosting Performance With NVIDIA HGX H200","canonicalUrl":"","description":"The continued growth of LLMs capability, fueled by increasing parameter counts and support for longer contexts, has led to their usage in a wide variety of…","rating":null,"contentUuid":"a586bc1b-a78f-4d41-896a-e15b2365cfaf","mediaType":"webpage","sourceUrl":"https://developer.nvidia.com/blog/boosting-llama-3-1-405b-throughput-by-another-1-5x-on-nvidia-h200-tensor-core-gpus-and-nvlink-switch/?ncid=em-nurt-121042","languageId":0,"contentTypeName":"Blog","contentTypeId":2489,"experienceId":99245,"views":0,"engagementThreshold":20,"url":"https://resources.nvidia.com/en-us-hopper-architecture/boosting-llama-3-1-4","altText":"","topics":["Data Center / Cloud"],"contentTypes":[{"id":2489,"name":"Blog"}],"topicsJson":[{"contentId":956502,"name":"Data Center / Cloud","id":96040,"type":"ContentTopic"}],"languageNames":["English"],"languageJson":[{"id":0,"name":"English"}],"personas":[],"personasJson":[],"industries":["HPC / Scientific Computing","Cloud Services","Hardware / Semiconductor"],"industriesJson":[{"contentId":956502,"name":"HPC / Scientific Computing","id":43895,"type":"ContentIndustry"},{"contentId":956502,"name":"Cloud Services","id":68461,"type":"ContentIndustry"},{"contentId":956502,"name":"Hardware / Semiconductor","id":68462,"type":"ContentIndustry"}],"businessUnits":["HPC ","Data Center"],"businessUnitsJson":[{"contentId":956502,"name":"HPC ","id":16049,"type":"ContentBusinessUnit"},{"contentId":956502,"name":"Data Center","id":87692,"type":"ContentBusinessUnit"}],"products":[],"productsJson":[],"solutions":[],"solutionsJson":[],"funnelStages":["Top of Funnel"],"funnelStagesJson":[{"contentId":956502,"name":"Top of Funnel","id":844,"type":"ContentFunnelStage"}],"assetTypes":[],"language":"English","ecCreatedAt":"2025-04-28T07:23:23.000-04:00","updatedAt":"2025-10-27T12:08:00.000-07:00","parameterizedContentTypeName":"blog"}],"recommendedContent":null},"pageViewData":{"id":99245,"bottomBarConfig":{"backgroundColor":"#76b900","itemColor":"#000000","itemFontFamily":"NVIDIASansWRg","itemFontSize":"13px","itemFontWeight":"normal","itemLineHeight":"18px","maxItems":3,"showAfter":5,"scrollDistance":100,"titleColor":"#ffffff","titleFontFamily":"NVIDIASansWRg","titleFontSize":"15px","titleFontWeight":"normal","titleLineHeight":"20px","thumbnailAspectRatioWidth":4,"thumbnailAspectRatioHeight":3,"targetTitle":"CONTINUE READING","websiteTitle":"RECOMMENDED FOR YOU"},"bottomBarEnabled":null,"campaignId":null,"captureConfig":{"formId":null,"displayMode":"views","showAfterViews":5,"delay":10,"showAfterTime":30,"isDismissable":false,"enablePromoterNavigation":true,"doNotShow":"known","isOverrideEnabled":false,"titleOverride":"","descriptionOverride":"","enabled":false,"formExcluded":false},"cardConfig":null,"cardEnabled":null,"cookieConsentConfig":{"enabled":"custom"},"cookieConsentEnabled":null,"endCallToActionConfig":null,"endConfig":null,"endEnabled":null,"exitConfig":null,"exitEnabled":null,"experienceId":99245,"experienceType":"target","externalId2":null,"externalId3":null,"externalId":null,"experienceCaptureConfig":{"formId":null,"displayMode":"views","showAfterViews":5,"delay":10,"showAfterTime":30,"isDismissable":false,"enablePromoterNavigation":true,"doNotShow":"known","isOverrideEnabled":false,"titleOverride":"","descriptionOverride":"","enabled":false,"formExcluded":false},"filterTopicConfig":{},"flowCallToActionConfig":[],"flowConfig":{"sidebarBackgroundColor":"#FFFFFF","sharingIconColor":"#76b900","itemBackgroundColor":"#FFFFFF","itemColor":"#000000","itemFontFamily":"NVIDIASansWRg","itemFontSize":"15px","itemFontWeight":"normal","itemLineHeight":"20px","activeItemColor":"#76b900","activeItemFontFamily":"NVIDIASansWRg","activeItemFontSize":"15px","activeItemFontWeight":"bold","activeItemLineHeight":"20px","logo":"https://app.cdn.lookbookhq.com/lbhq-production/10412/thumbnails/original/cc8df558-c3d9-464e-bef4-ad9192e38d5d.png","thumbnailOrIcon":"thumbnail","nextPromoterTeaserBackgroundColor":"#76b900","nextPromoterTeaserColor":"#000000","nextPromoterTeaserFontFamily":"NVIDIASansWRg","nextPromoterTeaserFontSize":"24px","nextPromoterTeaserFontWeight":"normal","nextPromoterTeaserLineHeight":"30px","nextPromoterBackgroundColor":"#FFFFFF","nextPromoterHeadlineColor":"#76b900","nextPromoterHeadlineFontFamily":"NVIDIASansWRg","nextPromoterHeadlineFontSize":"24px","nextPromoterHeadlineFontWeight":"normal","nextPromoterHeadlineLineHeight":"30px","nextPromoterTitleColor":"#76b900","nextPromoterTitleFontFamily":"NVIDIASansWRg","nextPromoterTitleFontSize":"15px","nextPromoterTitleFontWeight":"bold","nextPromoterTitleLineHeight":"20px","nextPromoterBodyColor":"#000000","nextPromoterBodyFontFamily":"NVIDIASansWRg","nextPromoterBodyFontSize":"13px","nextPromoterBodyFontWeight":"normal","nextPromoterBodyLineHeight":"18px","thumbnailAspectRatioWidth":4,"thumbnailAspectRatioHeight":3,"nextPromoterTitle":"NEXT","headerTitle":null,"headerDescription":null,"hideNextPromoter":false,"shareOptions":{"twitter":false,"facebook":false,"linkedin":false,"email":false,"like":false,"download":false},"imageAltText":""},"flowEnabled":true,"folder":"[Root][(HPC) High Performance Computing]","folderId":2393,"formConfig":{"headerTextFontFamily":"NVIDIASansWRg","headerTextColor":"#212529","headerTextFontWeight":"500","headerTextFontSize":"1.39rem","headerTextLineHeight":"1.2em","bodyTextFontFamily":"NVIDIASansWRg","bodyTextColor":"#212529","bodyTextFontWeight":"normal","bodyTextFontSize":"0.95rem","bodyTextLineHeight":"1.2em","firstName":"First Name","lastName":"Last Name","title":"Title","company":"Company","phone":"Phone","email":"Email","employeeCount":"Employee Count","country":"Country","stateProvince":"State/Province","city":"City","zipCode":"Zip Code/Postal Code","address":"Address"},"gdprCookieConsentEnabled":true,"generalConfig":{"favicon":"https://app.cdn.lookbookhq.com/lbhq-production/10412/thumbnails/original/1a53d015-3f8b-4152-a6e7-b397ba726c21.png","clientLogo":""},"headerCallToActionConfig":null,"headerConfig":null,"headerEnabled":null,"inactivityConfig":null,"inactivityEnabled":null,"name":"[en_us] H100 Tensor Core","shareConfig":{"logoLink":"https://www.nvidia.com/en-us/","emailSubject":"","emailMessage":"","twitterHandle":"","socialShareMessage":"","linkedinEnabled":true,"twitterEnabled":true,"facebookEnabled":true,"emailEnabled":true,"likeEnabled":false,"downloadEnabled":false},"shareEnabled":null,"sidebarCallToActionConfig":null,"sidebarConfig":null,"sidebarEnabled":null,"signpostConfig":{"teaserBackgroundColor":"#76b900","teaserColor":"#000000","teaserFontFamily":"NVIDIASansWRg","teaserFontSize":"21px","teaserFontWeight":"bold","teaserLineHeight":"27px","backgroundColor":"#FFFFFF","headlineColor":"#76b900","headlineFontFamily":"NVIDIASansWRg","headlineFontSize":"24px","headlineFontWeight":"normal","headlineLineHeight":"30px","titleColor":"#76b900","titleFontFamily":"NVIDIASansWRg","titleFontSize":"15px","titleFontWeight":"normal","titleLineHeight":"20px","bodyColor":"#000000","bodyFontFamily":"NVIDIASansWRg","bodyFontSize":"13px","bodyFontWeight":"normal","bodyLineHeight":"18px","thumbnailAspectRatioWidth":4,"thumbnailAspectRatioHeight":3,"nextTitle":"NEXT","previousTitle":"PREVIOUS","nextSignpostBehavior":"hide"},"signpostEnabled":null,"topicSidebarCallToActionConfig":null,"topicSidebarConfig":null,"topicSidebarEnabled":null,"uniqueId":"xx6Jhl"}};
+
+    var stringifyObject = JSON.stringify(window.__PATHFACTORY__);
+
+    var orgCdnHost = "https://resources.nvidia.com/_pfcdnapp";
+    var cloudFrontHost = "https://resources.nvidia.com/_pfcdn";
+    var orgCdnHostUrl = orgCdnHost.replace(/(^\w+:|^)\/\//, '');
+    var cloudFrontHostUrl = cloudFrontHost.replace(/(^\w+:|^)\/\//, '');
+
+    var updatedCdnDomainObj = stringifyObject.replace(/cdn-app.pathfactory.com/g, orgCdnHostUrl);
+    var pfWindowObjHost = updatedCdnDomainObj.replace(/cdn.pathfactory.com/g, cloudFrontHostUrl);
+    var pfWindowObj = pfWindowObjHost.replace(/app.cdn.lookbookhq.com/g, orgCdnHostUrl);
+    window.__PATHFACTORY__ = JSON.parse(pfWindowObj);
+  window.getPFContact = function() {
+    var api_host = "https://resources.nvidia.com"
+    return fetch(`${api_host}/get_contact`)
+  };
+</script>
+      <style>
+        * { box-sizing: border-box; }
+        body, html { margin: 0; padding: 0; overflow: hidden; height: 100%; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+        #lookbook-video-player { width: 100%; height: 100%; overflow: hidden; }
+        #lb-app-container {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          -webkit-overflow-scrolling: touch;
+          background: #fff;
+          overflow: auto;
+        }
+        .standard { height: 100%; width: 100%; margin: 0; }
+        .overlay {
+          height: 100%;
+          width: 100%;
+          margin: auto;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+        }
+        @media (max-width: 480px) {
+          .overlay { height: 100%; width: 100%; }
+        }
+      </style>
+
+  <script>
+  if (window.Promise) {
+    window.pfResolveJukeboxLoaded;
+    window.pfOnJukeboxLoad = new Promise(function (resolve) {
+      window.pfResolveJukeboxLoaded = resolve;
+    });
+  }
+</script>
+
+  <style>
+#ot-pc-content #ot-pc-title, #ot-pc-hdr #ot-lst-title h3 {
+  font-size: 16px !important;
+}
+#onetrust-pc-sdk .ot-cat-grp .ot-always-active {
+  font-size: 14px !important;
+}
+#onetrust-pc-sdk .ot-host-expand {
+  font-size: 12px !important;
+}
+    
+</style>
+
+<!-- OneTrust Cookies Consent Notice start for nvidia.com -->
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="3e2b62ff-7ae7-4ac5-87c8-d5949ecafff5" ></script>
+<script type="text/javascript">
+function OptanonWrapper() {        
+        var event = new Event('bannerLoaded');
+        window.dispatchEvent(event);
+    }
+</script>
+<!-- OneTrust Cookies Consent Notice end for nvidia.com -->
+ <script type="text/javascript" src="https://images.nvidia.com/aem-dam/Solutions/ot-js/ot-custom.js"></script>
+
+<script>
+var cookieCategory = "C0002";
+function getCookie(cname) {
+	let name = cname + "=";
+	let decodedCookie = decodeURIComponent(document.cookie);
+	let ca = decodedCookie.split(';');
+	for(let i = 0; i <ca.length; i++) {
+		let c = ca[i];
+		while (c.charAt(0) == ' ') {
+			c = c.substring(1);
+		}
+	if (c.indexOf(name) == 0) {
+		return c.substring(name.length, c.length);
+	}
+	}
+	return "";
+} 
+// Add custom code here.
+const oneTrustHandler = () => {
+	OneTrust.OnConsentChanged( function() {
+		console.log("consent changed");
+		if (pfConsentStatus() != true &&
+		getCookie("OptanonConsent").includes(cookieCategory+":1")==true) {
+			console.log('Consent Changed to Accepted');
+			window.pf("setConsentSettings", { accepted: true });
+		}
+		if (pfConsentStatus() != false &&
+		getCookie("OptanonConsent").includes(cookieCategory+":1")==false ) {
+			console.log('Consent Changed to Declined');
+			window.pf("setConsentSettings", { accepted: false });
+		}
+	});
+}
+loadOneTrustConsent = () => {
+	let retryCount = 0;
+	const retryOneTrust = (cookiePreferences, oneTrustLoaded) => {
+	if (cookiePreferences && oneTrustLoaded && cookiePreferences.includes("C0002:1") &&
+		retryCount < 5) {
+			console.log('inside function to opt-in');
+			window.pf("setConsentSettings", { accepted: true });
+			oneTrustHandler();
+			cookiePreferences = getCookie("OptanonConsent");
+		} else if (retryCount > 5 && !cookiePreferences.includes("C0002:1")) {
+			console.log('inside function to opt-out');
+			window.pf("setConsentSettings", { accepted: false });
+			oneTrustHandler();
+			cookiePreferences = getCookie("OptanonConsent");
+		} else {
+			setTimeout(() => {
+				retryCount++;
+				retryOneTrust(getCookie("OptanonConsent"), window.OneTrust);
+			}, 1000)
+		}
+	};
+	retryOneTrust(getCookie("OptanonConsent"), window.OneTrust);
+}
+pfOnJukeboxLoad.then(function () {
+	loadOneTrustConsent();
+});
+</script>
+  <script type="text/javascript" src="https://releases.jquery.com/git/jquery-3.x-git.min.js"></script>
+<script>
+//functions to wait for flow promoter to be rendered
+handleJukeboxDispatchedEvents = event => {
+        switch (event.detail.eventName) {
+          case "load_show":
+            if (event.detail.promoterConfig.logo) {  
+            // Add custom code here.
+            console.info('Load Show Event', event.detail);
+                /*
+                When flow promoter renders, retrieve content tags
+                */
+                
+                var flowLinks=document.querySelectorAll('#qa-flow-content a div span.flow-asset-title');
+                var linkAttrs=__PATHFACTORY__.global.experienceContent
+                
+                for(var i = 0; i < flowLinks.length; i++) {
+                //linkAttrs.forEach(function(item, index){
+                
+                        //console.log('Inside ForEach loop');
+                        //console.log(__PATHFACTORY__.global.experienceContent[i].contentTypeName);
+                        if(__PATHFACTORY__.global.experienceContent[i].contentTypeName){
+                            //flowLinks[i].innerHTML+="<span class='content-type-label'>"+ __PATHFACTORY__.global.experienceContent[i].contentTypeName +"</span>";
+                           flowLinks[i].insertAdjacentHTML('afterbegin', "<span class='content-type-label'>"+ __PATHFACTORY__.global.experienceContent[i].contentTypeName +"</span>");
+                        };
+                //});
+                };
+            };    
+            break;
+        }
+      };
+
+      window.addEventListener("pf_event", this.handleJukeboxDispatchedEvents, false);
+    console.log('Content UUID: 328f9ccf-b29c-4049-b706-9ac2aa0ce243');
+//Target Track Title
+$(window).on( "load", function() {
+$('#qa-flow-content').prepend('<h4 class="recommended-title">Recommended For You</h4>');
+console.log('title ready');
+});
+</script>
+
+<style>
+/*.lookbook-overlay-close-wrapper #lookbook-overlay-close.lookbook-overlay-close, .lookbook-overlay-close, #lookbook-overlay-close {
+  background-color: rgb(80,80,80) !important;
+  color: white !important;
+}*/
+    span.content-type-label {
+    line-height: 16px;
+    font-style: normal;
+    color: #000 !important;
+    font-weight: bold !important;
+    display: block;
+    padding-bottom: 2px;
+    font-size: 12px !important;
+}
+/* Add padding around outside of tiles  */
+#qa-flow-content a > div {
+    padding: 0px 5px !important;
+}
+/* Change asset container styling for top most asset  */
+#qa-flow-content a > div {
+    background: white !important;
+    transition: all .3s cubic-bezier(0.25,0.8,0.25,1) !important;
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 19%), 0 2px 6px 0 rgb(0 0 0 / 19%) !important;
+    -webkit-box-shadow: 0 0 2px 0 rgb(0 0 0 / 19%), 0 2px 6px 0 rgb(0 0 0 / 19%) !important;
+    border-radius: 4px !important;
+    position: relative !important;
+    box-sizing: border-box !important;
+    vertical-align: bottom !important;
+    padding: 3px 10px 3px 3px !important;
+    margin-top: 15px !important; 
+}
+#qa-flow-content a > div span.flow-asset-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow-wrap: break-word;
+  height:65px;
+}
+/* Change asset container hover state for top most asset */
+#qa-flow-content a > div:hover {
+    box-shadow: 0 0 4px 0 rgb(0 0 0 / 17%), 0 4px 12px 0px rgb(0 0 0 / 17%) !important;
+}
+.recommended-title {
+    color: rgb(118, 185, 0);
+    padding-left: 5px;
+}
+span.content-type-label {
+    padding-top:5px;
+}
+/*.qa-flow-content a div > div, .eTBBht {*/
+.qa-flow-content a div > div {
+    margin-top:0px;
+}
+.recommended-title {
+color:black;
+}
+</style>
+  <script>
+// Create IE + others compatible event handler
+var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+var eventer = window[eventMethod];
+var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+// Listen to message from child window
+eventer(messageEvent,function(e) {
+  try{
+ if (typeof e.data=== 'string'){
+  const data = JSON.parse(e.data);
+  const redirectURL = data.message;
+if(redirectURL && redirectURL !==''){
+  window.open(redirectURL, "_blank");
+}
+}
+}catch(ex){
+}
+},false);
+</script>
+  <script type="text/javascript">
+function checkOnetrustActiveGroups(){
+if (typeof OnetrustActiveGroups !== 'undefined') {
+  //console.log('OnetrustActiveGroups is available:', OnetrustActiveGroups);
+  if (typeof OnetrustActiveGroups === 'string' && OnetrustActiveGroups.includes('C0004')) {
+    //console.log('Value contains C0004');
+    return true;
+  } else {
+    //console.log('Value does not contain C0004');
+    return false;
+  }
+} else {
+  return false;
+}
+}
+
+function checkOptanonConsentCookie() {
+  const cookieValue = getCookie('OptanonConsent');
+  if (cookieValue){
+      if(cookieValue.includes('C0004:1') ) {
+        //console.log('OptanonConsent cookie found:', cookieValue);
+        return true; 
+      } else {
+        //console.log('OptanonConsent cookie not found.');
+        return false;
+      }
+  }else{
+      return false;
+  }
+}
+
+if (location.hostname !== 'resources.nvidia.cn') {
+  if(checkOnetrustActiveGroups()&&checkOptanonConsentCookie()){
+  _linkedin_partner_id = "84497";
+  window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+  window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+
+  (function(){var s = document.getElementsByTagName("script")[0];
+  var b = document.createElement("script");
+  b.type = "text/javascript";b.async = true;
+  b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+  s.parentNode.insertBefore(b, s);})();
+  }
+}
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=84497&fmt=gif" />
+</noscript>
+
+  <!--test-->
+<!-- Facebook Pixel Code -->
+<script>
+    if (location.hostname !== 'resources.nvidia.cn') {
+        if(checkOnetrustActiveGroups()&&checkOptanonConsentCookie()){
+          !function(f,b,e,v,n,t,s)
+          {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+          n.queue=[];t=b.createElement(e);t.async=!0;
+          t.src=v;s=b.getElementsByTagName(e)[0];
+          s.parentNode.insertBefore(t,s)}(window, document,'script',
+          'https://connect.facebook.net/en_US/fbevents.js');
+          fbq('init', '161755414605325');
+          fbq('track', 'PageView');
+        }
+    }
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=161755414605325&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+  <!-- Global site tag (gtag.js) - Google Ads: 1041695361 -->
+<script>
+if (location.hostname !== 'resources.nvidia.cn') {
+  var s = document.createElement('script');
+  s.async = true;
+  s.src = 'https://www.googletagmanager.com/gtag/js?id=AW-1041695361';
+  document.head.appendChild(s);
+}
+</script>
+<script>
+if (location.hostname !== 'resources.nvidia.cn') {
+  if(checkOnetrustActiveGroups()&&checkOptanonConsentCookie()){
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-1041695361');
+  }
+}
+</script>
+  <style>
+    
+#download {
+    display:none !important;
+}    
+    
+#print {
+     display:none !important;
+}
+.lookbook-overlay-close-wrapper #lookbook-overlay-close.lookbook-overlay-close, .lookbook-overlay-close, #lookbook-overlay-close > span {
+  background-color: rgb(255, 255, 255) !important;
+  color: black !important;
+}
+
+ #lookbook-overlay-close > span {
+line-height:30px;
+}
+</style>
+  <style>
+
+/* Change green featured label ontop large currently selected tile */
+#qa-sidebar-featured-tag {
+    background: #76b900;
+}
+
+/* Change large currently selected tile styling */
+#qa-sidebar-featured-item {
+    background: white;
+    transition: all .3s cubic-bezier(0.25,0.8,0.25,1);
+    box-shadow: 0 0 2px 0 #dee2e6, 0 2px 6px 0 #dee2e6;
+    border-radius: 2px;
+    margin-top: 2px;
+}
+
+/* Change small tile styling */
+.iDHATf{
+    background: white;
+    transition: all .3s cubic-bezier(0.25,0.8,0.25,1);
+    border-radius: 2px;    
+    margin-top: 10px !important;
+    box-shadow: 0 1px 6px rgb(0 0 0 / 15%), 0 1px 3px rgb(0 0 0 / 15%) !important;
+    -webkit-transition: box-shadow 0.1s ease-in-out !important;
+    transition: box-shadow 0.1s ease-in-out !important;
+}
+
+
+/* Change asset container hover state */
+.iDHATf:hover {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 22%), 0 2px 5px rgb(0 0 0 / 22%) !important;
+}
+
+</style>
+  <script> if(checkOnetrustActiveGroups()&&checkOptanonConsentCookie()){(function(w,d,t,r,u) { var f,n,i; w[u]=w[u]||[],f=function() { var o={ti:"30006101", enableAutoSpaTracking: true}; o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad") }, n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function() { var s=this.readyState; s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null) }, i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i) }) (window,document,"script","//bat.bing.com/bat.js","uetq"); }</script>
+  <script type='text/javascript'> 
+if(checkOnetrustActiveGroups()&&checkOptanonConsentCookie()){
+if(window.location.href.indexOf('resources.nvidia.com/ja-jp')>-1){
+window._tfa = window._tfa || []; window._tfa.push({notify: 'event', name: 'page_view', id: 1667085}); !function (t, f, a, x) { if (!document.getElementById(x)) { t.async = 1;t.src = a;t.id=x;f.parentNode.insertBefore(t, f); } }(document.createElement('script'), document.getElementsByTagName('script')[0], '//cdn.taboola.com/libtrc/unip/1667085/tfa.js', 'tb_tfa_script'); 
+}}
+</script>
+   <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/primeicons@4.1.0/primeicons.css" />-->
+  <script>
+    if (location.hostname === 'resources.nvidia.cn') {
+        // Utility function to wait for an element to appear
+        function waitForElement(selector, callback) {
+            // If it's already there, run the callback immediately
+            if ($(selector).length) {
+                callback();
+                return;
+            }
+            // Otherwise, watch the DOM for changes
+            const observer = new MutationObserver(function(mutations, obs) {
+                if ($(selector).length) {
+                    obs.disconnect(); // Stop watching once found
+                    callback();
+                }
+            });
+            observer.observe(document.body, { childList: true, subtree: true });
+        }
+
+        $(document).ready(function() {
+            // Wait for and hide the share element
+            waitForElement("#qa-share-common", function() {
+                $("#qa-share-common").hide();
+            });
+
+            // Wait for and update the logo link
+            waitForElement("#qa-logo-common a", function() {
+                $("#qa-logo-common a").attr("href", "https://www.nvidia.cn/");
+            });
+        });
+    }
+</script>
+
+  </head>
+  <body class="standard target flow-enabled">
+      <script>
+var trackURL= document.location.href;
+if (sessionStorage.clickcount) 
+          sessionStorage.clickcount = Number(sessionStorage.clickcount) + 1;
+    else 
+          sessionStorage.clickcount = 1;
+if(trackURL.includes("fm=dnd") && Number(sessionStorage.clickcount)===1){
+    __PATHFACTORY__.pageViewData.captureConfig.enabled=false;
+    
+}
+</script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+window.onload = function() {
+$('#qa-flow-footer-home-button').append('View All Content');
+};
+</script>
+<style>
+#qa-flow-footer-home-button {
+    color: white;
+    background-color: #76b900;
+    margin-left: 10px;
+}
+#qa-flow-footer-home-button i {
+    padding-right:10px;
+}
+</style>
+      <div id="lb-app-container" data-source-url="https://nvdam.widen.net/s/q6rttxs2pw/h100-datasheet-2287922" data-media-type="webpage">
+          <iframe
+            title="Content Window"
+            class="content"
+            src="https://nvdam.widen.net/s/q6rttxs2pw/h100-datasheet-2287922" style="display: block; height: 100%; width: 100%; border: 0; padding: 0; margin: 0; overflow: hidden;"
+            allowfullscreen
+            >
+          </iframe>
+</div>
+
+    <div id="jukebox-app"></div>
+    <script>
+  (function(j,u,k,e,b,o,x){j["pfObject"]=b;j[b]=j[b]||function(){
+    (j[b].q=j[b].q||[]).push(arguments)},j[b].l=1*new Date();o=u.createElement(k),
+    x=u.getElementsByTagName(k)[0];o.async=1;o.src=e;x.parentNode.insertBefore(o,x)
+  })(window,document,"script","https://resources.nvidia.com/_pfcdnapp/production/jukebox/current/tracks.js?x=2","pf");
+  pf("create", "LB-AEE03768-10412");
+</script>
+
+      <!-- The style attribute was added on May/12/2020 based on a request
+to have the consent bar show up in explore pages.-->
+<style>
+	#cookiePolicy-layer {
+		opacity: 1 !important;
+	}
+</style>
+<div id="cookiePolicy-layer" style="display: none;" class="noSelection shadowBox-light"><div class="messageContainer fontSmall">
+        NVIDIA websites use cookies to deliver and improve the website experience. See our <a href="https://www.nvidia.com/en-us/about-nvidia/cookie-policy/" target="_blank">cookie policy</a> for further details on how we use cookies and how to change your cookie settings.
+</div><div id="cookiePolicy-btn-close" class="green-box-bttn"><span>Accept</span></div></div>
+
+      <script>
+if(checkOnetrustActiveGroups()&&checkOptanonConsentCookie()){
+  gtag('event', 'page_view', {
+    'send_to': 'AW-1041695361',
+    'user_id': 'replace with value'
+  });
+}
+</script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/arrive/2.4.1/arrive.min.js" integrity="sha256-WXHeZwrvHW+Qpj5u2NCVyiL5XEVf/AzrYL5i4w4aRHM=" crossorigin="anonymous"></script>
+<script>
+if (location.hostname === 'resources.nvidia.cn') {
+  document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"><\/script>');
+} else {
+  document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"><\/script>');
+}
+</script>
+<script>
+$(window).on("load", function(){
+var trackURL= document.location.href;
+
+  document.arrive('div#qa-logo-common', function () {
+
+    if(trackURL.includes("sidebar=dnd")){
+    $('#qa-app-base > div > div').hide();
+    $('#qa-flow-next-wrapper').hide();
+    $('#qa-app-base > div > div').css('display','none');
+    $('#qa-app-base > div > div').addClass('hideQuery')
+    $('#lb-app-container').attr('style','left:0px;');
+    console.log('query present');
+    }
+  });
+});
+</script>
+<style>
+.hideQuery {
+    display:none !important;
+}
+</style>
+    
+    
+  </body>
+</html>

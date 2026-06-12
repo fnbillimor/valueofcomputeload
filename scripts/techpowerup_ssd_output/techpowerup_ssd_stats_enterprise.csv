@@ -1,0 +1,7 @@
+count,metric,segment
+0,idle_w,enterprise
+0,active_w,enterprise
+0,avg_w,enterprise
+0,idle_w_per_tb,enterprise
+0,active_w_per_tb,enterprise
+0,avg_w_per_tb,enterprise

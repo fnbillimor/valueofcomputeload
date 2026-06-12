@@ -1,0 +1,21 @@
+GPU model clean,gpu_tdp_w,status
+A100,400,resolved
+A10G,300,resolved
+AMD Radeon Pro V520,,unmapped
+AWS Inferentia,,unmapped
+AWS Inferentia2,,unmapped
+AWS Trainium2,,unmapped
+B200,1000,resolved
+B300,1100,resolved
+GB202,,unmapped
+GRID K520,,unmapped
+H100,700,resolved
+H200,700,resolved
+K80,300,resolved
+L4,72,resolved
+L40S,350,resolved
+M60,300,resolved
+Qualcomm AI 100 Accelerators,,unmapped
+T4,70,resolved
+T4G,70,resolved
+V100,300,resolved

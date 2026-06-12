@@ -1,0 +1,1293 @@
+Name,API Name,Instance Memory,vCPUs,Memory per vCPU,GPUs,Storage,Linux On Demand cost,Linux Savings Plan,Linux Reserved cost,Linux Spot cost,Windows On Demand cost,Windows Savings Plan,Windows Reserved cost,Windows Spot cost
+A0,A0,0.75 GiB,1,0.75 GiB/vCPU,0,20 GiB,$0.02 hourly,,,$0.018 hourly,$0.02 hourly,,,$0.018 hourly
+A1,A1,1.75 GiB,1,1.75 GiB/vCPU,0,70 GiB,$0.06 hourly,,,$0.054 hourly,$0.09 hourly,,,$0.081 hourly
+A1 v2,A1 v2,2 GiB,1,2 GiB/vCPU,0,10 GiB,$0.043 hourly,,,$0.0079 hourly,$0.065 hourly,,,$0.012 hourly
+A2,A2,3.5 GiB,2,1.75 GiB/vCPU,0,135 GiB,$0.12 hourly,,,$0.108 hourly,$0.18 hourly,,,$0.162 hourly
+A2m v2,A2m v2,16 GiB,2,8 GiB/vCPU,0,20 GiB,$0.119 hourly,,,$0.022 hourly,$0.18 hourly,,,$0.0333 hourly
+A2 v2,A2 v2,4 GiB,2,2 GiB/vCPU,0,20 GiB,$0.0903 hourly,,,$0.0167 hourly,$0.136 hourly,,,$0.0251 hourly
+A3,A3,7 GiB,4,1.75 GiB/vCPU,0,285 GiB,$0.24 hourly,,,$0.216 hourly,$0.36 hourly,,,$0.324 hourly
+A4,A4,14 GiB,8,1.75 GiB/vCPU,0,605 GiB,$0.48 hourly,,,$0.432 hourly,$0.72 hourly,,,$0.648 hourly
+A4m v2,A4m v2,32 GiB,4,8 GiB/vCPU,0,40 GiB,$0.237 hourly,,,$0.0438 hourly,$0.36 hourly,,,$0.0665 hourly
+A4 v2,A4 v2,8 GiB,4,2 GiB/vCPU,0,40 GiB,$0.191 hourly,,,$0.0353 hourly,$0.286 hourly,,,$0.0529 hourly
+A5,A5,14 GiB,2,7 GiB/vCPU,0,135 GiB,$0.25 hourly,,,$0.225 hourly,$0.33 hourly,,,$0.297 hourly
+A6,A6,28 GiB,4,7 GiB/vCPU,0,285 GiB,$0.50 hourly,,,$0.45 hourly,$0.66 hourly,,,$0.594 hourly
+A7,A7,56 GiB,8,7 GiB/vCPU,0,605 GiB,$1.00 hourly,,,$0.90 hourly,$1.32 hourly,,,$1.188 hourly
+A8m v2,A8m v2,64 GiB,8,8 GiB/vCPU,0,80 GiB,$0.475 hourly,,,$0.0878 hourly,$0.72 hourly,,,$0.1331 hourly
+A8 v2,A8 v2,16 GiB,8,2 GiB/vCPU,0,80 GiB,$0.399 hourly,,,$0.0737 hourly,$0.60 hourly,,,$0.1109 hourly
+B12ms,B12ms,48 GiB,12,4 GiB/vCPU,0,96 GiB,$0.499 hourly,,,,$0.547 hourly,,,
+B16als v2,B16als v2,32 GiB,16,2 GiB/vCPU,0,0 GiB,$0.533 hourly,,,$0.4797 hourly,$0.606 hourly,,,$0.5454 hourly
+B16as v2,B16as v2,64 GiB,16,4 GiB/vCPU,0,0 GiB,$0.602 hourly,,,$0.5418 hourly,$0.675 hourly,,,$0.6075 hourly
+B16ls v2,B16ls v2,32 GiB,16,2 GiB/vCPU,0,0 GiB,$0.589 hourly,,,$0.5301 hourly,$0.663 hourly,,,$0.5967 hourly
+B16ms,B16ms,64 GiB,16,4 GiB/vCPU,0,128 GiB,$0.666 hourly,,,,$0.73 hourly,,,
+Standard B16pls v2,B16pls v2,32 GiB,16,2 GiB/vCPU,0,0 GiB,$0.476 hourly,,,$0.4284 hourly,,,,
+Standard B16ps v2,B16ps v2,64 GiB,16,4 GiB/vCPU,0,0 GiB,$0.538 hourly,,,$0.4842 hourly,,,,
+B16s v2,B16s v2,64 GiB,16,4 GiB/vCPU,0,0 GiB,$0.666 hourly,,,$0.5994 hourly,$0.739 hourly,,,$0.6651 hourly
+Standard B1ls,B1ls,0.5 GiB,1,0.5 GiB/vCPU,0,4 GiB,$0.0052 hourly,,,,,,,
+B1ms,B1ms,2 GiB,1,2 GiB/vCPU,0,4 GiB,$0.0207 hourly,,,,$0.0246 hourly,,,
+B1s,B1s,1 GiB,1,1 GiB/vCPU,0,4 GiB,$0.0104 hourly,,,,$0.014 hourly,,,
+B20ms,B20ms,80 GiB,20,4 GiB/vCPU,0,160 GiB,$0.832 hourly,,,,$0.912 hourly,,,
+B2als v2,B2als v2,4 GiB,2,2 GiB/vCPU,0,0 GiB,$0.0376 hourly,,,$0.0338 hourly,$0.0468 hourly,,,$0.0421 hourly
+B2as v2,B2as v2,8 GiB,2,4 GiB/vCPU,0,0 GiB,$0.0752 hourly,,,$0.0677 hourly,$0.0844 hourly,,,$0.076 hourly
+B2ats v2,B2ats v2,1 GiB,2,0.5 GiB/vCPU,0,0 GiB,$0.0094 hourly,,,$0.0085 hourly,$0.0186 hourly,,,$0.0167 hourly
+B2ls v2,B2ls v2,4 GiB,2,2 GiB/vCPU,0,0 GiB,$0.0416 hourly,,,$0.0374 hourly,$0.0508 hourly,,,$0.0457 hourly
+B2ms,B2ms,8 GiB,2,4 GiB/vCPU,0,16 GiB,$0.0832 hourly,,,,$0.0912 hourly,,,
+Standard B2pls v2,B2pls v2,4 GiB,2,2 GiB/vCPU,0,0 GiB,$0.0336 hourly,,,$0.0302 hourly,,,,
+Standard B2ps v2,B2ps v2,8 GiB,2,4 GiB/vCPU,0,0 GiB,$0.0672 hourly,,,$0.0605 hourly,,,,
+Standard B2pts v2,B2pts v2,1 GiB,2,0.5 GiB/vCPU,0,0 GiB,$0.0084 hourly,,,$0.0076 hourly,,,,
+B2s,B2s,4 GiB,2,2 GiB/vCPU,0,8 GiB,$0.0416 hourly,,,,$0.0496 hourly,,,
+B2s v2,B2s v2,8 GiB,2,4 GiB/vCPU,0,0 GiB,$0.0832 hourly,,,$0.0749 hourly,$0.0924 hourly,,,$0.0832 hourly
+B2ts v2,B2ts v2,1 GiB,2,0.5 GiB/vCPU,0,0 GiB,$0.0104 hourly,,,$0.0094 hourly,$0.0196 hourly,,,$0.0176 hourly
+B32als v2,B32als v2,64 GiB,32,2 GiB/vCPU,0,0 GiB,$1.065 hourly,,,$0.9585 hourly,$1.213 hourly,,,$1.0917 hourly
+B32as v2,B32as v2,128 GiB,32,4 GiB/vCPU,0,0 GiB,$1.203 hourly,,,$1.0827 hourly,$1.35 hourly,,,$1.215 hourly
+B32ls v2,B32ls v2,64 GiB,32,2 GiB/vCPU,0,0 GiB,$1.179 hourly,,,$1.0611 hourly,$1.326 hourly,,,$1.1934 hourly
+B32s v2,B32s v2,128 GiB,32,4 GiB/vCPU,0,0 GiB,$1.331 hourly,,,$1.1979 hourly,$1.478 hourly,,,$1.3302 hourly
+B4als v2,B4als v2,8 GiB,4,2 GiB/vCPU,0,0 GiB,$0.133 hourly,,,$0.1197 hourly,$0.152 hourly,,,$0.1368 hourly
+B4as v2,B4as v2,16 GiB,4,4 GiB/vCPU,0,0 GiB,$0.15 hourly,,,$0.135 hourly,$0.169 hourly,,,$0.1521 hourly
+B4ls v2,B4ls v2,8 GiB,4,2 GiB/vCPU,0,0 GiB,$0.147 hourly,,,$0.1323 hourly,$0.166 hourly,,,$0.1494 hourly
+B4ms,B4ms,16 GiB,4,4 GiB/vCPU,0,32 GiB,$0.166 hourly,,,,$0.182 hourly,,,
+Standard B4pls v2,B4pls v2,8 GiB,4,2 GiB/vCPU,0,0 GiB,$0.119 hourly,,,$0.1071 hourly,,,,
+Standard B4ps v2,B4ps v2,16 GiB,4,4 GiB/vCPU,0,0 GiB,$0.134 hourly,,,$0.1206 hourly,,,,
+B4s v2,B4s v2,16 GiB,4,4 GiB/vCPU,0,0 GiB,$0.166 hourly,,,$0.1494 hourly,$0.185 hourly,,,$0.1665 hourly
+B8als v2,B8als v2,16 GiB,8,2 GiB/vCPU,0,0 GiB,$0.266 hourly,,,$0.2394 hourly,$0.303 hourly,,,$0.2727 hourly
+B8as v2,B8as v2,32 GiB,8,4 GiB/vCPU,0,0 GiB,$0.301 hourly,,,$0.2709 hourly,$0.338 hourly,,,$0.3042 hourly
+B8ls v2,B8ls v2,16 GiB,8,2 GiB/vCPU,0,0 GiB,$0.295 hourly,,,$0.2655 hourly,$0.332 hourly,,,$0.2988 hourly
+B8ms,B8ms,32 GiB,8,4 GiB/vCPU,0,64 GiB,$0.333 hourly,,,,$0.365 hourly,,,
+Standard B8pls v2,B8pls v2,16 GiB,8,2 GiB/vCPU,0,0 GiB,$0.238 hourly,,,$0.2142 hourly,,,,
+Standard B8ps v2,B8ps v2,32 GiB,8,4 GiB/vCPU,0,0 GiB,$0.269 hourly,,,$0.2421 hourly,,,,
+B8s v2,B8s v2,32 GiB,8,4 GiB/vCPU,0,0 GiB,$0.333 hourly,,,$0.2997 hourly,$0.37 hourly,,,$0.333 hourly
+D1,D1,3.5 GiB,1,3.5 GiB/vCPU,0,50 GiB,$0.077 hourly,,,$0.0142 hourly,$0.14 hourly,,,$0.0262 hourly
+D11,D11,14 GiB,2,7 GiB/vCPU,0,100 GiB,$0.193 hourly,,,$0.0357 hourly,$0.264 hourly,,,$0.0493 hourly
+D11s,D11s,14 GiB,2,7 GiB/vCPU,0,28 GiB,$0.193 hourly,,,$0.0357 hourly,$0.264 hourly,,,$0.0493 hourly
+D11 v2,D11 v2,14 GiB,2,7 GiB/vCPU,0,100 GiB,$0.185 hourly,,,$0.0342 hourly,$0.238 hourly,,,$0.0445 hourly
+D12,D12,28 GiB,4,7 GiB/vCPU,0,200 GiB,$0.386 hourly,,,$0.0713 hourly,$0.528 hourly,,,$0.0986 hourly
+D128ads v7,D128ads v7,512 GiB,128,4 GiB/vCPU,0,7040 GiB,$7.296 hourly,,,$1.3483 hourly,$13.184 hourly,,,$2.4364 hourly
+D128alds v7,D128alds v7,512 GiB,128,4 GiB/vCPU,0,7040 GiB,$6.093 hourly,,,$1.126 hourly,$11.981 hourly,,,$2.2141 hourly
+D128als v7,D128als v7,256 GiB,128,2 GiB/vCPU,0,0 GiB,$5.146 hourly,,,$0.951 hourly,$11.034 hourly,,,$2.0391 hourly
+D128as v7,D128as v7,512 GiB,128,4 GiB/vCPU,0,0 GiB,$5.811 hourly,,,$1.0739 hourly,$11.699 hourly,,,$2.162 hourly
+D128ds v6,D128ds v6,512 GiB,128,4 GiB/vCPU,0,7040 GiB,$7.973 hourly,,,$1.7852 hourly,$13.861 hourly,,,$3.1035 hourly
+D128ds v7,D128ds v7,512 GiB,128,4 GiB/vCPU,0,7040 GiB,,,,,,,,
+D128lds v6,D128lds v6,256 GiB,128,2 GiB/vCPU,0,7040 GiB,$7.06 hourly,,,$1.5807 hourly,$12.948 hourly,,,$2.8991 hourly
+D128lds v7,D128lds v7,256 GiB,128,2 GiB/vCPU,0,7040 GiB,,,,,,,,
+D128ls v6,D128ls v6,256 GiB,128,2 GiB/vCPU,0,0 GiB,$5.713 hourly,,,$1.2523 hourly,$11.601 hourly,,,$2.5429 hourly
+D128ls v7,D128ls v7,256 GiB,128,2 GiB/vCPU,0,0 GiB,,,,,,,,
+D128nds v6,D128nds v6,512 GiB,128,4 GiB/vCPU,0,7040 GiB,$11.561 hourly,,,$2.5885 hourly,$17.449 hourly,,,$3.9068 hourly
+D128nlds v6,D128nlds v6,256 GiB,128,2 GiB/vCPU,0,7040 GiB,$9.249 hourly,,,$2.0709 hourly,$15.137 hourly,,,$3.3892 hourly
+D128nls v6,D128nls v6,256 GiB,128,2 GiB/vCPU,0,0 GiB,$7.484 hourly,,,$1.6405 hourly,$13.372 hourly,,,$2.9311 hourly
+D128ns v6,D128ns v6,512 GiB,128,4 GiB/vCPU,0,0 GiB,$9.354 hourly,,,$2.0504 hourly,$15.242 hourly,,,$3.341 hourly
+D128s v6,D128s v6,512 GiB,128,4 GiB/vCPU,0,0 GiB,$6.451 hourly,,,$1.4141 hourly,$12.339 hourly,,,$2.7047 hourly
+D128s v7,D128s v7,512 GiB,128,4 GiB/vCPU,0,0 GiB,,,,,,,,
+D12s,D12s,28 GiB,4,7 GiB/vCPU,0,56 GiB,$0.386 hourly,,,$0.0713 hourly,$0.528 hourly,,,$0.0986 hourly
+D12 v2,D12 v2,28 GiB,4,7 GiB/vCPU,0,200 GiB,$0.371 hourly,,,$0.0686 hourly,$0.476 hourly,,,$0.0889 hourly
+D13,D13,56 GiB,8,7 GiB/vCPU,0,400 GiB,$0.771 hourly,,,$0.1425 hourly,$1.056 hourly,,,$0.1973 hourly
+D13s,D13s,56 GiB,8,7 GiB/vCPU,0,112 GiB,$0.771 hourly,,,$0.1425 hourly,$1.056 hourly,,,$0.1973 hourly
+D13 v2,D13 v2,56 GiB,8,7 GiB/vCPU,0,400 GiB,$0.741 hourly,,,$0.1369 hourly,$0.952 hourly,,,$0.1778 hourly
+D14,D14,112 GiB,16,7 GiB/vCPU,0,800 GiB,$1.542 hourly,,,$0.285 hourly,$2.111 hourly,,,$0.3943 hourly
+D14s,D14s,112 GiB,16,7 GiB/vCPU,0,224 GiB,$1.542 hourly,,,$0.285 hourly,$2.111 hourly,,,$0.3943 hourly
+D14 v2,D14 v2,112 GiB,16,7 GiB/vCPU,0,800 GiB,$1.482 hourly,,,$0.2739 hourly,$1.904 hourly,,,$0.3557 hourly
+D15i v2,D15i v2,140 GiB,20,7 GiB/vCPU,0,1000 GiB,$1.853 hourly,,,$0.3424 hourly,$2.38 hourly,,,$0.4446 hourly
+D15 v2,D15 v2,140 GiB,20,7 GiB/vCPU,0,1000 GiB,$1.853 hourly,,,$0.3424 hourly,$2.38 hourly,,,$0.4446 hourly
+D160ads v7,D160ads v7,640 GiB,160,4 GiB/vCPU,0,8800 GiB,$9.12 hourly,,,$1.6854 hourly,,,,
+D160alds v7,D160alds v7,320 GiB,160,2 GiB/vCPU,0,8800 GiB,$7.616 hourly,,,$1.4074 hourly,,,,
+D160als v7,D160als v7,320 GiB,160,2 GiB/vCPU,0,0 GiB,$6.432 hourly,,,$1.1886 hourly,,,,
+D160as v7,D160as v7,640 GiB,160,4 GiB/vCPU,0,0 GiB,$7.264 hourly,,,$1.3424 hourly,,,,
+D16ads v5,D16ads v5,64 GiB,16,4 GiB/vCPU,0,600 GiB,$0.824 hourly,,,$0.1523 hourly,$1.56 hourly,,,$0.2944 hourly
+D16ads v6,D16ads v6,64 GiB,16,4 GiB/vCPU,0,880 GiB,$0.912 hourly,,,$0.1835 hourly,$1.648 hourly,,,$0.3316 hourly
+D16ads v7,D16ads v7,64 GiB,16,4 GiB/vCPU,0,880 GiB,$0.912 hourly,,,$0.1685 hourly,$1.648 hourly,,,$0.3046 hourly
+D16alds v6,D16alds v6,32 GiB,16,2 GiB/vCPU,0,880 GiB,$0.762 hourly,,,$0.1533 hourly,$1.498 hourly,,,$0.3014 hourly
+D16alds v7,D16alds v7,32 GiB,16,2 GiB/vCPU,0,880 GiB,$0.762 hourly,,,$0.1408 hourly,$1.498 hourly,,,$0.2768 hourly
+D16als v6,D16als v6,32 GiB,16,2 GiB/vCPU,0,0 GiB,$0.643 hourly,,,$0.126 hourly,$1.379 hourly,,,$0.2703 hourly
+D16als v7,D16als v7,32 GiB,16,2 GiB/vCPU,0,0 GiB,$0.643 hourly,,,$0.1188 hourly,$1.379 hourly,,,$0.2548 hourly
+D16as v4,D16as v4,64 GiB,16,4 GiB/vCPU,0,128 GiB,$0.768 hourly,,,$0.1419 hourly,$1.504 hourly,,,$0.2832 hourly
+D16as v5,D16as v5,64 GiB,16,4 GiB/vCPU,0,0 GiB,$0.688 hourly,,,$0.1271 hourly,$1.424 hourly,,,$0.2687 hourly
+D16as v6,D16as v6,64 GiB,16,4 GiB/vCPU,0,0 GiB,$0.726 hourly,,,$0.1423 hourly,$1.462 hourly,,,$0.2866 hourly
+D16as v7,D16as v7,64 GiB,16,4 GiB/vCPU,0,0 GiB,$0.726 hourly,,,$0.1342 hourly,$1.462 hourly,,,$0.2702 hourly
+D16a v4,D16a v4,64 GiB,16,4 GiB/vCPU,0,400 GiB,$0.768 hourly,,,$0.1419 hourly,$1.504 hourly,,,$0.2832 hourly
+D16ds v4,D16ds v4,64 GiB,16,4 GiB/vCPU,0,600 GiB,$0.904 hourly,,,$0.2034 hourly,$1.64 hourly,,,$0.3757 hourly
+D16ds v5,D16ds v5,64 GiB,16,4 GiB/vCPU,0,600 GiB,$0.904 hourly,,,$0.2043 hourly,$1.64 hourly,,,$0.3757 hourly
+D16ds v6,D16ds v6,64 GiB,16,4 GiB/vCPU,0,880 GiB,$0.997 hourly,,,$0.2232 hourly,$1.733 hourly,,,$0.388 hourly
+D16ds v7,D16ds v7,64 GiB,16,4 GiB/vCPU,0,880 GiB,,,,,,,,
+D16d v4,D16d v4,64 GiB,16,4 GiB/vCPU,0,600 GiB,$0.904 hourly,,,$0.2034 hourly,$1.64 hourly,,,$0.3757 hourly
+D16d v5,D16d v5,64 GiB,16,4 GiB/vCPU,0,600 GiB,$0.904 hourly,,,$0.2043 hourly,$1.64 hourly,,,$0.3757 hourly
+D16lds v5,D16lds v5,32 GiB,16,2 GiB/vCPU,0,600 GiB,$0.768 hourly,,,$0.1736 hourly,$1.504 hourly,,,$0.3446 hourly
+D16lds v6,D16lds v6,32 GiB,16,2 GiB/vCPU,0,880 GiB,$0.883 hourly,,,$0.1977 hourly,$1.619 hourly,,,$0.3625 hourly
+D16lds v7,D16lds v7,32 GiB,16,2 GiB/vCPU,0,880 GiB,,,,,,,,
+D16ls v5,D16ls v5,32 GiB,16,2 GiB/vCPU,0,0 GiB,$0.68 hourly,,,$0.1378 hourly,$1.416 hourly,,,$0.2869 hourly
+D16ls v6,D16ls v6,32 GiB,16,2 GiB/vCPU,0,0 GiB,$0.714 hourly,,,$0.1565 hourly,$1.45 hourly,,,$0.3178 hourly
+D16ls v7,D16ls v7,32 GiB,16,2 GiB/vCPU,0,0 GiB,,,,,,,,
+D16nds v6,D16nds v6,64 GiB,16,4 GiB/vCPU,0,880 GiB,$1.445 hourly,,,$0.3235 hourly,$2.181 hourly,,,$0.4883 hourly
+D16nlds v6,D16nlds v6,32 GiB,16,2 GiB/vCPU,0,880 GiB,$1.156 hourly,,,$0.2588 hourly,$1.892 hourly,,,$0.4236 hourly
+D16nls v6,D16nls v6,32 GiB,16,2 GiB/vCPU,0,0 GiB,$0.935 hourly,,,$0.205 hourly,$1.671 hourly,,,$0.3663 hourly
+D16ns v6,D16ns v6,64 GiB,16,4 GiB/vCPU,0,0 GiB,$1.169 hourly,,,$0.2562 hourly,$1.905 hourly,,,$0.4176 hourly
+Standard D16pds v5,D16pds v5,64 GiB,16,4 GiB/vCPU,0,600 GiB,$0.723 hourly,,,$0.1336 hourly,,,,
+Standard D16pds v6,D16pds v6,64 GiB,16,4 GiB/vCPU,0,880 GiB,$0.734 hourly,,,$0.1566 hourly,,,,
+Standard D16plds v5,D16plds v5,32 GiB,16,2 GiB/vCPU,0,600 GiB,$0.614 hourly,,,$0.1135 hourly,,,,
+Standard D16plds v6,D16plds v6,32 GiB,16,2 GiB/vCPU,0,880 GiB,$0.624 hourly,,,$0.1332 hourly,,,,
+Standard D16pls v5,D16pls v5,32 GiB,16,2 GiB/vCPU,0,0 GiB,$0.544 hourly,,,$0.1005 hourly,,,,
+Standard D16pls v6,D16pls v6,32 GiB,16,2 GiB/vCPU,0,0 GiB,$0.496 hourly,,,$0.1058 hourly,,,,
+Standard D16ps v5,D16ps v5,64 GiB,16,4 GiB/vCPU,0,0 GiB,$0.616 hourly,,,$0.1138 hourly,,,,
+Standard D16ps v6,D16ps v6,64 GiB,16,4 GiB/vCPU,0,0 GiB,$0.562 hourly,,,$0.1199 hourly,,,,
+D16s v3,D16s v3,64 GiB,16,4 GiB/vCPU,0,128 GiB,$0.768 hourly,,,$0.1419 hourly,$1.504 hourly,,,$0.2779 hourly
+D16s v4,D16s v4,64 GiB,16,4 GiB/vCPU,0,0 GiB,$0.768 hourly,,,$0.1419 hourly,$1.504 hourly,,,$0.2779 hourly
+D16s v5,D16s v5,64 GiB,16,4 GiB/vCPU,0,0 GiB,$0.768 hourly,,,$0.1556 hourly,$1.504 hourly,,,$0.3047 hourly
+D16s v6,D16s v6,64 GiB,16,4 GiB/vCPU,0,0 GiB,$0.806 hourly,,,$0.1767 hourly,$1.542 hourly,,,$0.338 hourly
+D16s v7,D16s v7,64 GiB,16,4 GiB/vCPU,0,0 GiB,,,,,,,,
+D16 v3,D16 v3,64 GiB,16,4 GiB/vCPU,0,400 GiB,$0.768 hourly,,,$0.1419 hourly,$1.504 hourly,,,$0.2779 hourly
+D16 v4,D16 v4,64 GiB,16,4 GiB/vCPU,0,0 GiB,$0.768 hourly,,,$0.1419 hourly,$1.504 hourly,,,$0.2779 hourly
+D16 v5,D16 v5,64 GiB,16,4 GiB/vCPU,0,0 GiB,$0.768 hourly,,,$0.1556 hourly,$1.504 hourly,,,$0.3047 hourly
+D192ds v6,D192ds v6,768 GiB,192,4 GiB/vCPU,0,10560 GiB,$11.96 hourly,,,$2.6778 hourly,,,,$4.6553 hourly
+D192ds v7,D192ds v7,768 GiB,192,4 GiB/vCPU,0,10560 GiB,,,,,,,,
+D192lds v7,D192lds v7,384 GiB,192,2 GiB/vCPU,0,10560 GiB,,,,,,,,
+D192ls v7,D192ls v7,384 GiB,192,2 GiB/vCPU,0,0 GiB,,,,,,,,
+D192s v6,D192s v6,768 GiB,192,4 GiB/vCPU,0,0 GiB,$9.677 hourly,,,$2.1212 hourly,$18.509 hourly,,,$4.0572 hourly
+D192s v7,D192s v7,768 GiB,192,4 GiB/vCPU,0,0 GiB,,,,,,,,
+D1s,D1s,3.5 GiB,1,3.5 GiB/vCPU,0,7 GiB,$0.077 hourly,,,$0.0142 hourly,$0.14 hourly,,,$0.0262 hourly
+D1 v2,D1 v2,3.5 GiB,1,3.5 GiB/vCPU,0,50 GiB,$0.073 hourly,,,$0.0135 hourly,$0.119 hourly,,,$0.0222 hourly
+D2,D2,7 GiB,2,3.5 GiB/vCPU,0,100 GiB,$0.154 hourly,,,$0.0285 hourly,$0.28 hourly,,,$0.0523 hourly
+D248ds v7,D248ds v7,992 GiB,248,4 GiB/vCPU,0,13640 GiB,,,,,,,,
+D248lds v7,D248lds v7,496 GiB,248,2 GiB/vCPU,0,13640 GiB,,,,,,,,
+D248ls v7,D248ls v7,496 GiB,248,2 GiB/vCPU,0,0 GiB,,,,,,,,
+D248s v7,D248s v7,992 GiB,248,4 GiB/vCPU,0,0 GiB,,,,,,,,
+D2ads v5,D2ads v5,8 GiB,2,4 GiB/vCPU,0,75 GiB,$0.103 hourly,,,$0.019 hourly,$0.195 hourly,,,$0.0368 hourly
+D2ads v6,D2ads v6,8 GiB,2,4 GiB/vCPU,0,110 GiB,$0.114 hourly,,,$0.0229 hourly,$0.206 hourly,,,$0.0414 hourly
+D2ads v7,D2ads v7,8 GiB,2,4 GiB/vCPU,0,110 GiB,$0.114 hourly,,,$0.0211 hourly,$0.206 hourly,,,$0.0381 hourly
+D2alds v6,D2alds v6,4 GiB,2,2 GiB/vCPU,0,110 GiB,$0.0952 hourly,,,$0.0192 hourly,$0.187 hourly,,,$0.0376 hourly
+D2alds v7,D2alds v7,4 GiB,2,2 GiB/vCPU,0,110 GiB,$0.0952 hourly,,,$0.0176 hourly,$0.187 hourly,,,$0.0346 hourly
+D2als v6,D2als v6,4 GiB,2,2 GiB/vCPU,0,0 GiB,$0.0804 hourly,,,$0.0158 hourly,$0.172 hourly,,,$0.0337 hourly
+D2als v7,D2als v7,4 GiB,2,2 GiB/vCPU,0,0 GiB,$0.0804 hourly,,,$0.0149 hourly,$0.172 hourly,,,$0.0318 hourly
+D2as v4,D2as v4,8 GiB,2,4 GiB/vCPU,0,16 GiB,$0.096 hourly,,,$0.0177 hourly,$0.188 hourly,,,$0.0354 hourly
+D2as v5,D2as v5,8 GiB,2,4 GiB/vCPU,0,0 GiB,$0.086 hourly,,,$0.0159 hourly,$0.178 hourly,,,$0.0336 hourly
+D2as v6,D2as v6,8 GiB,2,4 GiB/vCPU,0,0 GiB,$0.0908 hourly,,,$0.0178 hourly,$0.183 hourly,,,$0.0359 hourly
+D2as v7,D2as v7,8 GiB,2,4 GiB/vCPU,0,0 GiB,$0.0908 hourly,,,$0.0168 hourly,$0.183 hourly,,,$0.0338 hourly
+D2a v4,D2a v4,8 GiB,2,4 GiB/vCPU,0,50 GiB,$0.096 hourly,,,$0.0177 hourly,$0.188 hourly,,,$0.0354 hourly
+D2ds v4,D2ds v4,8 GiB,2,4 GiB/vCPU,0,75 GiB,$0.113 hourly,,,$0.0254 hourly,$0.205 hourly,,,$0.047 hourly
+D2ds v5,D2ds v5,8 GiB,2,4 GiB/vCPU,0,75 GiB,$0.113 hourly,,,$0.0255 hourly,$0.205 hourly,,,$0.047 hourly
+D2ds v6,D2ds v6,8 GiB,2,4 GiB/vCPU,0,110 GiB,$0.125 hourly,,,$0.028 hourly,$0.217 hourly,,,$0.0486 hourly
+D2ds v7,D2ds v7,8 GiB,2,4 GiB/vCPU,0,110 GiB,,,,,,,,
+D2d v4,D2d v4,8 GiB,2,4 GiB/vCPU,0,75 GiB,$0.113 hourly,,,$0.0254 hourly,$0.205 hourly,,,$0.047 hourly
+D2d v5,D2d v5,8 GiB,2,4 GiB/vCPU,0,75 GiB,$0.113 hourly,,,$0.0255 hourly,$0.205 hourly,,,$0.047 hourly
+D2lds v5,D2lds v5,4 GiB,2,2 GiB/vCPU,0,75 GiB,$0.096 hourly,,,$0.0217 hourly,$0.188 hourly,,,$0.0431 hourly
+D2lds v6,D2lds v6,4 GiB,2,2 GiB/vCPU,0,110 GiB,$0.11 hourly,,,$0.0246 hourly,$0.202 hourly,,,$0.0452 hourly
+D2lds v7,D2lds v7,4 GiB,2,2 GiB/vCPU,0,110 GiB,,,,,,,,
+D2ls v5,D2ls v5,4 GiB,2,2 GiB/vCPU,0,0 GiB,$0.085 hourly,,,$0.0172 hourly,$0.177 hourly,,,$0.0359 hourly
+D2ls v6,D2ls v6,4 GiB,2,2 GiB/vCPU,0,0 GiB,$0.0893 hourly,,,$0.0196 hourly,$0.181 hourly,,,$0.0397 hourly
+D2ls v7,D2ls v7,4 GiB,2,2 GiB/vCPU,0,0 GiB,,,,,,,,
+D2nds v6,D2nds v6,8 GiB,2,4 GiB/vCPU,0,110 GiB,$0.181 hourly,,,$0.0405 hourly,$0.273 hourly,,,$0.0611 hourly
+D2nlds v6,D2nlds v6,4 GiB,2,2 GiB/vCPU,0,110 GiB,$0.145 hourly,,,$0.0325 hourly,$0.237 hourly,,,$0.0531 hourly
+D2nls v6,D2nls v6,4 GiB,2,2 GiB/vCPU,0,0 GiB,$0.117 hourly,,,$0.0256 hourly,$0.209 hourly,,,$0.0458 hourly
+D2ns v6,D2ns v6,8 GiB,2,4 GiB/vCPU,0,0 GiB,$0.146 hourly,,,$0.032 hourly,$0.238 hourly,,,$0.0522 hourly
+Standard D2pds v5,D2pds v5,8 GiB,2,4 GiB/vCPU,0,75 GiB,$0.0904 hourly,,,$0.0167 hourly,,,,
+Standard D2pds v6,D2pds v6,8 GiB,2,4 GiB/vCPU,0,110 GiB,$0.0918 hourly,,,$0.0196 hourly,,,,
+Standard D2plds v5,D2plds v5,4 GiB,2,2 GiB/vCPU,0,75 GiB,$0.0768 hourly,,,$0.0142 hourly,,,,
+Standard D2plds v6,D2plds v6,4 GiB,2,2 GiB/vCPU,0,110 GiB,$0.078 hourly,,,$0.0166 hourly,,,,
+Standard D2pls v5,D2pls v5,4 GiB,2,2 GiB/vCPU,0,0 GiB,$0.068 hourly,,,$0.0126 hourly,,,,
+Standard D2pls v6,D2pls v6,4 GiB,2,2 GiB/vCPU,0,0 GiB,$0.062 hourly,,,$0.0132 hourly,,,,
+Standard D2ps v5,D2ps v5,8 GiB,2,4 GiB/vCPU,0,0 GiB,$0.077 hourly,,,$0.0142 hourly,,,,
+Standard D2ps v6,D2ps v6,8 GiB,2,4 GiB/vCPU,0,0 GiB,$0.0702 hourly,,,$0.015 hourly,,,,
+D2s,D2s,7 GiB,2,3.5 GiB/vCPU,0,14 GiB,$0.154 hourly,,,$0.0285 hourly,$0.28 hourly,,,$0.0523 hourly
+D2s v3,D2s v3,8 GiB,2,4 GiB/vCPU,0,16 GiB,$0.096 hourly,,,$0.0177 hourly,$0.188 hourly,,,$0.0347 hourly
+D2s v4,D2s v4,8 GiB,2,4 GiB/vCPU,0,0 GiB,$0.096 hourly,,,$0.0177 hourly,$0.188 hourly,,,$0.0347 hourly
+D2s v5,D2s v5,8 GiB,2,4 GiB/vCPU,0,0 GiB,$0.096 hourly,,,$0.0195 hourly,$0.188 hourly,,,$0.0381 hourly
+D2s v6,D2s v6,8 GiB,2,4 GiB/vCPU,0,0 GiB,$0.101 hourly,,,$0.0221 hourly,$0.193 hourly,,,$0.0423 hourly
+D2s v7,D2s v7,8 GiB,2,4 GiB/vCPU,0,0 GiB,,,,,,,,
+D2 v2,D2 v2,7 GiB,2,3.5 GiB/vCPU,0,100 GiB,$0.146 hourly,,,$0.027 hourly,$0.238 hourly,,,$0.0445 hourly
+D2 v3,D2 v3,8 GiB,2,4 GiB/vCPU,0,50 GiB,$0.096 hourly,,,$0.0177 hourly,$0.188 hourly,,,$0.0347 hourly
+D2 v4,D2 v4,8 GiB,2,4 GiB/vCPU,0,0 GiB,$0.096 hourly,,,$0.0177 hourly,$0.188 hourly,,,$0.0347 hourly
+D2 v5,D2 v5,8 GiB,2,4 GiB/vCPU,0,0 GiB,$0.096 hourly,,,$0.0195 hourly,$0.188 hourly,,,$0.0381 hourly
+D3,D3,14 GiB,4,3.5 GiB/vCPU,0,200 GiB,$0.308 hourly,,,$0.0569 hourly,$0.56 hourly,,,$0.1046 hourly
+D32ads v5,D32ads v5,128 GiB,32,4 GiB/vCPU,0,1200 GiB,$1.648 hourly,,,$0.3046 hourly,$3.12 hourly,,,$0.5887 hourly
+D32ads v6,D32ads v6,128 GiB,32,4 GiB/vCPU,0,1760 GiB,$1.824 hourly,,,$0.367 hourly,$3.296 hourly,,,$0.6632 hourly
+D32ads v7,D32ads v7,128 GiB,32,4 GiB/vCPU,0,1760 GiB,$1.824 hourly,,,$0.3371 hourly,$3.296 hourly,,,$0.6091 hourly
+D32alds v6,D32alds v6,64 GiB,32,2 GiB/vCPU,0,1760 GiB,$1.523 hourly,,,$0.3064 hourly,$2.995 hourly,,,$0.6026 hourly
+D32alds v7,D32alds v7,64 GiB,32,2 GiB/vCPU,0,1760 GiB,$1.523 hourly,,,$0.2815 hourly,$2.995 hourly,,,$0.5535 hourly
+D32als v6,D32als v6,64 GiB,32,2 GiB/vCPU,0,0 GiB,$1.286 hourly,,,$0.2521 hourly,$2.758 hourly,,,$0.5406 hourly
+D32als v7,D32als v7,64 GiB,32,2 GiB/vCPU,0,0 GiB,$1.286 hourly,,,$0.2377 hourly,$2.758 hourly,,,$0.5097 hourly
+D32as v4,D32as v4,128 GiB,32,4 GiB/vCPU,0,256 GiB,$1.536 hourly,,,$0.2839 hourly,$3.008 hourly,,,$0.5664 hourly
+D32as v5,D32as v5,128 GiB,32,4 GiB/vCPU,0,0 GiB,$1.376 hourly,,,$0.2543 hourly,$2.848 hourly,,,$0.5374 hourly
+D32as v6,D32as v6,128 GiB,32,4 GiB/vCPU,0,0 GiB,$1.453 hourly,,,$0.2848 hourly,$2.925 hourly,,,$0.5733 hourly
+D32as v7,D32as v7,128 GiB,32,4 GiB/vCPU,0,0 GiB,$1.453 hourly,,,$0.2685 hourly,$2.925 hourly,,,$0.5405 hourly
+D32a v4,D32a v4,128 GiB,32,4 GiB/vCPU,0,800 GiB,$1.536 hourly,,,$0.2839 hourly,$3.008 hourly,,,$0.5664 hourly
+D32ds v4,D32ds v4,128 GiB,32,4 GiB/vCPU,0,1200 GiB,$1.808 hourly,,,$0.4068 hourly,$3.28 hourly,,,$0.7514 hourly
+D32ds v5,D32ds v5,128 GiB,32,4 GiB/vCPU,0,1200 GiB,$1.808 hourly,,,$0.4086 hourly,$3.28 hourly,,,$0.7514 hourly
+D32ds v6,D32ds v6,128 GiB,32,4 GiB/vCPU,0,1760 GiB,$1.993 hourly,,,$0.4462 hourly,$3.465 hourly,,,$0.7758 hourly
+D32ds v7,D32ds v7,128 GiB,32,4 GiB/vCPU,0,1760 GiB,,,,,,,,
+D32d v4,D32d v4,128 GiB,32,4 GiB/vCPU,0,1200 GiB,$1.808 hourly,,,$0.4068 hourly,$3.28 hourly,,,$0.7514 hourly
+D32d v5,D32d v5,128 GiB,32,4 GiB/vCPU,0,1200 GiB,$1.808 hourly,,,$0.4086 hourly,$3.28 hourly,,,$0.7514 hourly
+D32lds v5,D32lds v5,64 GiB,32,2 GiB/vCPU,0,1200 GiB,$1.536 hourly,,,$0.3471 hourly,$3.008 hourly,,,$0.6891 hourly
+D32lds v6,D32lds v6,64 GiB,32,2 GiB/vCPU,0,1760 GiB,$1.765 hourly,,,$0.3952 hourly,$3.237 hourly,,,$0.7248 hourly
+D32lds v7,D32lds v7,64 GiB,32,2 GiB/vCPU,0,1760 GiB,,,,,,,,
+D32ls v5,D32ls v5,64 GiB,32,2 GiB/vCPU,0,0 GiB,$1.36 hourly,,,$0.2755 hourly,$2.832 hourly,,,$0.5738 hourly
+D32ls v6,D32ls v6,64 GiB,32,2 GiB/vCPU,0,0 GiB,$1.428 hourly,,,$0.313 hourly,$2.90 hourly,,,$0.6357 hourly
+D32ls v7,D32ls v7,64 GiB,32,2 GiB/vCPU,0,0 GiB,,,,,,,,
+D32nds v6,D32nds v6,128 GiB,32,4 GiB/vCPU,0,1760 GiB,$2.89 hourly,,,$0.6471 hourly,$4.362 hourly,,,$0.9767 hourly
+D32nlds v6,D32nlds v6,64 GiB,32,2 GiB/vCPU,0,1760 GiB,$2.312 hourly,,,$0.5177 hourly,$3.784 hourly,,,$0.8472 hourly
+D32nls v6,D32nls v6,64 GiB,32,2 GiB/vCPU,0,0 GiB,$1.871 hourly,,,$0.4101 hourly,$3.343 hourly,,,$0.7328 hourly
+D32ns v6,D32ns v6,128 GiB,32,4 GiB/vCPU,0,0 GiB,$2.339 hourly,,,$0.5127 hourly,$3.811 hourly,,,$0.8354 hourly
+Standard D32pds v5,D32pds v5,128 GiB,32,4 GiB/vCPU,0,1200 GiB,$1.446 hourly,,,$0.2672 hourly,,,,
+Standard D32pds v6,D32pds v6,128 GiB,32,4 GiB/vCPU,0,1760 GiB,$1.469 hourly,,,$0.3135 hourly,,,,
+Standard D32plds v5,D32plds v5,64 GiB,32,2 GiB/vCPU,0,1200 GiB,$1.229 hourly,,,$0.2271 hourly,,,,
+Standard D32plds v6,D32plds v6,64 GiB,32,2 GiB/vCPU,0,1760 GiB,$1.248 hourly,,,$0.2663 hourly,,,,
+Standard D32pls v5,D32pls v5,64 GiB,32,2 GiB/vCPU,0,0 GiB,$1.088 hourly,,,$0.2011 hourly,,,,
+Standard D32pls v6,D32pls v6,64 GiB,32,2 GiB/vCPU,0,0 GiB,$0.992 hourly,,,$0.2117 hourly,,,,
+Standard D32ps v5,D32ps v5,128 GiB,32,4 GiB/vCPU,0,0 GiB,$1.232 hourly,,,$0.2277 hourly,,,,
+Standard D32ps v6,D32ps v6,128 GiB,32,4 GiB/vCPU,0,0 GiB,$1.123 hourly,,,$0.2396 hourly,,,,
+D32s v3,D32s v3,128 GiB,32,4 GiB/vCPU,0,256 GiB,$1.536 hourly,,,$0.2839 hourly,$3.008 hourly,,,$0.5559 hourly
+D32s v4,D32s v4,128 GiB,32,4 GiB/vCPU,0,0 GiB,$1.536 hourly,,,$0.2839 hourly,$3.008 hourly,,,$0.5559 hourly
+D32s v5,D32s v5,128 GiB,32,4 GiB/vCPU,0,0 GiB,$1.536 hourly,,,$0.3112 hourly,$3.008 hourly,,,$0.6094 hourly
+D32s v6,D32s v6,128 GiB,32,4 GiB/vCPU,0,0 GiB,$1.613 hourly,,,$0.3536 hourly,$3.085 hourly,,,$0.6762 hourly
+D32s v7,D32s v7,128 GiB,32,4 GiB/vCPU,0,0 GiB,,,,,,,,
+D32 v3,D32 v3,128 GiB,32,4 GiB/vCPU,0,800 GiB,$1.536 hourly,,,$0.2839 hourly,$3.008 hourly,,,$0.5559 hourly
+D32 v4,D32 v4,128 GiB,32,4 GiB/vCPU,0,0 GiB,$1.536 hourly,,,$0.2839 hourly,$3.008 hourly,,,$0.5559 hourly
+D32 v5,D32 v5,128 GiB,32,4 GiB/vCPU,0,0 GiB,$1.536 hourly,,,$0.3112 hourly,$3.008 hourly,,,$0.6094 hourly
+D372ds v7,D372ds v7,1488 GiB,372,4 GiB/vCPU,0,20460 GiB,,,,,,,,
+D372ids v7,D372ids v7,1488 GiB,372,4 GiB/vCPU,0,20460 GiB,,,,,,,,
+D372is v7,D372is v7,1488 GiB,372,4 GiB/vCPU,0,0 GiB,,,,,,,,
+D372s v7,D372s v7,1488 GiB,372,4 GiB/vCPU,0,0 GiB,,,,,,,,
+D3s,D3s,14 GiB,4,3.5 GiB/vCPU,0,28 GiB,$0.308 hourly,,,$0.0569 hourly,$0.56 hourly,,,$0.1046 hourly
+D3 v2,D3 v2,14 GiB,4,3.5 GiB/vCPU,0,200 GiB,$0.293 hourly,,,$0.0541 hourly,$0.476 hourly,,,$0.0889 hourly
+D4,D4,28 GiB,8,3.5 GiB/vCPU,0,400 GiB,$0.616 hourly,,,$0.1138 hourly,$1.12 hourly,,,$0.2092 hourly
+D48ads v5,D48ads v5,192 GiB,48,4 GiB/vCPU,0,1800 GiB,$2.472 hourly,,,$0.4568 hourly,$4.68 hourly,,,$0.8831 hourly
+D48ads v6,D48ads v6,192 GiB,48,4 GiB/vCPU,0,2640 GiB,$2.736 hourly,,,$0.5505 hourly,$4.944 hourly,,,$0.9947 hourly
+D48ads v7,D48ads v7,192 GiB,48,4 GiB/vCPU,0,2640 GiB,$2.736 hourly,,,$0.5056 hourly,$4.944 hourly,,,$0.9137 hourly
+D48alds v6,D48alds v6,96 GiB,48,2 GiB/vCPU,0,2640 GiB,$2.285 hourly,,,$0.4597 hourly,$4.493 hourly,,,$0.904 hourly
+D48alds v7,D48alds v7,96 GiB,48,2 GiB/vCPU,0,2640 GiB,$2.285 hourly,,,$0.4223 hourly,$4.493 hourly,,,$0.8303 hourly
+D48als v6,D48als v6,96 GiB,48,2 GiB/vCPU,0,0 GiB,$1.93 hourly,,,$0.3783 hourly,$4.138 hourly,,,$0.811 hourly
+D48als v7,D48als v7,96 GiB,48,2 GiB/vCPU,0,0 GiB,$1.93 hourly,,,$0.3567 hourly,$4.138 hourly,,,$0.7647 hourly
+D48as v4,D48as v4,192 GiB,48,4 GiB/vCPU,0,384 GiB,$2.304 hourly,,,$0.4258 hourly,$4.512 hourly,,,$0.8496 hourly
+D48as v5,D48as v5,192 GiB,48,4 GiB/vCPU,0,0 GiB,$2.064 hourly,,,$0.3814 hourly,$4.272 hourly,,,$0.8061 hourly
+D48as v6,D48as v6,192 GiB,48,4 GiB/vCPU,0,0 GiB,$2.179 hourly,,,$0.4271 hourly,$4.387 hourly,,,$0.8599 hourly
+D48as v7,D48as v7,192 GiB,48,4 GiB/vCPU,0,0 GiB,$2.179 hourly,,,$0.4027 hourly,$4.387 hourly,,,$0.8107 hourly
+D48a v4,D48a v4,192 GiB,48,4 GiB/vCPU,0,1200 GiB,$2.304 hourly,,,$0.4258 hourly,$4.512 hourly,,,$0.8496 hourly
+D48ds v4,D48ds v4,192 GiB,48,4 GiB/vCPU,0,1800 GiB,$2.712 hourly,,,$0.6102 hourly,$4.92 hourly,,,$1.1272 hourly
+D48ds v5,D48ds v5,192 GiB,48,4 GiB/vCPU,0,1800 GiB,$2.712 hourly,,,$0.6129 hourly,$4.92 hourly,,,$1.1272 hourly
+D48ds v6,D48ds v6,192 GiB,48,4 GiB/vCPU,0,2640 GiB,$2.99 hourly,,,$0.6695 hourly,$5.198 hourly,,,$1.1638 hourly
+D48ds v7,D48ds v7,192 GiB,48,4 GiB/vCPU,0,2640 GiB,,,,,,,,
+D48d v4,D48d v4,192 GiB,48,4 GiB/vCPU,0,1800 GiB,$2.712 hourly,,,$0.6102 hourly,$4.92 hourly,,,$1.1272 hourly
+D48d v5,D48d v5,192 GiB,48,4 GiB/vCPU,0,1800 GiB,$2.712 hourly,,,$0.6129 hourly,$4.92 hourly,,,$1.1272 hourly
+D48lds v5,D48lds v5,96 GiB,48,2 GiB/vCPU,0,1800 GiB,$2.304 hourly,,,$0.5207 hourly,$4.512 hourly,,,$1.0337 hourly
+D48lds v6,D48lds v6,96 GiB,48,2 GiB/vCPU,0,2640 GiB,$2.648 hourly,,,$0.5929 hourly,$4.856 hourly,,,$1.0873 hourly
+D48lds v7,D48lds v7,96 GiB,48,2 GiB/vCPU,0,2640 GiB,,,,,,,,
+D48ls v5,D48ls v5,96 GiB,48,2 GiB/vCPU,0,0 GiB,$2.04 hourly,,,$0.4133 hourly,$4.248 hourly,,,$0.8606 hourly
+D48ls v6,D48ls v6,96 GiB,48,2 GiB/vCPU,0,0 GiB,$2.142 hourly,,,$0.4695 hourly,$4.35 hourly,,,$0.9535 hourly
+D48ls v7,D48ls v7,96 GiB,48,2 GiB/vCPU,0,0 GiB,,,,,,,,
+D48nds v6,D48nds v6,192 GiB,48,4 GiB/vCPU,0,2640 GiB,$4.335 hourly,,,$0.9706 hourly,$6.543 hourly,,,$1.465 hourly
+D48nlds v6,D48nlds v6,96 GiB,48,2 GiB/vCPU,0,2640 GiB,$3.468 hourly,,,$0.7765 hourly,$5.676 hourly,,,$1.2709 hourly
+D48nls v6,D48nls v6,96 GiB,48,2 GiB/vCPU,0,0 GiB,$2.806 hourly,,,$0.6151 hourly,$5.014 hourly,,,$1.0991 hourly
+D48ns v6,D48ns v6,192 GiB,48,4 GiB/vCPU,0,0 GiB,$3.508 hourly,,,$0.769 hourly,$5.716 hourly,,,$1.2529 hourly
+Standard D48pds v5,D48pds v5,192 GiB,48,4 GiB/vCPU,0,1800 GiB,$2.17 hourly,,,$0.401 hourly,,,,
+Standard D48pds v6,D48pds v6,192 GiB,48,4 GiB/vCPU,0,2640 GiB,$2.203 hourly,,,$0.4701 hourly,,,,
+Standard D48plds v5,D48plds v5,96 GiB,48,2 GiB/vCPU,0,1800 GiB,$1.843 hourly,,,$0.3406 hourly,,,,
+Standard D48plds v6,D48plds v6,96 GiB,48,2 GiB/vCPU,0,2640 GiB,$1.872 hourly,,,$0.3995 hourly,,,,
+Standard D48pls v5,D48pls v5,96 GiB,48,2 GiB/vCPU,0,0 GiB,$1.632 hourly,,,$0.3016 hourly,,,,
+Standard D48pls v6,D48pls v6,96 GiB,48,2 GiB/vCPU,0,0 GiB,$1.488 hourly,,,$0.3175 hourly,,,,
+Standard D48ps v5,D48ps v5,192 GiB,48,4 GiB/vCPU,0,0 GiB,$1.848 hourly,,,$0.3415 hourly,,,,
+Standard D48ps v6,D48ps v6,192 GiB,48,4 GiB/vCPU,0,0 GiB,$1.685 hourly,,,$0.3596 hourly,,,,
+D48s v3,D48s v3,192 GiB,48,4 GiB/vCPU,0,384 GiB,$2.304 hourly,,,$0.4258 hourly,$4.512 hourly,,,$0.8338 hourly
+D48s v4,D48s v4,192 GiB,48,4 GiB/vCPU,0,0 GiB,$2.304 hourly,,,$0.4258 hourly,$4.512 hourly,,,$0.8338 hourly
+D48s v5,D48s v5,192 GiB,48,4 GiB/vCPU,0,0 GiB,$2.304 hourly,,,$0.4668 hourly,$4.512 hourly,,,$0.9141 hourly
+D48s v6,D48s v6,192 GiB,48,4 GiB/vCPU,0,0 GiB,$2.419 hourly,,,$0.5302 hourly,$4.627 hourly,,,$1.0142 hourly
+D48s v7,D48s v7,192 GiB,48,4 GiB/vCPU,0,0 GiB,,,,,,,,
+D48 v3,D48 v3,192 GiB,48,4 GiB/vCPU,0,1200 GiB,$2.304 hourly,,,$0.4258 hourly,$4.512 hourly,,,$0.8338 hourly
+D48 v4,D48 v4,192 GiB,48,4 GiB/vCPU,0,0 GiB,$2.304 hourly,,,$0.4258 hourly,$4.512 hourly,,,$0.8338 hourly
+D48 v5,D48 v5,192 GiB,48,4 GiB/vCPU,0,0 GiB,$2.304 hourly,,,$0.4668 hourly,$4.512 hourly,,,$0.9141 hourly
+D4ads v5,D4ads v5,16 GiB,4,4 GiB/vCPU,0,150 GiB,$0.206 hourly,,,$0.0381 hourly,$0.39 hourly,,,$0.0736 hourly
+D4ads v6,D4ads v6,16 GiB,4,4 GiB/vCPU,0,220 GiB,$0.228 hourly,,,$0.0459 hourly,$0.412 hourly,,,$0.0829 hourly
+D4ads v7,D4ads v7,16 GiB,4,4 GiB/vCPU,0,220 GiB,$0.228 hourly,,,$0.0421 hourly,$0.412 hourly,,,$0.0761 hourly
+D4alds v6,D4alds v6,8 GiB,4,2 GiB/vCPU,0,220 GiB,$0.19 hourly,,,$0.0382 hourly,$0.374 hourly,,,$0.0752 hourly
+D4alds v7,D4alds v7,8 GiB,4,2 GiB/vCPU,0,220 GiB,$0.19 hourly,,,$0.0351 hourly,$0.374 hourly,,,$0.0691 hourly
+D4als v6,D4als v6,8 GiB,4,2 GiB/vCPU,0,0 GiB,$0.161 hourly,,,$0.0316 hourly,$0.345 hourly,,,$0.0676 hourly
+D4als v7,D4als v7,8 GiB,4,2 GiB/vCPU,0,0 GiB,$0.161 hourly,,,$0.0298 hourly,$0.345 hourly,,,$0.0638 hourly
+D4as v4,D4as v4,16 GiB,4,4 GiB/vCPU,0,32 GiB,$0.192 hourly,,,$0.0355 hourly,$0.376 hourly,,,$0.0708 hourly
+D4as v5,D4as v5,16 GiB,4,4 GiB/vCPU,0,0 GiB,$0.172 hourly,,,$0.0318 hourly,$0.356 hourly,,,$0.0672 hourly
+D4as v6,D4as v6,16 GiB,4,4 GiB/vCPU,0,0 GiB,$0.182 hourly,,,$0.0357 hourly,$0.366 hourly,,,$0.0717 hourly
+D4as v7,D4as v7,16 GiB,4,4 GiB/vCPU,0,0 GiB,$0.182 hourly,,,$0.0336 hourly,$0.366 hourly,,,$0.0676 hourly
+D4a v4,D4a v4,16 GiB,4,4 GiB/vCPU,0,100 GiB,$0.192 hourly,,,$0.0355 hourly,$0.376 hourly,,,$0.0708 hourly
+D4ds v4,D4ds v4,16 GiB,4,4 GiB/vCPU,0,150 GiB,$0.226 hourly,,,$0.0509 hourly,$0.41 hourly,,,$0.0939 hourly
+D4ds v5,D4ds v5,16 GiB,4,4 GiB/vCPU,0,150 GiB,$0.226 hourly,,,$0.0511 hourly,$0.41 hourly,,,$0.0939 hourly
+D4ds v6,D4ds v6,16 GiB,4,4 GiB/vCPU,0,220 GiB,$0.249 hourly,,,$0.0558 hourly,$0.433 hourly,,,$0.0969 hourly
+D4ds v7,D4ds v7,16 GiB,4,4 GiB/vCPU,0,220 GiB,,,,,,,,
+D4d v4,D4d v4,16 GiB,4,4 GiB/vCPU,0,150 GiB,$0.226 hourly,,,$0.0509 hourly,$0.41 hourly,,,$0.0939 hourly
+D4d v5,D4d v5,16 GiB,4,4 GiB/vCPU,0,150 GiB,$0.226 hourly,,,$0.0511 hourly,$0.41 hourly,,,$0.0939 hourly
+D4lds v5,D4lds v5,8 GiB,4,2 GiB/vCPU,0,150 GiB,$0.192 hourly,,,$0.0434 hourly,$0.376 hourly,,,$0.0861 hourly
+D4lds v6,D4lds v6,8 GiB,4,2 GiB/vCPU,0,220 GiB,$0.221 hourly,,,$0.0495 hourly,$0.405 hourly,,,$0.0907 hourly
+D4lds v7,D4lds v7,8 GiB,4,2 GiB/vCPU,0,220 GiB,,,,,,,,
+D4ls v5,D4ls v5,8 GiB,4,2 GiB/vCPU,0,0 GiB,$0.17 hourly,,,$0.0344 hourly,$0.354 hourly,,,$0.0717 hourly
+D4ls v6,D4ls v6,8 GiB,4,2 GiB/vCPU,0,0 GiB,$0.179 hourly,,,$0.0392 hourly,$0.363 hourly,,,$0.0796 hourly
+D4ls v7,D4ls v7,8 GiB,4,2 GiB/vCPU,0,0 GiB,,,,,,,,
+D4nds v6,D4nds v6,16 GiB,4,4 GiB/vCPU,0,220 GiB,$0.333 hourly,,,$0.0746 hourly,$0.517 hourly,,,$0.1158 hourly
+D4nlds v6,D4nlds v6,8 GiB,4,2 GiB/vCPU,0,220 GiB,$0.289 hourly,,,$0.0647 hourly,$0.473 hourly,,,$0.1059 hourly
+D4nls v6,D4nls v6,8 GiB,4,2 GiB/vCPU,0,0 GiB,$0.234 hourly,,,$0.0513 hourly,$0.418 hourly,,,$0.0916 hourly
+D4ns v6,D4ns v6,16 GiB,4,4 GiB/vCPU,0,0 GiB,$0.292 hourly,,,$0.064 hourly,$0.476 hourly,,,$0.1043 hourly
+Standard D4pds v5,D4pds v5,16 GiB,4,4 GiB/vCPU,0,150 GiB,$0.181 hourly,,,$0.0334 hourly,,,,
+Standard D4pds v6,D4pds v6,16 GiB,4,4 GiB/vCPU,0,220 GiB,$0.184 hourly,,,$0.0393 hourly,,,,
+Standard D4plds v5,D4plds v5,8 GiB,4,2 GiB/vCPU,0,150 GiB,$0.154 hourly,,,$0.0285 hourly,,,,
+Standard D4plds v6,D4plds v6,8 GiB,4,2 GiB/vCPU,0,220 GiB,$0.156 hourly,,,$0.0333 hourly,,,,
+Standard D4pls v5,D4pls v5,8 GiB,4,2 GiB/vCPU,0,0 GiB,$0.136 hourly,,,$0.0251 hourly,,,,
+Standard D4pls v6,D4pls v6,8 GiB,4,2 GiB/vCPU,0,0 GiB,$0.124 hourly,,,$0.0265 hourly,,,,
+Standard D4ps v5,D4ps v5,16 GiB,4,4 GiB/vCPU,0,0 GiB,$0.154 hourly,,,$0.0285 hourly,,,,
+Standard D4ps v6,D4ps v6,16 GiB,4,4 GiB/vCPU,0,0 GiB,$0.14 hourly,,,$0.0299 hourly,,,,
+D4s,D4s,28 GiB,8,3.5 GiB/vCPU,0,56 GiB,$0.616 hourly,,,$0.1138 hourly,$1.12 hourly,,,$0.2092 hourly
+D4s v3,D4s v3,16 GiB,4,4 GiB/vCPU,0,32 GiB,$0.192 hourly,,,$0.0355 hourly,$0.376 hourly,,,$0.0695 hourly
+D4s v4,D4s v4,16 GiB,4,4 GiB/vCPU,0,0 GiB,$0.192 hourly,,,$0.0355 hourly,$0.376 hourly,,,$0.0695 hourly
+D4s v5,D4s v5,16 GiB,4,4 GiB/vCPU,0,0 GiB,$0.192 hourly,,,$0.0389 hourly,$0.376 hourly,,,$0.0762 hourly
+D4s v6,D4s v6,16 GiB,4,4 GiB/vCPU,0,0 GiB,$0.202 hourly,,,$0.0443 hourly,$0.386 hourly,,,$0.0846 hourly
+D4s v7,D4s v7,16 GiB,4,4 GiB/vCPU,0,0 GiB,,,,,,,,
+D4 v2,D4 v2,28 GiB,8,3.5 GiB/vCPU,0,400 GiB,$0.585 hourly,,,$0.1081 hourly,$0.952 hourly,,,$0.1778 hourly
+D4 v3,D4 v3,16 GiB,4,4 GiB/vCPU,0,100 GiB,$0.192 hourly,,,$0.0355 hourly,$0.376 hourly,,,$0.0695 hourly
+D4 v4,D4 v4,16 GiB,4,4 GiB/vCPU,0,0 GiB,$0.192 hourly,,,$0.0355 hourly,$0.376 hourly,,,$0.0695 hourly
+D4 v5,D4 v5,16 GiB,4,4 GiB/vCPU,0,0 GiB,$0.192 hourly,,,$0.0389 hourly,$0.376 hourly,,,$0.0762 hourly
+D5 v2,D5 v2,56 GiB,16,3.5 GiB/vCPU,0,800 GiB,$1.17 hourly,,,$0.2162 hourly,$1.904 hourly,,,$0.3557 hourly
+D64ads v5,D64ads v5,256 GiB,64,4 GiB/vCPU,0,2400 GiB,$3.296 hourly,,,$0.6091 hourly,$6.24 hourly,,,$1.1775 hourly
+D64ads v6,D64ads v6,256 GiB,64,4 GiB/vCPU,0,3520 GiB,$3.648 hourly,,,$0.734 hourly,$6.592 hourly,,,$1.3263 hourly
+D64ads v7,D64ads v7,256 GiB,64,4 GiB/vCPU,0,3520 GiB,$3.648 hourly,,,$0.6742 hourly,$6.592 hourly,,,$1.2182 hourly
+D64alds v6,D64alds v6,128 GiB,64,2 GiB/vCPU,0,3520 GiB,$3.046 hourly,,,$0.6129 hourly,$5.99 hourly,,,$1.2052 hourly
+D64alds v7,D64alds v7,128 GiB,64,2 GiB/vCPU,0,3520 GiB,$3.046 hourly,,,$0.5629 hourly,$5.99 hourly,,,$1.107 hourly
+D64als v6,D64als v6,128 GiB,64,2 GiB/vCPU,0,0 GiB,$2.573 hourly,,,$0.5043 hourly,$5.517 hourly,,,$1.0813 hourly
+D64als v7,D64als v7,128 GiB,64,2 GiB/vCPU,0,0 GiB,$2.573 hourly,,,$0.4755 hourly,$5.517 hourly,,,$1.0195 hourly
+D64as v4,D64as v4,256 GiB,64,4 GiB/vCPU,0,512 GiB,$3.072 hourly,,,$0.5677 hourly,$6.016 hourly,,,$1.1328 hourly
+D64as v5,D64as v5,256 GiB,64,4 GiB/vCPU,0,0 GiB,$2.752 hourly,,,$0.5086 hourly,$5.696 hourly,,,$1.0748 hourly
+D64as v6,D64as v6,256 GiB,64,4 GiB/vCPU,0,0 GiB,$2.906 hourly,,,$0.5696 hourly,$5.85 hourly,,,$1.1466 hourly
+D64as v7,D64as v7,256 GiB,64,4 GiB/vCPU,0,0 GiB,$2.906 hourly,,,$0.537 hourly,$5.85 hourly,,,$1.0811 hourly
+D64a v4,D64a v4,256 GiB,64,4 GiB/vCPU,0,1600 GiB,$3.072 hourly,,,$0.5677 hourly,$6.016 hourly,,,$1.1328 hourly
+D64ds v4,D64ds v4,256 GiB,64,4 GiB/vCPU,0,2400 GiB,$3.616 hourly,,,$0.8136 hourly,$6.56 hourly,,,$1.5029 hourly
+D64ds v5,D64ds v5,256 GiB,64,4 GiB/vCPU,0,2400 GiB,$3.616 hourly,,,$0.8172 hourly,$6.56 hourly,,,$1.5029 hourly
+D64ds v6,D64ds v6,256 GiB,64,4 GiB/vCPU,0,3520 GiB,$3.987 hourly,,,$0.8927 hourly,$6.931 hourly,,,$1.5519 hourly
+D64ds v7,D64ds v7,256 GiB,64,4 GiB/vCPU,0,3520 GiB,,,,,,,,
+D64d v4,D64d v4,256 GiB,64,4 GiB/vCPU,0,2400 GiB,$3.616 hourly,,,$0.8136 hourly,$6.56 hourly,,,$1.5029 hourly
+D64d v5,D64d v5,256 GiB,64,4 GiB/vCPU,0,2400 GiB,$3.616 hourly,,,$0.8172 hourly,$6.56 hourly,,,$1.5029 hourly
+D64lds v5,D64lds v5,128 GiB,64,2 GiB/vCPU,0,2400 GiB,$3.072 hourly,,,$0.6943 hourly,$6.016 hourly,,,$1.3783 hourly
+D64lds v6,D64lds v6,128 GiB,64,2 GiB/vCPU,0,3520 GiB,$3.53 hourly,,,$0.7904 hourly,$6.474 hourly,,,$1.4495 hourly
+D64lds v7,D64lds v7,128 GiB,64,2 GiB/vCPU,0,3520 GiB,,,,,,,,
+D64ls v5,D64ls v5,128 GiB,64,2 GiB/vCPU,0,0 GiB,$2.72 hourly,,,$0.5511 hourly,$5.664 hourly,,,$1.1475 hourly
+D64ls v6,D64ls v6,128 GiB,64,2 GiB/vCPU,0,0 GiB,$2.856 hourly,,,$0.626 hourly,$5.80 hourly,,,$1.2714 hourly
+D64ls v7,D64ls v7,128 GiB,64,2 GiB/vCPU,0,0 GiB,,,,,,,,
+D64nds v6,D64nds v6,256 GiB,64,4 GiB/vCPU,0,3520 GiB,$5.78 hourly,,,$1.2941 hourly,$8.724 hourly,,,$1.9533 hourly
+D64nlds v6,D64nlds v6,128 GiB,64,2 GiB/vCPU,0,3520 GiB,$4.625 hourly,,,$1.0355 hourly,$7.569 hourly,,,$1.6947 hourly
+D64nls v6,D64nls v6,128 GiB,64,2 GiB/vCPU,0,0 GiB,$3.742 hourly,,,$0.8202 hourly,$6.686 hourly,,,$1.4656 hourly
+D64ns v6,D64ns v6,256 GiB,64,4 GiB/vCPU,0,0 GiB,$4.677 hourly,,,$1.0252 hourly,$7.621 hourly,,,$1.6705 hourly
+Standard D64pds v5,D64pds v5,208 GiB,64,3.25 GiB/vCPU,0,2400 GiB,$2.893 hourly,,,$0.5346 hourly,,,,
+Standard D64pds v6,D64pds v6,256 GiB,64,4 GiB/vCPU,0,3520 GiB,$2.938 hourly,,,$0.627 hourly,,,,
+Standard D64plds v5,D64plds v5,128 GiB,64,2 GiB/vCPU,0,2400 GiB,$2.458 hourly,,,$0.4542 hourly,,,,
+Standard D64plds v6,D64plds v6,128 GiB,64,2 GiB/vCPU,0,3520 GiB,$2.496 hourly,,,$0.5326 hourly,,,,
+Standard D64pls v5,D64pls v5,128 GiB,64,2 GiB/vCPU,0,0 GiB,$2.176 hourly,,,$0.4021 hourly,,,,
+Standard D64pls v6,D64pls v6,128 GiB,64,2 GiB/vCPU,0,0 GiB,$1.984 hourly,,,$0.4234 hourly,,,,
+Standard D64ps v5,D64ps v5,208 GiB,64,3.25 GiB/vCPU,0,0 GiB,$2.464 hourly,,,$0.4553 hourly,,,,
+Standard D64ps v6,D64ps v6,256 GiB,64,4 GiB/vCPU,0,0 GiB,$2.246 hourly,,,$0.4793 hourly,,,,
+D64s v3,D64s v3,256 GiB,64,4 GiB/vCPU,0,512 GiB,$3.072 hourly,,,$0.5677 hourly,$6.016 hourly,,,$1.1118 hourly
+D64s v4,D64s v4,256 GiB,64,4 GiB/vCPU,0,0 GiB,$3.072 hourly,,,$0.5677 hourly,$6.016 hourly,,,$1.1118 hourly
+D64s v5,D64s v5,256 GiB,64,4 GiB/vCPU,0,0 GiB,$3.072 hourly,,,$0.6224 hourly,$6.016 hourly,,,$1.2188 hourly
+D64s v6,D64s v6,256 GiB,64,4 GiB/vCPU,0,0 GiB,$3.226 hourly,,,$0.7071 hourly,$6.17 hourly,,,$1.3525 hourly
+D64s v7,D64s v7,256 GiB,64,4 GiB/vCPU,0,0 GiB,,,,,,,,
+D64 v3,D64 v3,256 GiB,64,4 GiB/vCPU,0,1600 GiB,$3.072 hourly,,,$0.5677 hourly,$6.016 hourly,,,$1.1118 hourly
+D64 v4,D64 v4,256 GiB,64,4 GiB/vCPU,0,0 GiB,$3.072 hourly,,,$0.5677 hourly,$6.016 hourly,,,$1.1118 hourly
+D64 v5,D64 v5,256 GiB,64,4 GiB/vCPU,0,0 GiB,$3.072 hourly,,,$0.6224 hourly,$6.016 hourly,,,$1.2188 hourly
+D8ads v5,D8ads v5,32 GiB,8,4 GiB/vCPU,0,300 GiB,$0.412 hourly,,,$0.0761 hourly,$0.78 hourly,,,$0.1472 hourly
+D8ads v6,D8ads v6,32 GiB,8,4 GiB/vCPU,0,440 GiB,$0.456 hourly,,,$0.0917 hourly,$0.824 hourly,,,$0.1658 hourly
+D8ads v7,D8ads v7,32 GiB,8,4 GiB/vCPU,0,440 GiB,$0.456 hourly,,,$0.0843 hourly,$0.824 hourly,,,$0.1523 hourly
+D8alds v6,D8alds v6,16 GiB,8,2 GiB/vCPU,0,440 GiB,$0.381 hourly,,,$0.0767 hourly,$0.749 hourly,,,$0.1507 hourly
+D8alds v7,D8alds v7,16 GiB,8,2 GiB/vCPU,0,440 GiB,$0.381 hourly,,,$0.0704 hourly,$0.749 hourly,,,$0.1384 hourly
+D8als v6,D8als v6,16 GiB,8,2 GiB/vCPU,0,0 GiB,$0.322 hourly,,,$0.0631 hourly,$0.69 hourly,,,$0.1352 hourly
+D8als v7,D8als v7,16 GiB,8,2 GiB/vCPU,0,0 GiB,$0.322 hourly,,,$0.0595 hourly,$0.69 hourly,,,$0.1275 hourly
+D8as v4,D8as v4,32 GiB,8,4 GiB/vCPU,0,64 GiB,$0.384 hourly,,,$0.071 hourly,$0.752 hourly,,,$0.1416 hourly
+D8as v5,D8as v5,32 GiB,8,4 GiB/vCPU,0,0 GiB,$0.344 hourly,,,$0.0636 hourly,$0.712 hourly,,,$0.1344 hourly
+D8as v6,D8as v6,32 GiB,8,4 GiB/vCPU,0,0 GiB,$0.363 hourly,,,$0.0711 hourly,$0.731 hourly,,,$0.1433 hourly
+D8as v7,D8as v7,32 GiB,8,4 GiB/vCPU,0,0 GiB,$0.363 hourly,,,$0.0671 hourly,$0.731 hourly,,,$0.1351 hourly
+D8a v4,D8a v4,32 GiB,8,4 GiB/vCPU,0,200 GiB,$0.384 hourly,,,$0.071 hourly,$0.752 hourly,,,$0.1416 hourly
+D8ds v4,D8ds v4,32 GiB,8,4 GiB/vCPU,0,300 GiB,$0.452 hourly,,,$0.1017 hourly,$0.82 hourly,,,$0.1879 hourly
+D8ds v5,D8ds v5,32 GiB,8,4 GiB/vCPU,0,300 GiB,$0.452 hourly,,,$0.1022 hourly,$0.82 hourly,,,$0.1879 hourly
+D8ds v6,D8ds v6,32 GiB,8,4 GiB/vCPU,0,440 GiB,$0.498 hourly,,,$0.1115 hourly,$0.866 hourly,,,$0.1939 hourly
+D8ds v7,D8ds v7,32 GiB,8,4 GiB/vCPU,0,440 GiB,,,,,,,,
+D8d v4,D8d v4,32 GiB,8,4 GiB/vCPU,0,300 GiB,$0.452 hourly,,,$0.1017 hourly,$0.82 hourly,,,$0.1879 hourly
+D8d v5,D8d v5,32 GiB,8,4 GiB/vCPU,0,300 GiB,$0.452 hourly,,,$0.1022 hourly,$0.82 hourly,,,$0.1879 hourly
+D8lds v5,D8lds v5,16 GiB,8,2 GiB/vCPU,0,300 GiB,$0.384 hourly,,,$0.0868 hourly,$0.752 hourly,,,$0.1723 hourly
+D8lds v6,D8lds v6,16 GiB,8,2 GiB/vCPU,0,440 GiB,$0.441 hourly,,,$0.0987 hourly,$0.809 hourly,,,$0.1811 hourly
+D8lds v7,D8lds v7,16 GiB,8,2 GiB/vCPU,0,440 GiB,,,,,,,,
+D8ls v5,D8ls v5,16 GiB,8,2 GiB/vCPU,0,0 GiB,$0.34 hourly,,,$0.0689 hourly,$0.708 hourly,,,$0.1434 hourly
+D8ls v6,D8ls v6,16 GiB,8,2 GiB/vCPU,0,0 GiB,$0.357 hourly,,,$0.0783 hourly,$0.725 hourly,,,$0.1589 hourly
+D8ls v7,D8ls v7,16 GiB,8,2 GiB/vCPU,0,0 GiB,,,,,,,,
+D8nds v6,D8nds v6,32 GiB,8,4 GiB/vCPU,0,440 GiB,$0.723 hourly,,,$0.1619 hourly,$1.091 hourly,,,$0.2443 hourly
+D8nlds v6,D8nlds v6,16 GiB,8,2 GiB/vCPU,0,440 GiB,$0.578 hourly,,,$0.1294 hourly,$0.946 hourly,,,$0.2118 hourly
+D8nls v6,D8nls v6,16 GiB,8,2 GiB/vCPU,0,0 GiB,$0.468 hourly,,,$0.1026 hourly,$0.836 hourly,,,$0.1833 hourly
+D8ns v6,D8ns v6,32 GiB,8,4 GiB/vCPU,0,0 GiB,$0.585 hourly,,,$0.1282 hourly,$0.953 hourly,,,$0.2089 hourly
+Standard D8pds v5,D8pds v5,32 GiB,8,4 GiB/vCPU,0,300 GiB,$0.362 hourly,,,$0.0669 hourly,,,,
+Standard D8pds v6,D8pds v6,32 GiB,8,4 GiB/vCPU,0,440 GiB,$0.367 hourly,,,$0.0783 hourly,,,,
+Standard D8plds v5,D8plds v5,16 GiB,8,2 GiB/vCPU,0,300 GiB,$0.307 hourly,,,$0.0567 hourly,,,,
+Standard D8plds v6,D8plds v6,16 GiB,8,2 GiB/vCPU,0,440 GiB,$0.312 hourly,,,$0.0666 hourly,,,,
+Standard D8pls v5,D8pls v5,16 GiB,8,2 GiB/vCPU,0,0 GiB,$0.272 hourly,,,$0.0503 hourly,,,,
+Standard D8pls v6,D8pls v6,16 GiB,8,2 GiB/vCPU,0,0 GiB,$0.248 hourly,,,$0.0529 hourly,,,,
+Standard D8ps v5,D8ps v5,32 GiB,8,4 GiB/vCPU,0,0 GiB,$0.308 hourly,,,$0.0569 hourly,,,,
+Standard D8ps v6,D8ps v6,32 GiB,8,4 GiB/vCPU,0,0 GiB,$0.281 hourly,,,$0.06 hourly,,,,
+D8s v3,D8s v3,32 GiB,8,4 GiB/vCPU,0,64 GiB,$0.384 hourly,,,$0.071 hourly,$0.752 hourly,,,$0.139 hourly
+D8s v4,D8s v4,32 GiB,8,4 GiB/vCPU,0,0 GiB,$0.384 hourly,,,$0.071 hourly,$0.752 hourly,,,$0.139 hourly
+D8s v5,D8s v5,32 GiB,8,4 GiB/vCPU,0,0 GiB,$0.384 hourly,,,$0.0778 hourly,$0.752 hourly,,,$0.1524 hourly
+D8s v6,D8s v6,32 GiB,8,4 GiB/vCPU,0,0 GiB,$0.403 hourly,,,$0.0883 hourly,$0.771 hourly,,,$0.169 hourly
+D8s v7,D8s v7,32 GiB,8,4 GiB/vCPU,0,0 GiB,,,,,,,,
+D8 v3,D8 v3,32 GiB,8,4 GiB/vCPU,0,200 GiB,$0.384 hourly,,,$0.071 hourly,$0.752 hourly,,,$0.139 hourly
+D8 v4,D8 v4,32 GiB,8,4 GiB/vCPU,0,0 GiB,$0.384 hourly,,,$0.071 hourly,$0.752 hourly,,,$0.139 hourly
+D8 v5,D8 v5,32 GiB,8,4 GiB/vCPU,0,0 GiB,$0.384 hourly,,,$0.0778 hourly,$0.752 hourly,,,$0.1524 hourly
+D96ads v5,D96ads v5,384 GiB,96,4 GiB/vCPU,0,3600 GiB,$4.944 hourly,,,$0.9137 hourly,$9.36 hourly,,,$1.7662 hourly
+D96ads v6,D96ads v6,384 GiB,96,4 GiB/vCPU,0,5280 GiB,$5.472 hourly,,,$1.101 hourly,$9.888 hourly,,,$1.9895 hourly
+D96ads v7,D96ads v7,384 GiB,96,4 GiB/vCPU,0,5280 GiB,$5.472 hourly,,,$1.0112 hourly,$9.888 hourly,,,$1.8273 hourly
+D96alds v6,D96alds v6,192 GiB,96,2 GiB/vCPU,0,5280 GiB,$4.57 hourly,,,$0.9195 hourly,$8.986 hourly,,,$1.808 hourly
+D96alds v7,D96alds v7,192 GiB,96,2 GiB/vCPU,0,5280 GiB,$4.57 hourly,,,$0.8445 hourly,$8.986 hourly,,,$1.6606 hourly
+D96als v6,D96als v6,192 GiB,96,2 GiB/vCPU,0,0 GiB,$3.859 hourly,,,$0.7564 hourly,$8.275 hourly,,,$1.6219 hourly
+D96als v7,D96als v7,192 GiB,96,2 GiB/vCPU,0,0 GiB,$3.859 hourly,,,$0.7131 hourly,$8.275 hourly,,,$1.5292 hourly
+D96as v4,D96as v4,384 GiB,96,4 GiB/vCPU,0,768 GiB,$4.608 hourly,,,$0.8516 hourly,$9.024 hourly,,,$1.6992 hourly
+D96as v5,D96as v5,384 GiB,96,4 GiB/vCPU,0,0 GiB,$4.128 hourly,,,$0.7629 hourly,$8.544 hourly,,,$1.6123 hourly
+D96as v6,D96as v6,384 GiB,96,4 GiB/vCPU,0,0 GiB,$4.358 hourly,,,$0.8542 hourly,$8.774 hourly,,,$1.7197 hourly
+D96as v7,D96as v7,384 GiB,96,4 GiB/vCPU,0,0 GiB,$4.358 hourly,,,$0.8054 hourly,$8.774 hourly,,,$1.6214 hourly
+D96a v4,D96a v4,384 GiB,96,4 GiB/vCPU,0,2400 GiB,$4.608 hourly,,,$0.8516 hourly,$9.024 hourly,,,$1.6992 hourly
+D96ds v5,D96ds v5,384 GiB,96,4 GiB/vCPU,0,3600 GiB,$5.424 hourly,,,$1.2258 hourly,$9.84 hourly,,,$2.2543 hourly
+D96ds v6,D96ds v6,384 GiB,96,4 GiB/vCPU,0,5280 GiB,$5.98 hourly,,,$1.3389 hourly,$10.396 hourly,,,$2.3277 hourly
+D96ds v7,D96ds v7,384 GiB,96,4 GiB/vCPU,0,5280 GiB,,,,,,,,
+D96d v5,D96d v5,384 GiB,96,4 GiB/vCPU,0,3600 GiB,$5.424 hourly,,,$1.2258 hourly,$9.84 hourly,,,$2.2543 hourly
+D96lds v5,D96lds v5,192 GiB,96,2 GiB/vCPU,0,3600 GiB,$4.608 hourly,,,$1.0414 hourly,$9.024 hourly,,,$2.0674 hourly
+D96lds v6,D96lds v6,192 GiB,96,2 GiB/vCPU,0,5280 GiB,$5.295 hourly,,,$1.1856 hourly,$9.711 hourly,,,$2.1743 hourly
+D96lds v7,D96lds v7,192 GiB,96,2 GiB/vCPU,0,5280 GiB,,,,,,,,
+D96ls v5,D96ls v5,192 GiB,96,2 GiB/vCPU,0,0 GiB,$4.08 hourly,,,$0.8266 hourly,$8.496 hourly,,,$1.7213 hourly
+D96ls v6,D96ls v6,192 GiB,96,2 GiB/vCPU,0,0 GiB,$4.284 hourly,,,$0.9391 hourly,$8.70 hourly,,,$1.907 hourly
+D96ls v7,D96ls v7,192 GiB,96,2 GiB/vCPU,0,0 GiB,,,,,,,,
+D96nds v6,D96nds v6,384 GiB,96,4 GiB/vCPU,0,5280 GiB,$8.671 hourly,,,$1.9414 hourly,$13.087 hourly,,,$2.9302 hourly
+D96nlds v6,D96nlds v6,192 GiB,96,2 GiB/vCPU,0,5280 GiB,$6.937 hourly,,,$1.5532 hourly,$11.353 hourly,,,$2.5419 hourly
+D96nls v6,D96nls v6,192 GiB,96,2 GiB/vCPU,0,0 GiB,$5.613 hourly,,,$1.2304 hourly,$10.029 hourly,,,$2.1984 hourly
+D96ns v6,D96ns v6,384 GiB,96,4 GiB/vCPU,0,0 GiB,$7.016 hourly,,,$1.5379 hourly,$11.432 hourly,,,$2.5059 hourly
+Standard D96pds v6,D96pds v6,384 GiB,96,4 GiB/vCPU,0,5280 GiB,$4.406 hourly,,,$0.9402 hourly,,,,
+Standard D96plds v6,D96plds v6,192 GiB,96,2 GiB/vCPU,0,5280 GiB,$3.744 hourly,,,$0.799 hourly,,,,
+Standard D96pls v6,D96pls v6,192 GiB,96,2 GiB/vCPU,0,0 GiB,$2.976 hourly,,,$0.6351 hourly,,,,
+Standard D96ps v6,D96ps v6,384 GiB,96,4 GiB/vCPU,0,0 GiB,$3.37 hourly,,,$0.7192 hourly,,,,
+D96s v5,D96s v5,384 GiB,96,4 GiB/vCPU,0,0 GiB,$4.608 hourly,,,$0.9336 hourly,$9.024 hourly,,,$1.8283 hourly
+D96s v6,D96s v6,384 GiB,96,4 GiB/vCPU,0,0 GiB,$4.838 hourly,,,$1.0605 hourly,$9.254 hourly,,,$2.0285 hourly
+D96s v7,D96s v7,384 GiB,96,4 GiB/vCPU,0,0 GiB,,,,,,,,
+D96 v5,D96 v5,384 GiB,96,4 GiB/vCPU,0,0 GiB,$4.608 hourly,,,$0.9336 hourly,$9.024 hourly,,,$1.8283 hourly
+DC128eds v6,DC128eds v6,512 GiB,128,4 GiB/vCPU,0,7040 GiB,$7.973 hourly,,,$1.4734 hourly,$13.861 hourly,,,$2.5615 hourly
+DC128es v6,DC128es v6,512 GiB,128,4 GiB/vCPU,0,0 GiB,$6.451 hourly,,,$1.1921 hourly,$12.339 hourly,,,$2.2802 hourly
+DC16ads v5,DC16ads v5,64 GiB,16,4 GiB/vCPU,0,600 GiB,$0.824 hourly,,,$0.1523 hourly,$1.56 hourly,,,$0.2883 hourly
+DC16ads v6,DC16ads v6,64 GiB,16,4 GiB/vCPU,0,600 GiB,$0.912 hourly,,,$0.1685 hourly,$1.648 hourly,,,$0.3046 hourly
+DC16as v5,DC16as v5,64 GiB,16,4 GiB/vCPU,0,0 GiB,$0.688 hourly,,,$0.1271 hourly,$1.424 hourly,,,$0.2632 hourly
+DC16as v6,DC16as v6,64 GiB,16,4 GiB/vCPU,0,0 GiB,$0.726 hourly,,,$0.1342 hourly,$1.462 hourly,,,$0.2702 hourly
+DC16ds v3,DC16ds v3,128 GiB,16,8 GiB/vCPU,0,1200 GiB,$1.808 hourly,,,$0.3341 hourly,$2.544 hourly,,,$0.4701 hourly
+DC16eds v6,DC16eds v6,64 GiB,16,4 GiB/vCPU,0,880 GiB,$0.997 hourly,,,$0.1842 hourly,$1.733 hourly,,,$0.3203 hourly
+DC16es v6,DC16es v6,64 GiB,16,4 GiB/vCPU,0,0 GiB,$0.806 hourly,,,$0.1489 hourly,$1.542 hourly,,,$0.285 hourly
+DC16s v3,DC16s v3,128 GiB,16,8 GiB/vCPU,0,0 GiB,$1.536 hourly,,,$0.2839 hourly,$2.272 hourly,,,$0.4199 hourly
+DC1ds v3,DC1ds v3,8 GiB,1,8 GiB/vCPU,0,75 GiB,$0.113 hourly,,,$0.0209 hourly,$0.159 hourly,,,$0.0294 hourly
+DC1s v2,DC1s v2,4 GiB,1,4 GiB/vCPU,0,50 GiB,$0.096 hourly,,,$0.0177 hourly,$0.142 hourly,,,$0.0262 hourly
+DC1s v3,DC1s v3,8 GiB,1,8 GiB/vCPU,0,0 GiB,$0.096 hourly,,,$0.0177 hourly,$0.142 hourly,,,$0.0262 hourly
+DC24ds v3,DC24ds v3,192 GiB,24,8 GiB/vCPU,0,1800 GiB,$2.712 hourly,,,$0.5012 hourly,$3.816 hourly,,,$0.7052 hourly
+DC24s v3,DC24s v3,192 GiB,24,8 GiB/vCPU,0,0 GiB,$2.304 hourly,,,$0.4258 hourly,$3.408 hourly,,,$0.6298 hourly
+DC2ads v5,DC2ads v5,8 GiB,2,4 GiB/vCPU,0,75 GiB,$0.103 hourly,,,$0.019 hourly,$0.195 hourly,,,$0.036 hourly
+DC2ads v6,DC2ads v6,8 GiB,2,4 GiB/vCPU,0,75 GiB,$0.114 hourly,,,$0.0211 hourly,$0.206 hourly,,,$0.0381 hourly
+DC2as v5,DC2as v5,8 GiB,2,4 GiB/vCPU,0,0 GiB,$0.086 hourly,,,$0.0159 hourly,$0.178 hourly,,,$0.0329 hourly
+DC2as v6,DC2as v6,8 GiB,2,4 GiB/vCPU,0,0 GiB,$0.0908 hourly,,,$0.0168 hourly,$0.183 hourly,,,$0.0338 hourly
+DC2ds v3,DC2ds v3,16 GiB,2,8 GiB/vCPU,0,150 GiB,$0.226 hourly,,,$0.0418 hourly,$0.318 hourly,,,$0.0588 hourly
+DC2eds v6,DC2eds v6,8 GiB,2,4 GiB/vCPU,0,110 GiB,$0.125 hourly,,,$0.0231 hourly,$0.217 hourly,,,$0.0401 hourly
+DC2es v6,DC2es v6,8 GiB,2,4 GiB/vCPU,0,0 GiB,$0.101 hourly,,,$0.0187 hourly,$0.193 hourly,,,$0.0357 hourly
+DC2s v2,DC2s v2,8 GiB,2,4 GiB/vCPU,0,100 GiB,$0.192 hourly,,,$0.0355 hourly,$0.284 hourly,,,$0.0525 hourly
+DC2s v3,DC2s v3,16 GiB,2,8 GiB/vCPU,0,0 GiB,$0.192 hourly,,,$0.0355 hourly,$0.284 hourly,,,$0.0525 hourly
+DC32ads v5,DC32ads v5,128 GiB,32,4 GiB/vCPU,0,1200 GiB,$1.648 hourly,,,$0.3046 hourly,$3.12 hourly,,,$0.5766 hourly
+DC32ads v6,DC32ads v6,128 GiB,32,4 GiB/vCPU,0,1200 GiB,$1.824 hourly,,,$0.3371 hourly,$3.296 hourly,,,$0.6091 hourly
+DC32as v5,DC32as v5,128 GiB,32,4 GiB/vCPU,0,0 GiB,$1.376 hourly,,,$0.2543 hourly,$2.848 hourly,,,$0.5263 hourly
+DC32as v6,DC32as v6,128 GiB,32,4 GiB/vCPU,0,0 GiB,$1.453 hourly,,,$0.2685 hourly,$2.925 hourly,,,$0.5405 hourly
+DC32ds v3,DC32ds v3,256 GiB,32,8 GiB/vCPU,0,2400 GiB,$3.616 hourly,,,$0.6682 hourly,$5.088 hourly,,,$0.9403 hourly
+DC32eds v6,DC32eds v6,128 GiB,32,4 GiB/vCPU,0,1760 GiB,$1.993 hourly,,,$0.3683 hourly,$3.465 hourly,,,$0.6403 hourly
+DC32es v6,DC32es v6,128 GiB,32,4 GiB/vCPU,0,0 GiB,$1.613 hourly,,,$0.2981 hourly,$3.085 hourly,,,$0.5701 hourly
+DC32s v3,DC32s v3,256 GiB,32,8 GiB/vCPU,0,0 GiB,$3.072 hourly,,,$0.5677 hourly,$4.544 hourly,,,$0.8397 hourly
+DC48ads v5,DC48ads v5,192 GiB,48,4 GiB/vCPU,0,1800 GiB,$2.472 hourly,,,$0.4568 hourly,$4.68 hourly,,,$0.8649 hourly
+DC48ads v6,DC48ads v6,192 GiB,48,4 GiB/vCPU,0,1800 GiB,$2.736 hourly,,,$0.5056 hourly,$4.944 hourly,,,$0.9137 hourly
+DC48as v5,DC48as v5,192 GiB,48,4 GiB/vCPU,0,0 GiB,$2.064 hourly,,,$0.3814 hourly,$4.272 hourly,,,$0.7895 hourly
+DC48as v6,DC48as v6,192 GiB,48,4 GiB/vCPU,0,0 GiB,$2.179 hourly,,,$0.4027 hourly,$4.387 hourly,,,$0.8107 hourly
+DC48ds v3,DC48ds v3,384 GiB,48,8 GiB/vCPU,0,2400 GiB,$5.424 hourly,,,$1.0024 hourly,$7.632 hourly,,,$1.4104 hourly
+DC48eds v6,DC48eds v6,192 GiB,48,4 GiB/vCPU,0,2640 GiB,$2.99 hourly,,,$0.5526 hourly,$5.198 hourly,,,$0.9606 hourly
+DC48es v6,DC48es v6,192 GiB,48,4 GiB/vCPU,0,0 GiB,$2.419 hourly,,,$0.447 hourly,$4.627 hourly,,,$0.8551 hourly
+DC48s v3,DC48s v3,384 GiB,48,8 GiB/vCPU,0,0 GiB,$4.608 hourly,,,$0.8516 hourly,$6.816 hourly,,,$1.2596 hourly
+DC4ads v5,DC4ads v5,16 GiB,4,4 GiB/vCPU,0,150 GiB,$0.206 hourly,,,$0.0381 hourly,$0.39 hourly,,,$0.0721 hourly
+DC4ads v6,DC4ads v6,16 GiB,4,4 GiB/vCPU,0,150 GiB,$0.228 hourly,,,$0.0421 hourly,$0.412 hourly,,,$0.0761 hourly
+DC4as v5,DC4as v5,16 GiB,4,4 GiB/vCPU,0,0 GiB,$0.172 hourly,,,$0.0318 hourly,$0.356 hourly,,,$0.0658 hourly
+DC4as v6,DC4as v6,16 GiB,4,4 GiB/vCPU,0,0 GiB,$0.182 hourly,,,$0.0336 hourly,$0.366 hourly,,,$0.0676 hourly
+DC4ds v3,DC4ds v3,32 GiB,4,8 GiB/vCPU,0,300 GiB,$0.452 hourly,,,$0.0835 hourly,$0.636 hourly,,,$0.1175 hourly
+DC4eds v6,DC4eds v6,16 GiB,4,4 GiB/vCPU,0,220 GiB,$0.249 hourly,,,$0.046 hourly,$0.433 hourly,,,$0.08 hourly
+DC4es v6,DC4es v6,16 GiB,4,4 GiB/vCPU,0,0 GiB,$0.202 hourly,,,$0.0373 hourly,$0.386 hourly,,,$0.0713 hourly
+DC4s v2,DC4s v2,16 GiB,4,4 GiB/vCPU,0,200 GiB,$0.384 hourly,,,$0.071 hourly,$0.568 hourly,,,$0.105 hourly
+DC4s v3,DC4s v3,32 GiB,4,8 GiB/vCPU,0,0 GiB,$0.384 hourly,,,$0.071 hourly,$0.568 hourly,,,$0.105 hourly
+DC64ads v5,DC64ads v5,256 GiB,64,4 GiB/vCPU,0,2400 GiB,$3.296 hourly,,,$0.6091 hourly,$6.24 hourly,,,$1.1532 hourly
+DC64ads v6,DC64ads v6,256 GiB,64,4 GiB/vCPU,0,2400 GiB,$3.648 hourly,,,$0.6742 hourly,$6.592 hourly,,,$1.2182 hourly
+DC64as v5,DC64as v5,256 GiB,64,4 GiB/vCPU,0,0 GiB,$2.752 hourly,,,$0.5086 hourly,$5.696 hourly,,,$1.0526 hourly
+DC64as v6,DC64as v6,256 GiB,64,4 GiB/vCPU,0,0 GiB,$2.906 hourly,,,$0.537 hourly,$5.85 hourly,,,$1.0811 hourly
+DC64eds v6,DC64eds v6,256 GiB,64,4 GiB/vCPU,0,3520 GiB,$3.987 hourly,,,$0.7368 hourly,$6.931 hourly,,,$1.2808 hourly
+DC64es v6,DC64es v6,256 GiB,64,4 GiB/vCPU,0,0 GiB,$3.226 hourly,,,$0.5962 hourly,$6.17 hourly,,,$1.1402 hourly
+DC8ads v5,DC8ads v5,32 GiB,8,4 GiB/vCPU,0,300 GiB,$0.412 hourly,,,$0.0761 hourly,$0.78 hourly,,,$0.1441 hourly
+DC8ads v6,DC8ads v6,32 GiB,8,4 GiB/vCPU,0,300 GiB,$0.456 hourly,,,$0.0843 hourly,$0.824 hourly,,,$0.1523 hourly
+DC8as v5,DC8as v5,32 GiB,8,4 GiB/vCPU,0,0 GiB,$0.344 hourly,,,$0.0636 hourly,$0.712 hourly,,,$0.1316 hourly
+DC8as v6,DC8as v6,32 GiB,8,4 GiB/vCPU,0,0 GiB,$0.363 hourly,,,$0.0671 hourly,$0.731 hourly,,,$0.1351 hourly
+DC8ds v3,DC8ds v3,64 GiB,8,8 GiB/vCPU,0,600 GiB,$0.904 hourly,,,$0.1671 hourly,$1.272 hourly,,,$0.2351 hourly
+DC8eds v6,DC8eds v6,32 GiB,8,4 GiB/vCPU,0,440 GiB,$0.498 hourly,,,$0.092 hourly,$0.866 hourly,,,$0.16 hourly
+DC8es v6,DC8es v6,32 GiB,8,4 GiB/vCPU,0,0 GiB,$0.403 hourly,,,$0.0745 hourly,$0.771 hourly,,,$0.1425 hourly
+DC8 v2,DC8 v2,32 GiB,8,4 GiB/vCPU,0,400 GiB,$0.768 hourly,,,$0.1419 hourly,$1.136 hourly,,,$0.2099 hourly
+DC8s v3,DC8s v3,64 GiB,8,8 GiB/vCPU,0,0 GiB,$0.768 hourly,,,$0.1419 hourly,$1.136 hourly,,,$0.2099 hourly
+DC96ads v5,DC96ads v5,384 GiB,96,4 GiB/vCPU,0,3600 GiB,$4.944 hourly,,,$0.9137 hourly,$9.36 hourly,,,$1.7297 hourly
+DC96ads v6,DC96ads v6,384 GiB,96,4 GiB/vCPU,0,3600 GiB,$5.472 hourly,,,$1.0112 hourly,$9.888 hourly,,,$1.8273 hourly
+DC96as v5,DC96as v5,384 GiB,96,4 GiB/vCPU,0,0 GiB,$4.128 hourly,,,$0.7629 hourly,$8.544 hourly,,,$1.5789 hourly
+DC96as v6,DC96as v6,384 GiB,96,4 GiB/vCPU,0,0 GiB,$4.358 hourly,,,$0.8054 hourly,$8.774 hourly,,,$1.6214 hourly
+DC96eds v6,DC96eds v6,384 GiB,96,4 GiB/vCPU,0,5280 GiB,$5.98 hourly,,,$1.1051 hourly,$10.396 hourly,,,$1.9212 hourly
+DC96es v6,DC96es v6,384 GiB,96,4 GiB/vCPU,0,0 GiB,$4.838 hourly,,,$0.8941 hourly,$9.254 hourly,,,$1.7101 hourly
+DS11-1 v2,DS11-1 v2,14 GiB,2,7 GiB/vCPU,0,28 GiB,$0.185 hourly,,,$0.0342 hourly,$0.238 hourly,,,$0.0445 hourly
+DS11 v2,DS11 v2,14 GiB,2,7 GiB/vCPU,0,28 GiB,$0.185 hourly,,,$0.0342 hourly,$0.238 hourly,,,$0.0445 hourly
+DS12-2 v2,DS12-2 v2,28 GiB,4,7 GiB/vCPU,0,56 GiB,$0.371 hourly,,,$0.0686 hourly,$0.528 hourly,,,$0.0986 hourly
+DS12 v2,DS12 v2,28 GiB,4,7 GiB/vCPU,0,56 GiB,$0.371 hourly,,,$0.0686 hourly,$0.476 hourly,,,$0.0889 hourly
+DS13-4 v2,DS13-4 v2,56 GiB,8,7 GiB/vCPU,0,112 GiB,$0.741 hourly,,,$0.1369 hourly,$0.952 hourly,,,$0.1778 hourly
+DS13 v2,DS13 v2,56 GiB,8,7 GiB/vCPU,0,112 GiB,$0.741 hourly,,,$0.1369 hourly,$0.952 hourly,,,$0.1778 hourly
+DS14-8 v2,DS14-8 v2,112 GiB,16,7 GiB/vCPU,0,224 GiB,$1.482 hourly,,,$0.2739 hourly,$1.904 hourly,,,$0.3557 hourly
+DS14 v2,DS14 v2,112 GiB,16,7 GiB/vCPU,0,224 GiB,$1.482 hourly,,,$0.2739 hourly,$1.904 hourly,,,$0.3557 hourly
+DS15i v2,DS15i v2,140 GiB,20,7 GiB/vCPU,0,280 GiB,$1.853 hourly,,,$0.3424 hourly,$2.38 hourly,,,$0.4446 hourly
+DS15 v2,DS15 v2,140 GiB,20,7 GiB/vCPU,0,280 GiB,$1.853 hourly,,,$0.3424 hourly,$2.38 hourly,,,$0.4446 hourly
+DS1 v2,DS1 v2,3.5 GiB,1,3.5 GiB/vCPU,0,7 GiB,$0.073 hourly,,,$0.0135 hourly,$0.119 hourly,,,$0.0222 hourly
+DS2 v2,DS2 v2,7 GiB,2,3.5 GiB/vCPU,0,14 GiB,$0.146 hourly,,,$0.027 hourly,$0.238 hourly,,,$0.0445 hourly
+DS3 v2,DS3 v2,14 GiB,4,3.5 GiB/vCPU,0,28 GiB,$0.293 hourly,,,$0.0541 hourly,$0.476 hourly,,,$0.0889 hourly
+DS4 v2,DS4 v2,28 GiB,8,3.5 GiB/vCPU,0,56 GiB,$0.585 hourly,,,$0.1081 hourly,$0.952 hourly,,,$0.1778 hourly
+DS5 v2,DS5 v2,56 GiB,16,3.5 GiB/vCPU,0,112 GiB,$1.17 hourly,,,$0.2162 hourly,$1.904 hourly,,,$0.3557 hourly
+E104ids v5,E104ids v5,672 GiB,104,6.46 GiB/vCPU,0,3800 GiB,$8.237 hourly,,,$1.8476 hourly,$13.021 hourly,,,$3.0482 hourly
+E104id v5,E104id v5,672 GiB,104,6.46 GiB/vCPU,0,3800 GiB,$8.237 hourly,,,$1.8476 hourly,$13.021 hourly,,,$3.0482 hourly
+E104is v5,E104is v5,672 GiB,104,6.46 GiB/vCPU,0,0 GiB,$7.207 hourly,,,$1.7765 hourly,$11.991 hourly,,,$2.957 hourly
+E104i v5,E104i v5,672 GiB,104,6.46 GiB/vCPU,0,0 GiB,$7.207 hourly,,,$1.7765 hourly,$11.991 hourly,,,$2.957 hourly
+E112ibds v5,E112ibds v5,672 GiB,112,6 GiB/vCPU,0,3800 GiB,$10.287 hourly,,,$2.3074 hourly,$15.439 hourly,,,$3.6143 hourly
+E112ibs v5,E112ibs v5,672 GiB,112,6 GiB/vCPU,0,0 GiB,$9.178 hourly,,,$2.2624 hourly,$14.33 hourly,,,$3.5338 hourly
+E128-64s v6,E128-64s v6,1024 GiB,128,8 GiB/vCPU,0,0 GiB,$9.293 hourly,,,$1.7173 hourly,$16.353 hourly,,,$3.022 hourly
+E128ads v7,E128ads v7,1024 GiB,128,8 GiB/vCPU,0,7040 GiB,$9.293 hourly,,,$1.7173 hourly,$9.293 hourly,,,$1.7173 hourly
+E128as v7,E128as v7,1024 GiB,128,8 GiB/vCPU,0,0 GiB,$7.629 hourly,,,$1.4098 hourly,$13.517 hourly,,,$2.4979 hourly
+E128bds v6,E128bds v6,1024 GiB,128,8 GiB/vCPU,0,7040 GiB,$12.506 hourly,,,$2.5012 hourly,$18.394 hourly,,,$3.6788 hourly
+E128bs v6,E128bs v6,1024 GiB,128,8 GiB/vCPU,0,0 GiB,$11.162 hourly,,,$2.0627 hourly,$17.05 hourly,,,$3.1508 hourly
+E128ds v6,E128ds v6,1024 GiB,128,8 GiB/vCPU,0,7040 GiB,$10.465 hourly,,,$1.9339 hourly,$16.353 hourly,,,$3.022 hourly
+E128ds v7,E128ds v7,1024 GiB,128,8 GiB/vCPU,0,7040 GiB,,,,,,,,
+E128nds v6,E128nds v6,1024 GiB,128,8 GiB/vCPU,0,7040 GiB,$13.71 hourly,,,$2.5336 hourly,$19.598 hourly,,,$3.6217 hourly
+E128ns v6,E128ns v6,1024 GiB,128,8 GiB/vCPU,0,0 GiB,$11.092 hourly,,,$2.0498 hourly,$16.98 hourly,,,$3.1379 hourly
+E128s v6,E128s v6,1024 GiB,128,8 GiB/vCPU,0,0 GiB,$8.467 hourly,,,$1.5647 hourly,$14.355 hourly,,,$2.6528 hourly
+E128s v7,E128s v7,1024 GiB,128,8 GiB/vCPU,0,0 GiB,,,,,,,,
+E16-8s v6,E16-8s v6,128 GiB,16,8 GiB/vCPU,0,0 GiB,$1.152 hourly,,,$0.2584 hourly,$1.888 hourly,,,$0.442 hourly
+E160ads v7,E160ads v7,1280 GiB,160,8 GiB/vCPU,0,8800 GiB,$11.616 hourly,,,$2.1466 hourly,,,,
+E160as v7,E160as v7,1280 GiB,160,8 GiB/vCPU,0,0 GiB,$9.536 hourly,,,$1.7623 hourly,,,,
+E16ads v5,E16ads v5,128 GiB,16,8 GiB/vCPU,0,600 GiB,$1.048 hourly,,,$0.1937 hourly,$1.784 hourly,,,$0.3297 hourly
+E16ads v6,E16ads v6,128 GiB,16,8 GiB/vCPU,0,880 GiB,$1.162 hourly,,,$0.2278 hourly,$1.898 hourly,,,$0.372 hourly
+E16ads v7,E16ads v7,128 GiB,16,8 GiB/vCPU,0,880 GiB,$1.162 hourly,,,$0.2147 hourly,$1.898 hourly,,,$0.3508 hourly
+E16as v4,E16as v4,128 GiB,16,8 GiB/vCPU,0,256 GiB,$1.008 hourly,,,$0.1863 hourly,$1.744 hourly,,,$0.3223 hourly
+E16as v5,E16as v5,128 GiB,16,8 GiB/vCPU,0,0 GiB,$0.904 hourly,,,$0.1671 hourly,$1.64 hourly,,,$0.3031 hourly
+E16as v6,E16as v6,128 GiB,16,8 GiB/vCPU,0,0 GiB,$0.954 hourly,,,$0.187 hourly,$1.69 hourly,,,$0.3312 hourly
+E16as v7,E16as v7,128 GiB,16,8 GiB/vCPU,0,0 GiB,$0.954 hourly,,,$0.1763 hourly,$1.69 hourly,,,$0.3123 hourly
+E16a v4,E16a v4,128 GiB,16,8 GiB/vCPU,0,400 GiB,$1.008 hourly,,,$0.1863 hourly,$1.744 hourly,,,$0.3223 hourly
+E16bds v5,E16bds v5,128 GiB,16,8 GiB/vCPU,0,600 GiB,$1.336 hourly,,,$0.2997 hourly,$2.072 hourly,,,$0.4851 hourly
+E16bds v6,E16bds v6,128 GiB,16,8 GiB/vCPU,0,880 GiB,$1.563 hourly,,,$0.2888 hourly,$2.299 hourly,,,$0.4249 hourly
+E16bs v5,E16bs v5,128 GiB,16,8 GiB/vCPU,0,0 GiB,$1.192 hourly,,,$0.2938 hourly,$1.928 hourly,,,$0.4754 hourly
+E16bs v6,E16bs v6,128 GiB,16,8 GiB/vCPU,0,0 GiB,$1.395 hourly,,,$0.279 hourly,$2.131 hourly,,,$0.4262 hourly
+E16ds v4,E16ds v4,128 GiB,16,8 GiB/vCPU,0,600 GiB,$1.152 hourly,,,$0.2534 hourly,$1.888 hourly,,,$0.4386 hourly
+E16ds v5,E16ds v5,128 GiB,16,8 GiB/vCPU,0,600 GiB,$1.152 hourly,,,$0.2584 hourly,$1.888 hourly,,,$0.442 hourly
+E16ds v6,E16ds v6,128 GiB,16,8 GiB/vCPU,0,880 GiB,$1.308 hourly,,,$0.2417 hourly,$2.044 hourly,,,$0.3777 hourly
+E16ds v7,E16ds v7,128 GiB,16,8 GiB/vCPU,0,880 GiB,,,,,,,,
+E16d v4,E16d v4,128 GiB,16,8 GiB/vCPU,0,600 GiB,$1.152 hourly,,,$0.2534 hourly,$1.888 hourly,,,$0.4386 hourly
+E16d v5,E16d v5,128 GiB,16,8 GiB/vCPU,0,600 GiB,$1.152 hourly,,,$0.2584 hourly,$1.888 hourly,,,$0.442 hourly
+E16nds v6,E16nds v6,128 GiB,16,8 GiB/vCPU,0,880 GiB,$1.714 hourly,,,$0.3167 hourly,$2.45 hourly,,,$0.4528 hourly
+E16ns v6,E16ns v6,128 GiB,16,8 GiB/vCPU,0,0 GiB,$1.386 hourly,,,$0.2561 hourly,$2.122 hourly,,,$0.3921 hourly
+Standard E16pds v5,E16pds v5,128 GiB,16,8 GiB/vCPU,0,600 GiB,$0.922 hourly,,,$0.1704 hourly,,,,
+Standard E16pds v6,E16pds v6,128 GiB,16,8 GiB/vCPU,0,880 GiB,$0.936 hourly,,,$0.2448 hourly,,,,
+Standard E16ps v5,E16ps v5,128 GiB,16,8 GiB/vCPU,0,0 GiB,$0.806 hourly,,,$0.1489 hourly,,,,
+Standard E16ps v6,E16ps v6,128 GiB,16,8 GiB/vCPU,0,0 GiB,$0.738 hourly,,,$0.193 hourly,,,,
+E16s v3,E16s v3,128 GiB,16,8 GiB/vCPU,0,256 GiB,$1.008 hourly,,,$0.1863 hourly,$1.744 hourly,,,$0.3223 hourly
+E16s v4,E16s v4,128 GiB,16,8 GiB/vCPU,0,0 GiB,$1.008 hourly,,,$0.2485 hourly,$1.744 hourly,,,$0.4301 hourly
+E16s v5,E16s v5,128 GiB,16,8 GiB/vCPU,0,0 GiB,$1.008 hourly,,,$0.2485 hourly,$1.744 hourly,,,$0.4301 hourly
+E16s v6,E16s v6,128 GiB,16,8 GiB/vCPU,0,0 GiB,$1.058 hourly,,,$0.1955 hourly,$1.794 hourly,,,$0.3315 hourly
+E16s v7,E16s v7,128 GiB,16,8 GiB/vCPU,0,0 GiB,,,,,,,,
+E16 v3,E16 v3,128 GiB,16,8 GiB/vCPU,0,400 GiB,$1.008 hourly,,,$0.1863 hourly,$1.744 hourly,,,$0.3223 hourly
+E16 v4,E16 v4,128 GiB,16,8 GiB/vCPU,0,0 GiB,$1.008 hourly,,,$0.2485 hourly,$1.744 hourly,,,$0.4301 hourly
+E16 v5,E16 v5,128 GiB,16,8 GiB/vCPU,0,0 GiB,$1.008 hourly,,,$0.2485 hourly,$1.744 hourly,,,$0.4301 hourly
+E192ds v7,E192ds v7,1536 GiB,192,8 GiB/vCPU,0,10560 GiB,,,,,,,,
+E192ibds v6,E192ibds v6,1832 GiB,192,9.54 GiB/vCPU,0,10560 GiB,$18.758 hourly,,,$3.7516 hourly,$27.59 hourly,,,$5.518 hourly
+E192ibs v6,E192ibs v6,1832 GiB,192,9.54 GiB/vCPU,0,0 GiB,$16.742 hourly,,,$3.3484 hourly,$25.574 hourly,,,$5.1148 hourly
+E192ids v6,E192ids v6,1832 GiB,192,9.54 GiB/vCPU,0,10560 GiB,$17.268 hourly,,,$3.1911 hourly,$26.10 hourly,,,$4.8233 hourly
+E192s v7,E192s v7,1536 GiB,192,8 GiB/vCPU,0,0 GiB,,,,,,,,
+E20ads v5,E20ads v5,160 GiB,20,8 GiB/vCPU,0,750 GiB,$1.31 hourly,,,$0.2421 hourly,$2.23 hourly,,,$0.4121 hourly
+E20ads v6,E20ads v6,160 GiB,20,8 GiB/vCPU,0,1100 GiB,$1.452 hourly,,,$0.2846 hourly,$2.372 hourly,,,$0.4649 hourly
+E20as v4,E20as v4,160 GiB,20,8 GiB/vCPU,0,320 GiB,$1.26 hourly,,,$0.2328 hourly,$2.18 hourly,,,$0.4029 hourly
+E20as v5,E20as v5,160 GiB,20,8 GiB/vCPU,0,0 GiB,$1.13 hourly,,,$0.2088 hourly,$2.05 hourly,,,$0.3788 hourly
+E20as v6,E20as v6,160 GiB,20,8 GiB/vCPU,0,0 GiB,$1.192 hourly,,,$0.2336 hourly,$2.112 hourly,,,$0.414 hourly
+E20a v4,E20a v4,160 GiB,20,8 GiB/vCPU,0,500 GiB,$1.26 hourly,,,$0.2328 hourly,$2.18 hourly,,,$0.4029 hourly
+E20ds v4,E20ds v4,160 GiB,20,8 GiB/vCPU,0,750 GiB,$1.44 hourly,,,$0.3168 hourly,$2.36 hourly,,,$0.5482 hourly
+E20ds v5,E20ds v5,160 GiB,20,8 GiB/vCPU,0,750 GiB,$1.44 hourly,,,$0.323 hourly,$2.36 hourly,,,$0.5525 hourly
+E20ds v6,E20ds v6,160 GiB,20,8 GiB/vCPU,0,1100 GiB,$1.635 hourly,,,$0.3021 hourly,$2.555 hourly,,,$0.4722 hourly
+ E20ds v7, E20ds v7,160 GiB,20,8 GiB/vCPU,0,1100 GiB,,,,,,,,
+E20d v4,E20d v4,160 GiB,20,8 GiB/vCPU,0,750 GiB,$1.44 hourly,,,$0.3168 hourly,$2.36 hourly,,,$0.5482 hourly
+E20d v5,E20d v5,160 GiB,20,8 GiB/vCPU,0,750 GiB,$1.44 hourly,,,$0.323 hourly,$2.36 hourly,,,$0.5525 hourly
+Standard E20pds v5,E20pds v5,160 GiB,20,8 GiB/vCPU,0,750 GiB,$1.152 hourly,,,$0.2129 hourly,,,,
+Standard E20ps v5,E20ps v5,160 GiB,20,8 GiB/vCPU,0,0 GiB,$1.008 hourly,,,$0.1863 hourly,,,,
+E20s v3,E20s v3,160 GiB,20,8 GiB/vCPU,0,320 GiB,$1.26 hourly,,,$0.2328 hourly,$2.18 hourly,,,$0.4029 hourly
+E20s v4,E20s v4,160 GiB,20,8 GiB/vCPU,0,0 GiB,$1.26 hourly,,,$0.3106 hourly,$2.18 hourly,,,$0.5376 hourly
+E20s v5,E20s v5,160 GiB,20,8 GiB/vCPU,0,0 GiB,$1.26 hourly,,,$0.3106 hourly,$2.18 hourly,,,$0.5376 hourly
+E20s v6,E20s v6,160 GiB,20,8 GiB/vCPU,0,0 GiB,$1.323 hourly,,,$0.2445 hourly,$2.243 hourly,,,$0.4145 hourly
+E20s v7,E20s v7,160 GiB,20,8 GiB/vCPU,0,0 GiB,,,,,,,,
+E20 v3,E20 v3,160 GiB,20,8 GiB/vCPU,0,600 GiB,$1.26 hourly,,,$0.2328 hourly,$2.18 hourly,,,$0.4029 hourly
+E20 v4,E20 v4,160 GiB,20,8 GiB/vCPU,0,0 GiB,$1.26 hourly,,,$0.3106 hourly,$2.18 hourly,,,$0.5376 hourly
+E20 v5,E20 v5,160 GiB,20,8 GiB/vCPU,0,0 GiB,$1.26 hourly,,,$0.3106 hourly,$2.18 hourly,,,$0.5376 hourly
+E248ds v7,E248ds v7,1984 GiB,248,8 GiB/vCPU,0,13640 GiB,,,,,,,,
+E248s v7,E248s v7,1984 GiB,248,8 GiB/vCPU,0,0 GiB,,,,,,,,
+E2ads v5,E2ads v5,16 GiB,2,8 GiB/vCPU,0,75 GiB,$0.131 hourly,,,$0.0242 hourly,$0.223 hourly,,,$0.0412 hourly
+E2ads v6,E2ads v6,16 GiB,2,8 GiB/vCPU,0,110 GiB,$0.145 hourly,,,$0.0284 hourly,$0.237 hourly,,,$0.0465 hourly
+E2ads v7,E2ads v7,16 GiB,2,8 GiB/vCPU,0,110 GiB,$0.145 hourly,,,$0.0268 hourly,$0.145 hourly,,,$0.0268 hourly
+E2as v4,E2as v4,16 GiB,2,8 GiB/vCPU,0,32 GiB,$0.126 hourly,,,$0.0233 hourly,$0.218 hourly,,,$0.0403 hourly
+E2as v5,E2as v5,16 GiB,2,8 GiB/vCPU,0,0 GiB,$0.113 hourly,,,$0.0209 hourly,$0.205 hourly,,,$0.0379 hourly
+E2as v6,E2as v6,16 GiB,2,8 GiB/vCPU,0,0 GiB,$0.119 hourly,,,$0.0233 hourly,$0.211 hourly,,,$0.0414 hourly
+E2as v7,E2as v7,16 GiB,2,8 GiB/vCPU,0,0 GiB,$0.119 hourly,,,$0.022 hourly,$0.211 hourly,,,$0.039 hourly
+E2a v4,E2a v4,16 GiB,2,8 GiB/vCPU,0,50 GiB,$0.126 hourly,,,$0.0233 hourly,$0.218 hourly,,,$0.0403 hourly
+E2bds v5,E2bds v5,16 GiB,2,8 GiB/vCPU,0,75 GiB,$0.167 hourly,,,$0.0375 hourly,$0.259 hourly,,,$0.0606 hourly
+E2bds v6,E2bds v6,16 GiB,2,8 GiB/vCPU,0,110 GiB,$0.195 hourly,,,$0.039 hourly,$0.287 hourly,,,$0.0574 hourly
+E2bs v5,E2bs v5,16 GiB,2,8 GiB/vCPU,0,0 GiB,$0.149 hourly,,,$0.0367 hourly,$0.241 hourly,,,$0.0594 hourly
+E2bs v6,E2bs v6,16 GiB,2,8 GiB/vCPU,0,0 GiB,$0.174 hourly,,,$0.0322 hourly,$0.266 hourly,,,$0.0492 hourly
+E2ds v4,E2ds v4,16 GiB,2,8 GiB/vCPU,0,75 GiB,$0.144 hourly,,,$0.0317 hourly,$0.236 hourly,,,$0.0548 hourly
+E2ds v5,E2ds v5,16 GiB,2,8 GiB/vCPU,0,75 GiB,$0.144 hourly,,,$0.0323 hourly,$0.236 hourly,,,$0.0552 hourly
+E2ds v6,E2ds v6,16 GiB,2,8 GiB/vCPU,0,110 GiB,$0.164 hourly,,,$0.0303 hourly,$0.256 hourly,,,$0.0473 hourly
+E2ds v7,E2ds v7,16 GiB,2,8 GiB/vCPU,0,110 GiB,,,,,,,,
+E2d v4,E2d v4,16 GiB,2,8 GiB/vCPU,0,75 GiB,$0.144 hourly,,,$0.0317 hourly,$0.236 hourly,,,$0.0548 hourly
+E2d v5,E2d v5,16 GiB,2,8 GiB/vCPU,0,75 GiB,$0.144 hourly,,,$0.0323 hourly,$0.236 hourly,,,$0.0552 hourly
+E2nds v6,E2nds v6,16 GiB,2,8 GiB/vCPU,0,110 GiB,$0.214 hourly,,,$0.0395 hourly,$0.306 hourly,,,$0.0565 hourly
+E2ns v6,E2ns v6,16 GiB,2,8 GiB/vCPU,0,0 GiB,$0.173 hourly,,,$0.032 hourly,$0.265 hourly,,,$0.049 hourly
+Standard E2pds v5,E2pds v5,16 GiB,2,8 GiB/vCPU,0,75 GiB,$0.115 hourly,,,$0.0213 hourly,,,,
+Standard E2pds v6,E2pds v6,16 GiB,2,8 GiB/vCPU,0,110 GiB,$0.117 hourly,,,$0.0306 hourly,,,,
+Standard E2ps v5,E2ps v5,16 GiB,2,8 GiB/vCPU,0,0 GiB,$0.101 hourly,,,$0.0187 hourly,,,,
+Standard E2ps v6,E2ps v6,16 GiB,2,8 GiB/vCPU,0,0 GiB,$0.0922 hourly,,,$0.0241 hourly,,,,
+E2s v3,E2s v3,16 GiB,2,8 GiB/vCPU,0,32 GiB,$0.126 hourly,,,$0.0233 hourly,$0.218 hourly,,,$0.0403 hourly
+E2s v4,E2s v4,16 GiB,2,8 GiB/vCPU,0,0 GiB,$0.126 hourly,,,$0.0311 hourly,$0.218 hourly,,,$0.0538 hourly
+E2s v5,E2s v5,16 GiB,2,8 GiB/vCPU,0,0 GiB,$0.126 hourly,,,$0.0311 hourly,$0.218 hourly,,,$0.0538 hourly
+E2s v6,E2s v6,16 GiB,2,8 GiB/vCPU,0,0 GiB,$0.132 hourly,,,$0.0244 hourly,$0.224 hourly,,,$0.0414 hourly
+E2s v7,E2s v7,16 GiB,2,8 GiB/vCPU,0,0 GiB,,,,,,,,
+E2 v3,E2 v3,16 GiB,2,8 GiB/vCPU,0,50 GiB,$0.126 hourly,,,$0.0233 hourly,$0.218 hourly,,,$0.0403 hourly
+E2 v4,E2 v4,16 GiB,2,8 GiB/vCPU,0,0 GiB,$0.126 hourly,,,$0.0311 hourly,$0.218 hourly,,,$0.0538 hourly
+E2 v5,E2 v5,16 GiB,2,8 GiB/vCPU,0,0 GiB,$0.126 hourly,,,$0.0311 hourly,$0.218 hourly,,,$0.0538 hourly
+E32-8s v6,E32-8s v6,256 GiB,32,8 GiB/vCPU,0,0 GiB,$2.016 hourly,,,$0.4969 hourly,$3.589 hourly,,,$0.6632 hourly
+E32ads v5,E32ads v5,256 GiB,32,8 GiB/vCPU,0,1200 GiB,$2.096 hourly,,,$0.3873 hourly,$3.568 hourly,,,$0.6594 hourly
+E32ads v6,E32ads v6,256 GiB,32,8 GiB/vCPU,0,1760 GiB,$2.323 hourly,,,$0.4553 hourly,$3.795 hourly,,,$0.7438 hourly
+E32ads v7,E32ads v7,256 GiB,32,8 GiB/vCPU,0,1760 GiB,$2.323 hourly,,,$0.4293 hourly,$2.323 hourly,,,$0.4293 hourly
+E32as v4,E32as v4,256 GiB,32,8 GiB/vCPU,0,512 GiB,$2.016 hourly,,,$0.3726 hourly,$3.488 hourly,,,$0.6446 hourly
+E32as v5,E32as v5,256 GiB,32,8 GiB/vCPU,0,0 GiB,$1.808 hourly,,,$0.3341 hourly,$3.28 hourly,,,$0.6061 hourly
+E32as v6,E32as v6,256 GiB,32,8 GiB/vCPU,0,0 GiB,$1.907 hourly,,,$0.3738 hourly,$3.379 hourly,,,$0.6623 hourly
+E32as v7,E32as v7,256 GiB,32,8 GiB/vCPU,0,0 GiB,$1.907 hourly,,,$0.3524 hourly,$3.379 hourly,,,$0.6244 hourly
+E32a v4,E32a v4,256 GiB,32,8 GiB/vCPU,0,800 GiB,$2.016 hourly,,,$0.3726 hourly,$3.488 hourly,,,$0.6446 hourly
+E32bds v5,E32bds v5,256 GiB,32,8 GiB/vCPU,0,1200 GiB,$2.672 hourly,,,$0.5993 hourly,$4.144 hourly,,,$0.9701 hourly
+E32bds v6,E32bds v6,256 GiB,32,8 GiB/vCPU,0,1760 GiB,$3.126 hourly,,,$0.5777 hourly,$4.598 hourly,,,$0.8497 hourly
+E32bs v5,E32bs v5,256 GiB,32,8 GiB/vCPU,0,0 GiB,$2.384 hourly,,,$0.5877 hourly,$3.856 hourly,,,$0.9509 hourly
+E32bs v6,E32bs v6,256 GiB,32,8 GiB/vCPU,0,0 GiB,$2.79 hourly,,,$0.5156 hourly,$4.262 hourly,,,$0.7876 hourly
+E32ds v4,E32ds v4,256 GiB,32,8 GiB/vCPU,0,1200 GiB,$2.304 hourly,,,$0.5069 hourly,$3.776 hourly,,,$0.8772 hourly
+E32ds v5,E32ds v5,256 GiB,32,8 GiB/vCPU,0,1200 GiB,$2.304 hourly,,,$0.5168 hourly,$3.776 hourly,,,$0.884 hourly
+E32ds v6,E32ds v6,256 GiB,32,8 GiB/vCPU,0,1760 GiB,$2.616 hourly,,,$0.4834 hourly,$4.088 hourly,,,$0.7555 hourly
+E32ds v7,E32ds v7,256 GiB,32,8 GiB/vCPU,0,1760 GiB,,,,,,,,
+E32d v4,E32d v4,256 GiB,32,8 GiB/vCPU,0,1200 GiB,$2.304 hourly,,,$0.5069 hourly,$3.776 hourly,,,$0.8772 hourly
+E32d v5,E32d v5,256 GiB,32,8 GiB/vCPU,0,1200 GiB,$2.304 hourly,,,$0.5168 hourly,$3.776 hourly,,,$0.884 hourly
+E32nds v6,E32nds v6,256 GiB,32,8 GiB/vCPU,0,1760 GiB,$3.427 hourly,,,$0.6333 hourly,$4.899 hourly,,,$0.9053 hourly
+E32ns v6,E32ns v6,256 GiB,32,8 GiB/vCPU,0,0 GiB,$2.773 hourly,,,$0.5125 hourly,$4.245 hourly,,,$0.7845 hourly
+Standard E32pds v5,E32pds v5,208 GiB,32,6.5 GiB/vCPU,0,1200 GiB,$1.843 hourly,,,$0.3406 hourly,,,,
+Standard E32pds v6,E32pds v6,256 GiB,32,8 GiB/vCPU,0,1760 GiB,$1.872 hourly,,,$0.4895 hourly,,,,
+Standard E32ps v5,E32ps v5,208 GiB,32,6.5 GiB/vCPU,0,0 GiB,$1.613 hourly,,,$0.2981 hourly,,,,
+Standard E32ps v6,E32ps v6,256 GiB,32,8 GiB/vCPU,0,0 GiB,$1.475 hourly,,,$0.3857 hourly,,,,
+E32s v3,E32s v3,256 GiB,32,8 GiB/vCPU,0,512 GiB,$2.016 hourly,,,$0.3726 hourly,$3.488 hourly,,,$0.6446 hourly
+E32s v4,E32s v4,256 GiB,32,8 GiB/vCPU,0,0 GiB,$2.016 hourly,,,$0.4969 hourly,$3.488 hourly,,,$0.8601 hourly
+E32s v5,E32s v5,256 GiB,32,8 GiB/vCPU,0,0 GiB,$2.016 hourly,,,$0.4969 hourly,$3.488 hourly,,,$0.8601 hourly
+E32s v6,E32s v6,256 GiB,32,8 GiB/vCPU,0,0 GiB,$2.117 hourly,,,$0.3912 hourly,$3.589 hourly,,,$0.6632 hourly
+E32s v7,E32s v7,256 GiB,32,8 GiB/vCPU,0,0 GiB,,,,,,,,
+E32 v3,E32 v3,256 GiB,32,8 GiB/vCPU,0,800 GiB,$2.016 hourly,,,$0.3726 hourly,$3.488 hourly,,,$0.6446 hourly
+E32 v4,E32 v4,256 GiB,32,8 GiB/vCPU,0,0 GiB,$2.016 hourly,,,$0.4969 hourly,$3.488 hourly,,,$0.8601 hourly
+E32 v5,E32 v5,256 GiB,32,8 GiB/vCPU,0,0 GiB,$2.016 hourly,,,$0.4969 hourly,$3.488 hourly,,,$0.8601 hourly
+E372ids v7,E372ids v7,2826 GiB,372,7.6 GiB/vCPU,0,20460 GiB,,,,,,,,
+E372is v7,E372is v7,2826 GiB,372,7.6 GiB/vCPU,0,0 GiB,,,,,,,,
+E4-2s v6,E4-2s v6,32 GiB,4,8 GiB/vCPU,0,0 GiB,$0.262 hourly,,,$0.0484 hourly,$0.449 hourly,,,$0.083 hourly
+E48ads v5,E48ads v5,384 GiB,48,8 GiB/vCPU,0,1800 GiB,$3.144 hourly,,,$0.581 hourly,$5.352 hourly,,,$0.9891 hourly
+E48ads v6,E48ads v6,384 GiB,48,8 GiB/vCPU,0,2640 GiB,$3.485 hourly,,,$0.6831 hourly,$5.693 hourly,,,$1.1158 hourly
+E48ads v7,E48ads v7,384 GiB,48,8 GiB/vCPU,0,2640 GiB,$3.485 hourly,,,$0.644 hourly,$3.485 hourly,,,$0.644 hourly
+E48as v4,E48as v4,384 GiB,48,8 GiB/vCPU,0,768 GiB,$3.024 hourly,,,$0.5588 hourly,$5.232 hourly,,,$0.9669 hourly
+E48as v5,E48as v5,384 GiB,48,8 GiB/vCPU,0,0 GiB,$2.712 hourly,,,$0.5012 hourly,$4.92 hourly,,,$0.9092 hourly
+E48as v6,E48as v6,384 GiB,48,8 GiB/vCPU,0,0 GiB,$2.861 hourly,,,$0.5608 hourly,$5.069 hourly,,,$0.9935 hourly
+E48as v7,E48as v7,384 GiB,48,8 GiB/vCPU,0,0 GiB,$2.861 hourly,,,$0.5287 hourly,$5.069 hourly,,,$0.9368 hourly
+E48a v4,E48a v4,384 GiB,48,8 GiB/vCPU,0,1200 GiB,$3.024 hourly,,,$0.5588 hourly,$5.232 hourly,,,$0.9669 hourly
+E48bds v5,E48bds v5,384 GiB,48,8 GiB/vCPU,0,1800 GiB,$4.008 hourly,,,$0.899 hourly,$6.216 hourly,,,$1.4552 hourly
+E48bds v6,E48bds v6,384 GiB,48,8 GiB/vCPU,0,2640 GiB,$4.69 hourly,,,$0.938 hourly,$6.898 hourly,,,$1.3796 hourly
+E48bs v5,E48bs v5,384 GiB,48,8 GiB/vCPU,0,0 GiB,$3.576 hourly,,,$0.8815 hourly,$5.784 hourly,,,$1.4263 hourly
+E48bs v6,E48bs v6,384 GiB,48,8 GiB/vCPU,0,0 GiB,$4.186 hourly,,,$0.8372 hourly,$6.394 hourly,,,$1.2788 hourly
+E48ds v4,E48ds v4,384 GiB,48,8 GiB/vCPU,0,1800 GiB,$3.456 hourly,,,$0.7603 hourly,$5.664 hourly,,,$1.3157 hourly
+E48ds v5,E48ds v5,384 GiB,48,8 GiB/vCPU,0,1800 GiB,$3.456 hourly,,,$0.7752 hourly,$5.664 hourly,,,$1.3259 hourly
+E48ds v6,E48ds v6,384 GiB,48,8 GiB/vCPU,0,2640 GiB,$3.924 hourly,,,$0.7252 hourly,$6.132 hourly,,,$1.1332 hourly
+E48ds v7,E48ds v7,384 GiB,48,8 GiB/vCPU,0,2640 GiB,,,,,,,,
+E48d v4,E48d v4,384 GiB,48,8 GiB/vCPU,0,1800 GiB,$3.456 hourly,,,$0.7603 hourly,$5.664 hourly,,,$1.3157 hourly
+E48d v5,E48d v5,384 GiB,48,8 GiB/vCPU,0,1800 GiB,$3.456 hourly,,,$0.7752 hourly,$5.664 hourly,,,$1.3259 hourly
+E48nds v6,E48nds v6,384 GiB,48,8 GiB/vCPU,0,2640 GiB,$5.141 hourly,,,$0.9501 hourly,$7.349 hourly,,,$1.3581 hourly
+E48ns v6,E48ns v6,384 GiB,48,8 GiB/vCPU,0,0 GiB,$4.159 hourly,,,$0.7686 hourly,$6.367 hourly,,,$1.1766 hourly
+Standard E48pds v6,E48pds v6,384 GiB,48,8 GiB/vCPU,0,2640 GiB,$2.808 hourly,,,$0.7343 hourly,,,,
+Standard E48ps v6,E48ps v6,384 GiB,48,8 GiB/vCPU,0,0 GiB,$2.213 hourly,,,$0.5787 hourly,,,,
+E48s v3,E48s v3,384 GiB,48,8 GiB/vCPU,0,768 GiB,$3.024 hourly,,,$0.5588 hourly,$5.232 hourly,,,$0.9669 hourly
+E48s v4,E48s v4,384 GiB,48,8 GiB/vCPU,0,0 GiB,$3.024 hourly,,,$0.7454 hourly,$5.232 hourly,,,$1.2902 hourly
+E48s v5,E48s v5,384 GiB,48,8 GiB/vCPU,0,0 GiB,$3.024 hourly,,,$0.7454 hourly,$5.232 hourly,,,$1.2902 hourly
+E48s v6,E48s v6,384 GiB,48,8 GiB/vCPU,0,0 GiB,$3.175 hourly,,,$0.5867 hourly,$5.383 hourly,,,$0.9948 hourly
+E48s v7,E48s v7,384 GiB,48,8 GiB/vCPU,0,0 GiB,,,,,,,,
+E48 v3,E48 v3,384 GiB,48,8 GiB/vCPU,0,1200 GiB,$3.024 hourly,,,$0.5588 hourly,$5.232 hourly,,,$0.9669 hourly
+E48 v4,E48 v4,384 GiB,48,8 GiB/vCPU,0,0 GiB,$3.024 hourly,,,$0.7454 hourly,$5.232 hourly,,,$1.2902 hourly
+E48 v5,E48 v5,384 GiB,48,8 GiB/vCPU,0,0 GiB,$3.024 hourly,,,$0.7454 hourly,$5.232 hourly,,,$1.2902 hourly
+E4ads v5,E4ads v5,32 GiB,4,8 GiB/vCPU,0,150 GiB,$0.262 hourly,,,$0.0484 hourly,$0.446 hourly,,,$0.0824 hourly
+E4ads v6,E4ads v6,32 GiB,4,8 GiB/vCPU,0,220 GiB,$0.29 hourly,,,$0.0568 hourly,$0.474 hourly,,,$0.0929 hourly
+E4ads v7,E4ads v7,32 GiB,4,8 GiB/vCPU,0,220 GiB,$0.29 hourly,,,$0.0536 hourly,$0.29 hourly,,,$0.0536 hourly
+E4as v4,E4as v4,32 GiB,4,8 GiB/vCPU,0,64 GiB,$0.252 hourly,,,$0.0466 hourly,$0.436 hourly,,,$0.0806 hourly
+E4as v5,E4as v5,32 GiB,4,8 GiB/vCPU,0,0 GiB,$0.226 hourly,,,$0.0418 hourly,$0.41 hourly,,,$0.0758 hourly
+E4as v6,E4as v6,32 GiB,4,8 GiB/vCPU,0,0 GiB,$0.238 hourly,,,$0.0466 hourly,$0.422 hourly,,,$0.0827 hourly
+E4as v7,E4as v7,32 GiB,4,8 GiB/vCPU,0,0 GiB,$0.238 hourly,,,$0.044 hourly,$0.422 hourly,,,$0.078 hourly
+E4a v4,E4a v4,32 GiB,4,8 GiB/vCPU,0,100 GiB,$0.252 hourly,,,$0.0466 hourly,$0.436 hourly,,,$0.0806 hourly
+E4bds v5,E4bds v5,32 GiB,4,8 GiB/vCPU,0,150 GiB,$0.334 hourly,,,$0.0749 hourly,$0.518 hourly,,,$0.1213 hourly
+E4bds v6,E4bds v6,32 GiB,4,8 GiB/vCPU,0,220 GiB,$0.391 hourly,,,$0.0782 hourly,$0.575 hourly,,,$0.115 hourly
+E4bs v5,E4bs v5,32 GiB,4,8 GiB/vCPU,0,0 GiB,$0.298 hourly,,,$0.0735 hourly,$0.482 hourly,,,$0.1189 hourly
+E4bs v6,E4bs v6,32 GiB,4,8 GiB/vCPU,0,0 GiB,$0.349 hourly,,,$0.0645 hourly,$0.533 hourly,,,$0.0985 hourly
+E4ds v4,E4ds v4,32 GiB,4,8 GiB/vCPU,0,150 GiB,$0.288 hourly,,,$0.0634 hourly,$0.472 hourly,,,$0.1096 hourly
+E4ds v5,E4ds v5,32 GiB,4,8 GiB/vCPU,0,150 GiB,$0.288 hourly,,,$0.0646 hourly,$0.472 hourly,,,$0.1105 hourly
+E4ds v6,E4ds v6,32 GiB,4,8 GiB/vCPU,0,220 GiB,$0.327 hourly,,,$0.0604 hourly,$0.511 hourly,,,$0.0944 hourly
+E4ds v7,E4ds v7,32 GiB,4,8 GiB/vCPU,0,220 GiB,,,,,,,,
+E4d v4,E4d v4,32 GiB,4,8 GiB/vCPU,0,150 GiB,$0.288 hourly,,,$0.0634 hourly,$0.472 hourly,,,$0.1096 hourly
+E4d v5,E4d v5,32 GiB,4,8 GiB/vCPU,0,150 GiB,$0.288 hourly,,,$0.0646 hourly,$0.472 hourly,,,$0.1105 hourly
+E4nds v6,E4nds v6,32 GiB,4,8 GiB/vCPU,0,220 GiB,$0.428 hourly,,,$0.0791 hourly,$0.612 hourly,,,$0.1131 hourly
+E4ns v6,E4ns v6,32 GiB,4,8 GiB/vCPU,0,0 GiB,$0.347 hourly,,,$0.0641 hourly,$0.531 hourly,,,$0.0981 hourly
+Standard E4pds v5,E4pds v5,32 GiB,4,8 GiB/vCPU,0,150 GiB,$0.23 hourly,,,$0.0425 hourly,,,,
+Standard E4pds v6,E4pds v6,32 GiB,4,8 GiB/vCPU,0,220 GiB,$0.234 hourly,,,$0.0612 hourly,,,,
+Standard E4ps v5,E4ps v5,32 GiB,4,8 GiB/vCPU,0,0 GiB,$0.202 hourly,,,$0.0373 hourly,,,,
+Standard E4ps v6,E4ps v6,32 GiB,4,8 GiB/vCPU,0,0 GiB,$0.184 hourly,,,$0.0481 hourly,,,,
+E4s v3,E4s v3,32 GiB,4,8 GiB/vCPU,0,64 GiB,$0.252 hourly,,,$0.0466 hourly,$0.436 hourly,,,$0.0806 hourly
+E4s v4,E4s v4,32 GiB,4,8 GiB/vCPU,0,0 GiB,$0.252 hourly,,,$0.0621 hourly,$0.436 hourly,,,$0.1075 hourly
+E4s v5,E4s v5,32 GiB,4,8 GiB/vCPU,0,0 GiB,$0.252 hourly,,,$0.0621 hourly,$0.436 hourly,,,$0.1075 hourly
+E4s v6,E4s v6,32 GiB,4,8 GiB/vCPU,0,0 GiB,$0.265 hourly,,,$0.049 hourly,$0.449 hourly,,,$0.083 hourly
+E4s v7,E4s v7,32 GiB,4,8 GiB/vCPU,0,0 GiB,,,,,,,,
+E4 v3,E4 v3,32 GiB,4,8 GiB/vCPU,0,100 GiB,$0.252 hourly,,,$0.0466 hourly,$0.436 hourly,,,$0.0806 hourly
+E4 v4,E4 v4,32 GiB,4,8 GiB/vCPU,0,0 GiB,$0.252 hourly,,,$0.0621 hourly,$0.436 hourly,,,$0.1075 hourly
+E4 v5,E4 v5,32 GiB,4,8 GiB/vCPU,0,0 GiB,$0.252 hourly,,,$0.0621 hourly,$0.436 hourly,,,$0.1075 hourly
+E64-32s v6,E64-32s v6,512 GiB,32,16 GiB/vCPU,0,0 GiB,$4.646 hourly,,,$0.8586 hourly,$7.59 hourly,,,$1.4026 hourly
+E64ads v5,E64ads v5,512 GiB,64,8 GiB/vCPU,0,2400 GiB,$4.192 hourly,,,$0.7747 hourly,$7.136 hourly,,,$1.3187 hourly
+E64ads v6,E64ads v6,512 GiB,64,8 GiB/vCPU,0,3520 GiB,$4.646 hourly,,,$0.9106 hourly,$7.59 hourly,,,$1.4876 hourly
+E64ads v7,E64ads v7,512 GiB,64,8 GiB/vCPU,0,3520 GiB,$4.646 hourly,,,$0.8586 hourly,$4.646 hourly,,,$0.8586 hourly
+E64as v4,E64as v4,512 GiB,64,8 GiB/vCPU,0,1024 GiB,$4.032 hourly,,,$0.7451 hourly,$6.976 hourly,,,$1.2892 hourly
+E64as v5,E64as v5,512 GiB,64,8 GiB/vCPU,0,0 GiB,$3.616 hourly,,,$0.6682 hourly,$6.56 hourly,,,$1.2123 hourly
+E64as v6,E64as v6,512 GiB,64,8 GiB/vCPU,0,0 GiB,$3.814 hourly,,,$0.7475 hourly,$6.758 hourly,,,$1.3246 hourly
+E64as v7,E64as v7,512 GiB,64,8 GiB/vCPU,0,0 GiB,$3.814 hourly,,,$0.7048 hourly,$6.758 hourly,,,$1.2489 hourly
+E64a v4,E64a v4,512 GiB,64,8 GiB/vCPU,0,1600 GiB,$4.032 hourly,,,$0.7451 hourly,$6.976 hourly,,,$1.2892 hourly
+E64bds v5,E64bds v5,512 GiB,64,8 GiB/vCPU,0,2400 GiB,$5.344 hourly,,,$1.1987 hourly,$8.288 hourly,,,$1.9402 hourly
+E64bds v6,E64bds v6,512 GiB,64,8 GiB/vCPU,0,3520 GiB,$6.253 hourly,,,$1.1556 hourly,$9.197 hourly,,,$1.6996 hourly
+E64bs v5,E64bs v5,512 GiB,64,8 GiB/vCPU,0,0 GiB,$4.768 hourly,,,$1.1753 hourly,$7.712 hourly,,,$1.9018 hourly
+E64bs v6,E64bs v6,512 GiB,64,8 GiB/vCPU,0,0 GiB,$5.581 hourly,,,$1.1162 hourly,$8.525 hourly,,,$1.705 hourly
+E64ds v4,E64ds v4,504 GiB,64,7.88 GiB/vCPU,0,2400 GiB,$4.608 hourly,,,$1.0138 hourly,$7.552 hourly,,,$1.7543 hourly
+E64ds v5,E64ds v5,512 GiB,64,8 GiB/vCPU,0,2400 GiB,$4.608 hourly,,,$1.0336 hourly,$7.552 hourly,,,$1.7679 hourly
+E64ds v6,E64ds v6,512 GiB,64,8 GiB/vCPU,0,3520 GiB,$5.233 hourly,,,$0.9671 hourly,$8.177 hourly,,,$1.5111 hourly
+E64ds v7,E64ds v7,512 GiB,64,8 GiB/vCPU,0,3520 GiB,,,,,,,,
+E64d v4,E64d v4,504 GiB,64,7.88 GiB/vCPU,0,2400 GiB,$4.608 hourly,,,$1.0138 hourly,$7.552 hourly,,,$1.7543 hourly
+E64d v5,E64d v5,512 GiB,64,8 GiB/vCPU,0,2400 GiB,$4.608 hourly,,,$1.0336 hourly,$7.552 hourly,,,$1.7679 hourly
+E64is v3,E64is v3,432 GiB,64,6.75 GiB/vCPU,0,864 GiB,$3.629 hourly,,,$0.6706 hourly,$6.573 hourly,,,$1.2147 hourly
+E64i v3,E64i v3,432 GiB,64,6.75 GiB/vCPU,0,1600 GiB,$3.629 hourly,,,$0.6706 hourly,$6.573 hourly,,,$1.2147 hourly
+E64nds v6,E64nds v6,512 GiB,64,8 GiB/vCPU,0,3520 GiB,$6.855 hourly,,,$1.2668 hourly,$9.799 hourly,,,$1.8109 hourly
+E64ns v6,E64ns v6,512 GiB,64,8 GiB/vCPU,0,0 GiB,$5.546 hourly,,,$1.0249 hourly,$8.49 hourly,,,$1.569 hourly
+Standard E64pds v6,E64pds v6,512 GiB,64,8 GiB/vCPU,0,3520 GiB,$3.744 hourly,,,$0.9791 hourly,,,,
+Standard E64ps v6,E64ps v6,512 GiB,64,8 GiB/vCPU,0,0 GiB,$2.95 hourly,,,$0.7714 hourly,,,,
+E64s v3,E64s v3,432 GiB,64,6.75 GiB/vCPU,0,864 GiB,$3.629 hourly,,,$0.6706 hourly,$6.573 hourly,,,$1.2147 hourly
+E64s v4,E64s v4,504 GiB,64,7.88 GiB/vCPU,0,0 GiB,$4.032 hourly,,,$0.9939 hourly,$6.976 hourly,,,$1.7203 hourly
+E64s v5,E64s v5,512 GiB,64,8 GiB/vCPU,0,0 GiB,$4.032 hourly,,,$0.9939 hourly,$6.976 hourly,,,$1.7203 hourly
+E64s v6,E64s v6,512 GiB,64,8 GiB/vCPU,0,0 GiB,$4.234 hourly,,,$0.7824 hourly,$7.178 hourly,,,$1.3265 hourly
+E64s v7,E64s v7,512 GiB,64,8 GiB/vCPU,0,0 GiB,,,,,,,,
+E64 v3,E64 v3,432 GiB,64,6.75 GiB/vCPU,0,1600 GiB,$3.629 hourly,,,$0.6706 hourly,$6.573 hourly,,,$1.2147 hourly
+E64 v4,E64 v4,504 GiB,64,7.88 GiB/vCPU,0,0 GiB,$4.032 hourly,,,$0.9939 hourly,$6.976 hourly,,,$1.7203 hourly
+E64 v5,E64 v5,512 GiB,64,8 GiB/vCPU,0,0 GiB,$4.032 hourly,,,$0.9939 hourly,$6.976 hourly,,,$1.7203 hourly
+E8-4s v6,E8-4s v6,64 GiB,8,8 GiB/vCPU,0,0 GiB,$0.654 hourly,,,$0.1209 hourly,$0.872 hourly,,,$0.215 hourly
+E80ids v4,E80ids v4,504 GiB,80,6.3 GiB/vCPU,0,2400 GiB,$5.76 hourly,,,$1.2672 hourly,$9.44 hourly,,,$2.1929 hourly
+E80is v4,E80is v4,504 GiB,80,6.3 GiB/vCPU,0,2400 GiB,$5.04 hourly,,,$1.2424 hourly,$8.72 hourly,,,$2.1504 hourly
+E8ads v5,E8ads v5,64 GiB,8,8 GiB/vCPU,0,300 GiB,$0.524 hourly,,,$0.0968 hourly,$0.892 hourly,,,$0.1648 hourly
+E8ads v6,E8ads v6,64 GiB,8,8 GiB/vCPU,0,440 GiB,$0.581 hourly,,,$0.1139 hourly,$0.949 hourly,,,$0.186 hourly
+E8ads v7,E8ads v7,64 GiB,8,8 GiB/vCPU,0,440 GiB,$0.581 hourly,,,$0.1074 hourly,$0.581 hourly,,,$0.1074 hourly
+E8as v4,E8as v4,64 GiB,8,8 GiB/vCPU,0,128 GiB,$0.504 hourly,,,$0.0931 hourly,$0.872 hourly,,,$0.1611 hourly
+E8as v5,E8as v5,64 GiB,8,8 GiB/vCPU,0,0 GiB,$0.452 hourly,,,$0.0835 hourly,$0.82 hourly,,,$0.1515 hourly
+E8as v6,E8as v6,64 GiB,8,8 GiB/vCPU,0,0 GiB,$0.477 hourly,,,$0.0935 hourly,$0.845 hourly,,,$0.1656 hourly
+E8as v7,E8as v7,64 GiB,8,8 GiB/vCPU,0,0 GiB,$0.477 hourly,,,$0.0882 hourly,$0.845 hourly,,,$0.1562 hourly
+E8a v4,E8a v4,64 GiB,8,8 GiB/vCPU,0,200 GiB,$0.504 hourly,,,$0.0931 hourly,$0.872 hourly,,,$0.1611 hourly
+E8bds v5,E8bds v5,64 GiB,8,8 GiB/vCPU,0,300 GiB,$0.668 hourly,,,$0.1498 hourly,$1.036 hourly,,,$0.2425 hourly
+E8bds v6,E8bds v6,64 GiB,8,8 GiB/vCPU,0,440 GiB,$0.782 hourly,,,$0.1445 hourly,$1.15 hourly,,,$0.2125 hourly
+E8bs v5,E8bs v5,64 GiB,8,8 GiB/vCPU,0,0 GiB,$0.596 hourly,,,$0.1469 hourly,$0.964 hourly,,,$0.2377 hourly
+E8bs v6,E8bs v6,64 GiB,8,8 GiB/vCPU,0,0 GiB,$0.698 hourly,,,$0.129 hourly,$1.066 hourly,,,$0.197 hourly
+E8ds v4,E8ds v4,64 GiB,8,8 GiB/vCPU,0,300 GiB,$0.576 hourly,,,$0.1267 hourly,$0.944 hourly,,,$0.2193 hourly
+E8ds v5,E8ds v5,64 GiB,8,8 GiB/vCPU,0,300 GiB,$0.576 hourly,,,$0.1292 hourly,$0.944 hourly,,,$0.221 hourly
+E8ds v6,E8ds v6,64 GiB,8,8 GiB/vCPU,0,440 GiB,$0.654 hourly,,,$0.1209 hourly,$1.022 hourly,,,$0.1889 hourly
+E8ds v7,E8ds v7,64 GiB,8,8 GiB/vCPU,0,440 GiB,,,,,,,,
+E8d v4,E8d v4,64 GiB,8,8 GiB/vCPU,0,300 GiB,$0.576 hourly,,,$0.1267 hourly,$0.944 hourly,,,$0.2193 hourly
+E8d v5,E8d v5,64 GiB,8,8 GiB/vCPU,0,300 GiB,$0.576 hourly,,,$0.1292 hourly,$0.944 hourly,,,$0.221 hourly
+E8nds v6,E8nds v6,64 GiB,8,8 GiB/vCPU,0,440 GiB,$0.857 hourly,,,$0.1584 hourly,$1.225 hourly,,,$0.2264 hourly
+E8ns v6,E8ns v6,64 GiB,8,8 GiB/vCPU,0,0 GiB,$0.693 hourly,,,$0.1281 hourly,$1.061 hourly,,,$0.1961 hourly
+Standard E8pds v5,E8pds v5,64 GiB,8,8 GiB/vCPU,0,300 GiB,$0.461 hourly,,,$0.0852 hourly,,,,
+Standard E8pds v6,E8pds v6,64 GiB,8,8 GiB/vCPU,0,440 GiB,$0.468 hourly,,,$0.1224 hourly,,,,
+Standard E8ps v5,E8ps v5,64 GiB,8,8 GiB/vCPU,0,0 GiB,$0.403 hourly,,,$0.0745 hourly,,,,
+Standard E8ps v6,E8ps v6,64 GiB,8,8 GiB/vCPU,0,0 GiB,$0.369 hourly,,,$0.0965 hourly,,,,
+E8s v3,E8s v3,64 GiB,8,8 GiB/vCPU,0,128 GiB,$0.504 hourly,,,$0.0931 hourly,$0.872 hourly,,,$0.1611 hourly
+E8s v4,E8s v4,64 GiB,8,8 GiB/vCPU,0,0 GiB,$0.504 hourly,,,$0.1242 hourly,$0.872 hourly,,,$0.215 hourly
+E8s v5,E8s v5,64 GiB,8,8 GiB/vCPU,0,0 GiB,$0.504 hourly,,,$0.1242 hourly,$0.872 hourly,,,$0.215 hourly
+E8s v6,E8s v6,64 GiB,8,8 GiB/vCPU,0,0 GiB,$0.529 hourly,,,$0.0978 hourly,$0.897 hourly,,,$0.1658 hourly
+E8s v7,E8s v7,64 GiB,8,8 GiB/vCPU,0,0 GiB,,,,,,,,
+E8 v3,E8 v3,64 GiB,8,8 GiB/vCPU,0,200 GiB,$0.504 hourly,,,$0.0931 hourly,$0.872 hourly,,,$0.1611 hourly
+E8 v4,E8 v4,64 GiB,8,8 GiB/vCPU,0,0 GiB,$0.504 hourly,,,$0.1242 hourly,$0.872 hourly,,,$0.215 hourly
+E8 v5,E8 v5,64 GiB,8,8 GiB/vCPU,0,0 GiB,$0.504 hourly,,,$0.1242 hourly,$0.872 hourly,,,$0.215 hourly
+E96-48s v6,E96-48s v6,768 GiB,96,8 GiB/vCPU,0,0 GiB,$5.424 hourly,,,$1.0024 hourly,$10.138 hourly,,,$1.8735 hourly
+E96ads v5,E96ads v5,672 GiB,96,7 GiB/vCPU,0,3600 GiB,$6.288 hourly,,,$1.162 hourly,$10.704 hourly,,,$1.9781 hourly
+E96ads v6,E96ads v6,672 GiB,96,7 GiB/vCPU,0,5280 GiB,$6.97 hourly,,,$1.3661 hourly,$11.386 hourly,,,$2.2317 hourly
+E96ads v7,E96ads v7,768 GiB,96,8 GiB/vCPU,0,5280 GiB,$6.97 hourly,,,$1.2881 hourly,$6.97 hourly,,,$1.2881 hourly
+E96as v4,E96as v4,672 GiB,96,7 GiB/vCPU,0,1344 GiB,$6.048 hourly,,,$1.1177 hourly,$10.464 hourly,,,$1.9337 hourly
+E96as v5,E96as v5,672 GiB,96,7 GiB/vCPU,0,0 GiB,$5.424 hourly,,,$1.0024 hourly,$9.84 hourly,,,$1.8184 hourly
+E96as v6,E96as v6,672 GiB,96,7 GiB/vCPU,0,0 GiB,$5.722 hourly,,,$1.1215 hourly,$10.138 hourly,,,$1.987 hourly
+E96as v7,E96as v7,768 GiB,96,8 GiB/vCPU,0,0 GiB,$5.722 hourly,,,$1.0574 hourly,$10.138 hourly,,,$1.8735 hourly
+E96a v4,E96a v4,672 GiB,96,7 GiB/vCPU,0,2400 GiB,$6.048 hourly,,,$1.1177 hourly,$10.464 hourly,,,$1.9337 hourly
+E96bds v5,E96bds v5,672 GiB,96,7 GiB/vCPU,0,3600 GiB,$8.016 hourly,,,$1.798 hourly,$12.432 hourly,,,$2.9103 hourly
+E96bds v6,E96bds v6,768 GiB,96,8 GiB/vCPU,0,5280 GiB,$9.379 hourly,,,$1.7332 hourly,$13.795 hourly,,,$2.5493 hourly
+E96bs v5,E96bs v5,672 GiB,96,7 GiB/vCPU,0,0 GiB,$7.152 hourly,,,$1.763 hourly,$11.568 hourly,,,$2.8527 hourly
+E96bs v6,E96bs v6,768 GiB,96,8 GiB/vCPU,0,0 GiB,$8.371 hourly,,,$1.6742 hourly,$12.787 hourly,,,$2.5574 hourly
+E96ds v5,E96ds v5,672 GiB,96,7 GiB/vCPU,0,3600 GiB,$6.912 hourly,,,$1.5504 hourly,$11.328 hourly,,,$2.6519 hourly
+E96ds v6,E96ds v6,768 GiB,96,8 GiB/vCPU,0,5280 GiB,$7.849 hourly,,,$1.4505 hourly,$12.265 hourly,,,$2.2666 hourly
+E96ds v7,E96ds v7,768 GiB,96,8 GiB/vCPU,0,5280 GiB,,,,,,,,
+E96d v5,E96d v5,672 GiB,96,7 GiB/vCPU,0,3600 GiB,$6.912 hourly,,,$1.5504 hourly,$11.328 hourly,,,$2.6519 hourly
+E96nds v4,E96nds v4,768 GiB,96,8 GiB/vCPU,0,5280 GiB,$10.282 hourly,,,$1.9001 hourly,$14.698 hourly,,,$2.7162 hourly
+E96ns v4,E96ns v4,768 GiB,96,8 GiB/vCPU,0,0 GiB,$8.319 hourly,,,$1.5374 hourly,$12.735 hourly,,,$2.3534 hourly
+Standard E96pds v6,E96pds v6,672 GiB,96,7 GiB/vCPU,0,5280 GiB,$5.616 hourly,,,$1.4686 hourly,,,,
+Standard E96ps v6,E96ps v6,672 GiB,96,7 GiB/vCPU,0,0 GiB,$4.426 hourly,,,$1.1574 hourly,,,,
+E96s v5,E96s v5,672 GiB,96,7 GiB/vCPU,0,0 GiB,$6.048 hourly,,,$1.4908 hourly,$10.464 hourly,,,$2.5804 hourly
+E96s v6,E96s v6,768 GiB,96,8 GiB/vCPU,0,0 GiB,$6.35 hourly,,,$1.1735 hourly,$10.766 hourly,,,$1.9896 hourly
+E96s v7,E96s v7,768 GiB,96,8 GiB/vCPU,0,0 GiB,,,,,,,,
+E96 v5,E96 v5,672 GiB,96,7 GiB/vCPU,0,0 GiB,$6.048 hourly,,,$1.4908 hourly,$10.464 hourly,,,$2.5804 hourly
+EC128eds v6,EC128eds v6,1024 GiB,128,8 GiB/vCPU,0,7040 GiB,$10.465 hourly,,,$2.093 hourly,$16.353 hourly,,,$3.2706 hourly
+EC128es v6,EC128es v6,1024 GiB,128,8 GiB/vCPU,0,0 GiB,$8.467 hourly,,,$1.6934 hourly,$14.355 hourly,,,$2.871 hourly
+EC16ads v5,EC16ads v5,128 GiB,16,8 GiB/vCPU,0,600 GiB,$1.048 hourly,,,$0.1937 hourly,$1.784 hourly,,,$0.3297 hourly
+EC16ads v6,EC16ads v6,128 GiB,16,8 GiB/vCPU,0,600 GiB,$1.162 hourly,,,$0.2147 hourly,$1.898 hourly,,,$0.3508 hourly
+EC16as v5,EC16as v5,128 GiB,16,8 GiB/vCPU,0,0 GiB,$0.904 hourly,,,$0.1671 hourly,$1.64 hourly,,,$0.3031 hourly
+EC16as v6,EC16as v6,128 GiB,16,8 GiB/vCPU,0,0 GiB,$0.954 hourly,,,$0.1763 hourly,$1.69 hourly,,,$0.3123 hourly
+EC16eds v6,EC16eds v6,128 GiB,16,8 GiB/vCPU,0,880 GiB,$1.308 hourly,,,$0.2417 hourly,$2.044 hourly,,,$0.3777 hourly
+EC16es v6,EC16es v6,128 GiB,16,8 GiB/vCPU,0,0 GiB,$1.058 hourly,,,$0.1955 hourly,$1.794 hourly,,,$0.3315 hourly
+EC20ads v5,EC20ads v5,160 GiB,20,8 GiB/vCPU,0,750 GiB,$1.31 hourly,,,$0.2421 hourly,$2.23 hourly,,,$0.4121 hourly
+EC20as v5,EC20as v5,160 GiB,20,8 GiB/vCPU,0,0 GiB,$1.13 hourly,,,$0.2088 hourly,$2.05 hourly,,,$0.3788 hourly
+EC2ads v5,EC2ads v5,16 GiB,2,8 GiB/vCPU,0,75 GiB,$0.131 hourly,,,$0.0242 hourly,$0.223 hourly,,,$0.0412 hourly
+EC2ads v6,EC2ads v6,16 GiB,2,8 GiB/vCPU,0,75 GiB,$0.145 hourly,,,$0.0268 hourly,$0.237 hourly,,,$0.0438 hourly
+EC2as v5,EC2as v5,16 GiB,2,8 GiB/vCPU,0,0 GiB,$0.113 hourly,,,$0.0209 hourly,$0.205 hourly,,,$0.0379 hourly
+EC2as v6,EC2as v6,16 GiB,2,8 GiB/vCPU,0,0 GiB,$0.119 hourly,,,$0.022 hourly,$0.211 hourly,,,$0.039 hourly
+EC2eds v6,EC2eds v6,16 GiB,2,8 GiB/vCPU,0,110 GiB,$0.164 hourly,,,$0.0303 hourly,$0.256 hourly,,,$0.0473 hourly
+EC2es v6,EC2es v6,16 GiB,2,8 GiB/vCPU,0,0 GiB,$0.132 hourly,,,$0.0244 hourly,$0.224 hourly,,,$0.0414 hourly
+EC32ads v5,EC32ads v5,192 GiB,32,6 GiB/vCPU,0,1200 GiB,$2.096 hourly,,,$0.3873 hourly,$3.568 hourly,,,$0.6594 hourly
+EC32ads v6,EC32ads v6,192 GiB,32,6 GiB/vCPU,0,1200 GiB,$2.323 hourly,,,$0.4293 hourly,$3.795 hourly,,,$0.7013 hourly
+EC32as v5,EC32as v5,192 GiB,32,6 GiB/vCPU,0,0 GiB,$1.808 hourly,,,$0.3341 hourly,$3.28 hourly,,,$0.6061 hourly
+EC32as v6,EC32as v6,192 GiB,32,6 GiB/vCPU,0,0 GiB,$1.907 hourly,,,$0.3524 hourly,$3.379 hourly,,,$0.6244 hourly
+EC32eds v6,EC32eds v6,256 GiB,32,8 GiB/vCPU,0,1760 GiB,$2.616 hourly,,,$0.4834 hourly,$4.088 hourly,,,$0.7555 hourly
+EC32es v6,EC32es v6,256 GiB,32,8 GiB/vCPU,0,0 GiB,$2.117 hourly,,,$0.3912 hourly,$3.589 hourly,,,$0.6632 hourly
+EC48ads v5,EC48ads v5,384 GiB,48,8 GiB/vCPU,0,1800 GiB,$3.144 hourly,,,$0.581 hourly,$5.352 hourly,,,$0.9891 hourly
+EC48ads v6,EC48ads v6,256 GiB,48,5.33 GiB/vCPU,0,1800 GiB,$3.485 hourly,,,$0.644 hourly,$5.693 hourly,,,$1.0521 hourly
+EC48as v5,EC48as v5,384 GiB,48,8 GiB/vCPU,0,0 GiB,$2.712 hourly,,,$0.5012 hourly,$4.92 hourly,,,$0.9092 hourly
+EC48as v6,EC48as v6,256 GiB,48,5.33 GiB/vCPU,0,0 GiB,$2.861 hourly,,,$0.5287 hourly,$5.069 hourly,,,$0.9368 hourly
+EC48eds v6,EC48eds v6,384 GiB,48,8 GiB/vCPU,0,2640 GiB,$3.924 hourly,,,$0.7252 hourly,$6.132 hourly,,,$1.1332 hourly
+EC48es v6,EC48es v6,384 GiB,48,8 GiB/vCPU,0,0 GiB,$3.175 hourly,,,$0.5867 hourly,$5.383 hourly,,,$0.9948 hourly
+EC4ads v5,EC4ads v5,32 GiB,4,8 GiB/vCPU,0,150 GiB,$0.262 hourly,,,$0.0484 hourly,$0.446 hourly,,,$0.0824 hourly
+EC4ads v6,EC4ads v6,32 GiB,4,8 GiB/vCPU,0,150 GiB,$0.29 hourly,,,$0.0536 hourly,$0.474 hourly,,,$0.0876 hourly
+EC4as v5,EC4as v5,32 GiB,4,8 GiB/vCPU,0,0 GiB,$0.226 hourly,,,$0.0418 hourly,$0.41 hourly,,,$0.0758 hourly
+EC4as v6,EC4as v6,32 GiB,4,8 GiB/vCPU,0,0 GiB,$0.238 hourly,,,$0.044 hourly,$0.422 hourly,,,$0.078 hourly
+EC4eds v6,EC4eds v6,32 GiB,4,8 GiB/vCPU,0,220 GiB,$0.327 hourly,,,$0.0604 hourly,$0.511 hourly,,,$0.0944 hourly
+EC4es v6,EC4es v6,32 GiB,4,8 GiB/vCPU,0,0 GiB,$0.265 hourly,,,$0.049 hourly,$0.449 hourly,,,$0.083 hourly
+EC64ads v5,EC64ads v5,512 GiB,64,8 GiB/vCPU,0,2400 GiB,$4.192 hourly,,,$0.7747 hourly,$7.136 hourly,,,$1.3187 hourly
+EC64ads v6,EC64ads v6,384 GiB,64,6 GiB/vCPU,0,2400 GiB,$4.646 hourly,,,$0.8586 hourly,$7.59 hourly,,,$1.4026 hourly
+EC64as v5,EC64as v5,512 GiB,64,8 GiB/vCPU,0,0 GiB,$3.616 hourly,,,$0.6682 hourly,$6.56 hourly,,,$1.2123 hourly
+EC64as v6,EC64as v6,384 GiB,64,6 GiB/vCPU,0,0 GiB,$3.814 hourly,,,$0.7048 hourly,$6.758 hourly,,,$1.2489 hourly
+EC64eds v6,EC64eds v6,512 GiB,64,8 GiB/vCPU,0,3520 GiB,$5.233 hourly,,,$0.9671 hourly,$8.177 hourly,,,$1.5111 hourly
+EC64es v6,EC64es v6,512 GiB,64,8 GiB/vCPU,0,0 GiB,$4.234 hourly,,,$0.7824 hourly,$7.178 hourly,,,$1.3265 hourly
+EC8ads v5,EC8ads v5,64 GiB,8,8 GiB/vCPU,0,300 GiB,$0.524 hourly,,,$0.0968 hourly,$0.892 hourly,,,$0.1648 hourly
+EC8ads v6,EC8ads v6,64 GiB,8,8 GiB/vCPU,0,300 GiB,$0.581 hourly,,,$0.1074 hourly,$0.949 hourly,,,$0.1754 hourly
+EC8as v5,EC8as v5,64 GiB,8,8 GiB/vCPU,0,0 GiB,$0.452 hourly,,,$0.0835 hourly,$0.82 hourly,,,$0.1515 hourly
+EC8as v6,EC8as v6,64 GiB,8,8 GiB/vCPU,0,0 GiB,$0.477 hourly,,,$0.0882 hourly,$0.845 hourly,,,$0.1562 hourly
+EC8eds v6,EC8eds v6,64 GiB,8,8 GiB/vCPU,0,440 GiB,$0.654 hourly,,,$0.1209 hourly,$1.022 hourly,,,$0.1889 hourly
+EC8es v6,EC8es v6,64 GiB,8,8 GiB/vCPU,0,0 GiB,$0.529 hourly,,,$0.0978 hourly,$0.897 hourly,,,$0.1658 hourly
+EC96ads v5,EC96ads v5,672 GiB,96,7 GiB/vCPU,0,2400 GiB,$6.288 hourly,,,$1.162 hourly,$10.704 hourly,,,$1.9781 hourly
+EC96ads v6,EC96ads v6,672 GiB,96,7 GiB/vCPU,0,3600 GiB,$6.97 hourly,,,$1.2881 hourly,$11.386 hourly,,,$2.1041 hourly
+EC96as v5,EC96as v5,672 GiB,96,7 GiB/vCPU,0,0 GiB,$5.424 hourly,,,$1.0024 hourly,$9.84 hourly,,,$1.8184 hourly
+EC96as v6,EC96as v6,672 GiB,96,7 GiB/vCPU,0,0 GiB,$5.722 hourly,,,$1.0574 hourly,$10.138 hourly,,,$1.8735 hourly
+EC96iads v5,EC96iads v5,672 GiB,96,7 GiB/vCPU,0,2400 GiB,$6.917 hourly,,,$1.2783 hourly,$11.333 hourly,,,$2.0943 hourly
+EC96ias v5,EC96ias v5,672 GiB,96,7 GiB/vCPU,0,0 GiB,$5.966 hourly,,,$1.1025 hourly,$10.382 hourly,,,$1.9186 hourly
+F1,F1,2 GiB,1,2 GiB/vCPU,0,16 GiB,$0.0497 hourly,,,$0.0092 hourly,$0.0957 hourly,,,$0.0179 hourly
+F16,F16,32 GiB,16,2 GiB/vCPU,0,256 GiB,$1.432 hourly,,,$0.2646 hourly,$2.48 hourly,,,$0.4583 hourly
+F16ads v7,F16ads v7,64 GiB,16,4 GiB/vCPU,0,1760 GiB,$1.372 hourly,,,$0.2535 hourly,$2.108 hourly,,,$0.3896 hourly
+F16alds v7,F16alds v7,32 GiB,16,2 GiB/vCPU,0,1760 GiB,$1.145 hourly,,,$0.2116 hourly,$1.881 hourly,,,$0.3476 hourly
+F16als v6,F16als v6,32 GiB,16,2 GiB/vCPU,0,0 GiB,$0.968 hourly,,,$0.2066 hourly,$1.704 hourly,,,$0.3636 hourly
+F16als v7,F16als v7,32 GiB,16,2 GiB/vCPU,0,0 GiB,$0.968 hourly,,,$0.1789 hourly,$1.704 hourly,,,$0.3149 hourly
+F16amds v7,F16amds v7,128 GiB,16,8 GiB/vCPU,0,1760 GiB,$1.744 hourly,,,$0.3223 hourly,$2.48 hourly,,,$0.4583 hourly
+F16ams v6,F16ams v6,128 GiB,16,8 GiB/vCPU,0,0 GiB,$1.432 hourly,,,$0.3056 hourly,$2.168 hourly,,,$0.4627 hourly
+F16ams v7,F16ams v7,128 GiB,16,8 GiB/vCPU,0,0 GiB,$1.432 hourly,,,$0.2646 hourly,$2.168 hourly,,,$0.4006 hourly
+F16as v6,F16as v6,64 GiB,16,4 GiB/vCPU,0,0 GiB,$1.093 hourly,,,$0.2332 hourly,$1.829 hourly,,,$0.3903 hourly
+F16as v7,F16as v7,64 GiB,16,4 GiB/vCPU,0,0 GiB,$1.093 hourly,,,$0.202 hourly,$1.829 hourly,,,$0.338 hourly
+F16s,F16s,32 GiB,16,2 GiB/vCPU,0,64 GiB,$0.796 hourly,,,$0.1471 hourly,$1.532 hourly,,,$0.2862 hourly
+F16s v2,F16s v2,32 GiB,16,2 GiB/vCPU,0,128 GiB,$0.677 hourly,,,$0.199 hourly,$1.416 hourly,,,$0.4163 hourly
+F1ads v7,F1ads v7,4 GiB,1,4 GiB/vCPU,0,110 GiB,$0.0858 hourly,,,$0.0159 hourly,$0.132 hourly,,,$0.0244 hourly
+F1alds v7,F1alds v7,2 GiB,1,2 GiB/vCPU,0,110 GiB,$0.0715 hourly,,,$0.0132 hourly,$0.118 hourly,,,$0.0218 hourly
+F1als v7,F1als v7,2 GiB,1,2 GiB/vCPU,0,0 GiB,$0.0605 hourly,,,$0.0112 hourly,$0.107 hourly,,,$0.0198 hourly
+F1amds v7,F1amds v7,8 GiB,1,8 GiB/vCPU,0,110 GiB,$0.109 hourly,,,$0.0201 hourly,$0.155 hourly,,,$0.0286 hourly
+F1ams v7,F1ams v7,8 GiB,1,8 GiB/vCPU,0,0 GiB,$0.0895 hourly,,,$0.0165 hourly,$0.136 hourly,,,$0.0251 hourly
+F1as v7,F1as v7,4 GiB,1,4 GiB/vCPU,0,0 GiB,$0.0683 hourly,,,$0.0126 hourly,$0.114 hourly,,,$0.0211 hourly
+F1s,F1s,2 GiB,1,2 GiB/vCPU,0,4 GiB,$0.0497 hourly,,,$0.0092 hourly,$0.0957 hourly,,,$0.0179 hourly
+F2,F2,4 GiB,2,2 GiB/vCPU,0,32 GiB,$0.179 hourly,,,$0.0331 hourly,$0.271 hourly,,,$0.0501 hourly
+F2ads v7,F2ads v7,8 GiB,2,4 GiB/vCPU,0,220 GiB,$0.172 hourly,,,$0.0318 hourly,$0.264 hourly,,,$0.0488 hourly
+F2alds v7,F2alds v7,4 GiB,2,2 GiB/vCPU,0,220 GiB,$0.143 hourly,,,$0.0264 hourly,$0.235 hourly,,,$0.0434 hourly
+F2als v6,F2als v6,4 GiB,2,2 GiB/vCPU,0,0 GiB,$0.121 hourly,,,$0.0258 hourly,$0.213 hourly,,,$0.0455 hourly
+F2als v7,F2als v7,4 GiB,2,2 GiB/vCPU,0,0 GiB,$0.121 hourly,,,$0.0224 hourly,$0.213 hourly,,,$0.0394 hourly
+F2amds v7,F2amds v7,16 GiB,2,8 GiB/vCPU,0,220 GiB,$0.218 hourly,,,$0.0403 hourly,$0.31 hourly,,,$0.0573 hourly
+F2ams v6,F2ams v6,16 GiB,2,8 GiB/vCPU,0,0 GiB,$0.179 hourly,,,$0.0382 hourly,$0.271 hourly,,,$0.0578 hourly
+F2ams v7,F2ams v7,16 GiB,2,8 GiB/vCPU,0,0 GiB,$0.179 hourly,,,$0.0331 hourly,$0.271 hourly,,,$0.0501 hourly
+F2as v6,F2as v6,8 GiB,2,4 GiB/vCPU,0,0 GiB,$0.137 hourly,,,$0.0292 hourly,$0.229 hourly,,,$0.0489 hourly
+F2as v7,F2as v7,8 GiB,2,4 GiB/vCPU,0,0 GiB,$0.137 hourly,,,$0.0253 hourly,$0.229 hourly,,,$0.0423 hourly
+F2s,F2s,4 GiB,2,2 GiB/vCPU,0,8 GiB,$0.099 hourly,,,$0.0183 hourly,$0.192 hourly,,,$0.0359 hourly
+F2s v2,F2s v2,4 GiB,2,2 GiB/vCPU,0,16 GiB,$0.0846 hourly,,,$0.0249 hourly,$0.177 hourly,,,$0.052 hourly
+F32-8ams v7,F32-8ams v7,256 GiB,32,8 GiB/vCPU,0,0 GiB,$3.489 hourly,,,$0.6448 hourly,$4.961 hourly,,,$0.9168 hourly
+F32ads v7,F32ads v7,128 GiB,32,4 GiB/vCPU,0,3520 GiB,$2.744 hourly,,,$0.5071 hourly,$4.216 hourly,,,$0.7791 hourly
+F32alds v7,F32alds v7,64 GiB,32,2 GiB/vCPU,0,3520 GiB,$2.29 hourly,,,$0.4232 hourly,$3.762 hourly,,,$0.6952 hourly
+F32als v6,F32als v6,64 GiB,32,2 GiB/vCPU,0,0 GiB,$1.936 hourly,,,$0.4131 hourly,$3.408 hourly,,,$0.7273 hourly
+F32als v7,F32als v7,64 GiB,32,2 GiB/vCPU,0,0 GiB,$1.936 hourly,,,$0.3578 hourly,$3.408 hourly,,,$0.6298 hourly
+F32amds v7,F32amds v7,256 GiB,32,8 GiB/vCPU,0,3520 GiB,$3.489 hourly,,,$0.6448 hourly,$4.961 hourly,,,$0.9168 hourly
+F32ams v6,F32ams v6,256 GiB,32,8 GiB/vCPU,0,0 GiB,$2.864 hourly,,,$0.6112 hourly,$4.336 hourly,,,$0.9253 hourly
+F32ams v7,F32ams v7,256 GiB,32,8 GiB/vCPU,0,0 GiB,$2.864 hourly,,,$0.5293 hourly,$4.336 hourly,,,$0.8013 hourly
+F32as v6,F32as v6,128 GiB,32,4 GiB/vCPU,0,0 GiB,$2.186 hourly,,,$0.4665 hourly,$3.658 hourly,,,$0.7806 hourly
+F32as v7,F32as v7,128 GiB,32,4 GiB/vCPU,0,0 GiB,$2.186 hourly,,,$0.404 hourly,$3.658 hourly,,,$0.676 hourly
+F32s v2,F32s v2,64 GiB,32,2 GiB/vCPU,0,256 GiB,$1.353 hourly,,,$0.3978 hourly,$2.83 hourly,,,$0.832 hourly
+F4,F4,8 GiB,4,2 GiB/vCPU,0,64 GiB,$0.358 hourly,,,$0.0662 hourly,$0.542 hourly,,,$0.1002 hourly
+F48ads v7,F48ads v7,192 GiB,48,4 GiB/vCPU,0,5280 GiB,$4.116 hourly,,,$0.7606 hourly,$6.324 hourly,,,$1.1687 hourly
+F48alds v7,F48alds v7,96 GiB,48,2 GiB/vCPU,0,5280 GiB,$3.434 hourly,,,$0.6346 hourly,$5.642 hourly,,,$1.0426 hourly
+F48als v6,F48als v6,96 GiB,48,2 GiB/vCPU,0,0 GiB,$2.904 hourly,,,$0.6197 hourly,$5.112 hourly,,,$1.0909 hourly
+F48als v7,F48als v7,96 GiB,48,2 GiB/vCPU,0,0 GiB,$2.904 hourly,,,$0.5367 hourly,$5.112 hourly,,,$0.9447 hourly
+F48amds v7,F48amds v7,384 GiB,48,8 GiB/vCPU,0,5280 GiB,$5.233 hourly,,,$0.9671 hourly,$7.441 hourly,,,$1.3751 hourly
+F48ams v6,F48ams v6,384 GiB,48,8 GiB/vCPU,0,0 GiB,$4.296 hourly,,,$0.9168 hourly,$6.504 hourly,,,$1.388 hourly
+F48ams v7,F48ams v7,384 GiB,48,8 GiB/vCPU,0,0 GiB,$4.296 hourly,,,$0.7939 hourly,$6.504 hourly,,,$1.2019 hourly
+F48as v6,F48as v6,192 GiB,48,4 GiB/vCPU,0,0 GiB,$3.278 hourly,,,$0.6995 hourly,$5.486 hourly,,,$1.1707 hourly
+F48as v7,F48as v7,192 GiB,48,4 GiB/vCPU,0,0 GiB,$3.278 hourly,,,$0.6058 hourly,$5.486 hourly,,,$1.0138 hourly
+F48s v2,F48s v2,96 GiB,48,2 GiB/vCPU,0,384 GiB,$2.03 hourly,,,$0.5968 hourly,$4.24 hourly,,,$1.2466 hourly
+F4ads v7,F4ads v7,16 GiB,4,4 GiB/vCPU,0,440 GiB,$0.343 hourly,,,$0.0634 hourly,$0.527 hourly,,,$0.0974 hourly
+F4alds v7,F4alds v7,8 GiB,4,2 GiB/vCPU,0,440 GiB,$0.286 hourly,,,$0.0529 hourly,$0.47 hourly,,,$0.0869 hourly
+F4als v6,F4als v6,8 GiB,4,2 GiB/vCPU,0,0 GiB,$0.242 hourly,,,$0.0516 hourly,$0.426 hourly,,,$0.0909 hourly
+F4als v7,F4als v7,8 GiB,4,2 GiB/vCPU,0,0 GiB,$0.242 hourly,,,$0.0447 hourly,$0.426 hourly,,,$0.0787 hourly
+F4amds v7,F4amds v7,32 GiB,4,8 GiB/vCPU,0,440 GiB,$0.436 hourly,,,$0.0806 hourly,$0.62 hourly,,,$0.1146 hourly
+F4ams v6,F4ams v6,32 GiB,4,8 GiB/vCPU,0,0 GiB,$0.358 hourly,,,$0.0764 hourly,$0.542 hourly,,,$0.1157 hourly
+F4ams v7,F4ams v7,32 GiB,4,8 GiB/vCPU,0,0 GiB,$0.358 hourly,,,$0.0662 hourly,$0.542 hourly,,,$0.1002 hourly
+F4as v6,F4as v6,16 GiB,4,4 GiB/vCPU,0,0 GiB,$0.273 hourly,,,$0.0583 hourly,$0.457 hourly,,,$0.0975 hourly
+F4as v7,F4as v7,16 GiB,4,4 GiB/vCPU,0,0 GiB,$0.273 hourly,,,$0.0505 hourly,$0.457 hourly,,,$0.0845 hourly
+F4s,F4s,8 GiB,4,2 GiB/vCPU,0,16 GiB,$0.199 hourly,,,$0.0368 hourly,$0.383 hourly,,,$0.0715 hourly
+F4s v2,F4s v2,8 GiB,4,2 GiB/vCPU,0,32 GiB,$0.169 hourly,,,$0.0497 hourly,$0.354 hourly,,,$0.1041 hourly
+F64-32ams v7,F64-32ams v7,512 GiB,64,8 GiB/vCPU,0,0 GiB,$5.728 hourly,,,$1.0585 hourly,$9.921 hourly,,,$1.8334 hourly
+F64ads v7,F64ads v7,256 GiB,64,4 GiB/vCPU,0,7040 GiB,$5.488 hourly,,,$1.0142 hourly,$8.432 hourly,,,$1.5582 hourly
+F64alds v7,F64alds v7,128 GiB,64,2 GiB/vCPU,0,7040 GiB,$4.579 hourly,,,$0.8462 hourly,$7.523 hourly,,,$1.3903 hourly
+F64als v6,F64als v6,128 GiB,64,2 GiB/vCPU,0,0 GiB,$3.872 hourly,,,$0.8263 hourly,$6.816 hourly,,,$1.4545 hourly
+F64als v7,F64als v7,128 GiB,64,2 GiB/vCPU,0,0 GiB,$3.872 hourly,,,$0.7155 hourly,$6.816 hourly,,,$1.2596 hourly
+F64amds v7,F64amds v7,512 GiB,64,8 GiB/vCPU,0,7040 GiB,$6.977 hourly,,,$1.2894 hourly,$9.921 hourly,,,$1.8334 hourly
+F64ams v6,F64ams v6,512 GiB,64,8 GiB/vCPU,0,0 GiB,$5.728 hourly,,,$1.2224 hourly,$8.672 hourly,,,$1.8506 hourly
+F64ams v7,F64ams v7,512 GiB,64,8 GiB/vCPU,0,0 GiB,$5.728 hourly,,,$1.0585 hourly,$8.672 hourly,,,$1.6026 hourly
+F64as v6,F64as v6,256 GiB,64,4 GiB/vCPU,0,0 GiB,$4.371 hourly,,,$0.9328 hourly,$7.315 hourly,,,$1.561 hourly
+F64as v7,F64as v7,256 GiB,64,4 GiB/vCPU,0,0 GiB,$4.371 hourly,,,$0.8078 hourly,$7.315 hourly,,,$1.3518 hourly
+F64s v2,F64s v2,128 GiB,64,2 GiB/vCPU,0,512 GiB,$2.706 hourly,,,$0.7956 hourly,$5.66 hourly,,,$1.664 hourly
+F72s v2,F72s v2,144 GiB,72,2 GiB/vCPU,0,576 GiB,$3.045 hourly,,,$0.8952 hourly,$5.86 hourly,,,$1.7228 hourly
+F8,F8,16 GiB,8,2 GiB/vCPU,0,128 GiB,$0.716 hourly,,,$0.1323 hourly,$1.084 hourly,,,$0.2003 hourly
+F80ads v7,F80ads v7,320 GiB,80,4 GiB/vCPU,0,8800 GiB,$6.86 hourly,,,$1.2677 hourly,$10.54 hourly,,,$1.9478 hourly
+F80alds v7,F80alds v7,160 GiB,80,2 GiB/vCPU,0,8800 GiB,$5.724 hourly,,,$1.0578 hourly,$9.404 hourly,,,$1.7379 hourly
+F80als v7,F80als v7,160 GiB,80,2 GiB/vCPU,0,0 GiB,$4.84 hourly,,,$0.8944 hourly,$8.52 hourly,,,$1.5745 hourly
+F80amds v7,F80amds v7,640 GiB,80,8 GiB/vCPU,0,8000 GiB,$8.722 hourly,,,$1.6118 hourly,$12.402 hourly,,,$2.2919 hourly
+F80ams v7,F80ams v7,640 GiB,80,8 GiB/vCPU,0,0 GiB,$7.16 hourly,,,$1.3232 hourly,$10.84 hourly,,,$2.0032 hourly
+F80as v7,F80as v7,320 GiB,80,4 GiB/vCPU,0,0 GiB,$5.464 hourly,,,$1.0097 hourly,$9.144 hourly,,,$1.6898 hourly
+F8ads v7,F8ads v7,32 GiB,8,4 GiB/vCPU,0,880 GiB,$0.686 hourly,,,$0.1268 hourly,$1.054 hourly,,,$0.1948 hourly
+F8alds v7,F8alds v7,16 GiB,8,2 GiB/vCPU,0,880 GiB,$0.572 hourly,,,$0.1057 hourly,$0.94 hourly,,,$0.1737 hourly
+F8als v6,F8als v6,16 GiB,8,2 GiB/vCPU,0,0 GiB,$0.484 hourly,,,$0.1033 hourly,$0.852 hourly,,,$0.1818 hourly
+F8als v7,F8als v7,16 GiB,8,2 GiB/vCPU,0,0 GiB,$0.484 hourly,,,$0.0894 hourly,$0.852 hourly,,,$0.1575 hourly
+F8amds v7,F8amds v7,64 GiB,8,8 GiB/vCPU,0,880 GiB,$0.872 hourly,,,$0.1611 hourly,$1.24 hourly,,,$0.2292 hourly
+F8ams v6,F8ams v6,64 GiB,8,8 GiB/vCPU,0,0 GiB,$0.716 hourly,,,$0.1528 hourly,$1.084 hourly,,,$0.2313 hourly
+F8ams v7,F8ams v7,64 GiB,8,8 GiB/vCPU,0,0 GiB,$0.716 hourly,,,$0.1323 hourly,$1.084 hourly,,,$0.2003 hourly
+F8as v6,F8as v6,32 GiB,8,4 GiB/vCPU,0,0 GiB,$0.546 hourly,,,$0.1165 hourly,$0.914 hourly,,,$0.195 hourly
+F8as v7,F8as v7,32 GiB,8,4 GiB/vCPU,0,0 GiB,$0.546 hourly,,,$0.1009 hourly,$0.914 hourly,,,$0.1689 hourly
+F8s,F8s,16 GiB,8,2 GiB/vCPU,0,32 GiB,$0.398 hourly,,,$0.0736 hourly,$0.766 hourly,,,$0.1431 hourly
+F8s v2,F8s v2,16 GiB,8,2 GiB/vCPU,0,64 GiB,$0.338 hourly,,,$0.0994 hourly,$0.708 hourly,,,$0.2082 hourly
+FX12-6ms v2,FX12-6ms v2,252 GiB,12,21 GiB/vCPU,0,0 GiB,$1.641 hourly,,,$0.3033 hourly,$1.88 hourly,,,$0.3474 hourly
+FX12mds,FX12mds,252 GiB,12,21 GiB/vCPU,0,504 GiB,$1.116 hourly,,,$0.2062 hourly,$1.668 hourly,,,$0.3082 hourly
+FX12mds v2,FX12mds v2,252 GiB,12,21 GiB/vCPU,0,880 GiB,$1.641 hourly,,,$0.3033 hourly,$2.193 hourly,,,$0.4053 hourly
+FX12ms v2,FX12ms v2,252 GiB,12,21 GiB/vCPU,0,0 GiB,$1.328 hourly,,,$0.2454 hourly,$1.88 hourly,,,$0.3474 hourly
+FX16-8ms v2,FX16-8ms v2,336 GiB,16,21 GiB/vCPU,0,0 GiB,$1.771 hourly,,,$0.3273 hourly,$2.507 hourly,,,$0.4633 hourly
+FX16mds v2,FX16mds v2,336 GiB,16,21 GiB/vCPU,0,880 GiB,$2.188 hourly,,,$0.4043 hourly,$2.924 hourly,,,$0.5404 hourly
+FX16ms v2,FX16ms v2,336 GiB,16,21 GiB/vCPU,0,0 GiB,$1.771 hourly,,,$0.3273 hourly,$2.507 hourly,,,$0.4633 hourly
+FX24-6ms v2,FX24-6ms v2,504 GiB,24,21 GiB/vCPU,0,0 GiB,$3.282 hourly,,,$0.6065 hourly,$4.386 hourly,,,$0.8105 hourly
+FX24mds,FX24mds,504 GiB,24,21 GiB/vCPU,0,1008 GiB,$2.232 hourly,,,$0.4125 hourly,$3.336 hourly,,,$0.6165 hourly
+FX24mds v2,FX24mds v2,504 GiB,24,21 GiB/vCPU,0,1320 GiB,$3.282 hourly,,,$0.6065 hourly,$4.386 hourly,,,$0.8105 hourly
+FX24ms v2,FX24ms v2,504 GiB,24,21 GiB/vCPU,0,0 GiB,$2.656 hourly,,,$0.4908 hourly,$3.76 hourly,,,$0.6948 hourly
+FX2mds v2,FX2mds v2,42 GiB,2,21 GiB/vCPU,0,110 GiB,$0.274 hourly,,,$0.0506 hourly,$0.366 hourly,,,$0.0676 hourly
+FX2ms v2,FX2ms v2,42 GiB,2,21 GiB/vCPU,0,0 GiB,$0.221 hourly,,,$0.0408 hourly,$0.313 hourly,,,$0.0578 hourly
+FX32-8ms v2,FX32-8ms v2,672 GiB,32,21 GiB/vCPU,0,0 GiB,$3.541 hourly,,,$0.6544 hourly,$5.849 hourly,,,$1.0809 hourly
+FX32mds v2,FX32mds v2,672 GiB,32,21 GiB/vCPU,0,1760 GiB,$4.377 hourly,,,$0.8089 hourly,$5.849 hourly,,,$1.0809 hourly
+FX32ms v2,FX32ms v2,672 GiB,32,21 GiB/vCPU,0,0 GiB,$3.541 hourly,,,$0.6544 hourly,$5.013 hourly,,,$0.9264 hourly
+FX36mds,FX36mds,756 GiB,36,21 GiB/vCPU,0,1512 GiB,$3.348 hourly,,,$0.6187 hourly,$5.004 hourly,,,$0.9247 hourly
+FX4-2ms v2,FX4-2ms v2,84 GiB,4,21 GiB/vCPU,0,0 GiB,$0.443 hourly,,,$0.0819 hourly,$0.627 hourly,,,$0.1159 hourly
+FX48-24ms v2,FX48-24ms v2,1008 GiB,48,21 GiB/vCPU,0,0 GiB,$5.312 hourly,,,$0.9817 hourly,$8.773 hourly,,,$1.6213 hourly
+FX48mds,FX48mds,1008 GiB,48,21 GiB/vCPU,0,2016 GiB,$4.464 hourly,,,$0.8249 hourly,$6.672 hourly,,,$1.233 hourly
+FX48mds v2,FX48mds v2,1008 GiB,48,21 GiB/vCPU,0,2640 GiB,$6.565 hourly,,,$1.2132 hourly,$8.773 hourly,,,$1.6213 hourly
+FX48ms v2,FX48ms v2,1008 GiB,48,21 GiB/vCPU,0,0 GiB,$5.312 hourly,,,$0.9817 hourly,$7.52 hourly,,,$1.3897 hourly
+FX4mds,FX4mds,84 GiB,4,21 GiB/vCPU,0,168 GiB,$0.372 hourly,,,$0.0687 hourly,$0.556 hourly,,,$0.1027 hourly
+FX4mds v2,FX4mds v2,84 GiB,4,21 GiB/vCPU,0,220 GiB,$0.547 hourly,,,$0.1011 hourly,$0.731 hourly,,,$0.1351 hourly
+FX4ms v2,FX4ms v2,84 GiB,4,21 GiB/vCPU,0,0 GiB,$0.443 hourly,,,$0.0819 hourly,$0.627 hourly,,,$0.1159 hourly
+FX64-32ms v2,FX64-32ms v2,1344 GiB,64,21 GiB/vCPU,0,0 GiB,$7.082 hourly,,,$1.3088 hourly,$11.697 hourly,,,$2.1616 hourly
+FX64mds v2,FX64mds v2,1344 GiB,64,21 GiB/vCPU,0,3520 GiB,$8.753 hourly,,,$1.6176 hourly,$11.697 hourly,,,$2.1616 hourly
+FX64ms v2,FX64ms v2,1344 GiB,64,21 GiB/vCPU,0,0 GiB,$7.082 hourly,,,$1.3088 hourly,$10.026 hourly,,,$1.8528 hourly
+FX8-4ms v2,FX8-4ms v2,168 GiB,8,21 GiB/vCPU,0,0 GiB,$0.885 hourly,,,$0.1635 hourly,$1.253 hourly,,,$0.2316 hourly
+FX8mds v2,FX8mds v2,168 GiB,8,21 GiB/vCPU,0,440 GiB,$1.094 hourly,,,$0.2022 hourly,$1.462 hourly,,,$0.2702 hourly
+FX8ms v2,FX8ms v2,168 GiB,8,21 GiB/vCPU,0,0 GiB,$0.885 hourly,,,$0.1635 hourly,$1.253 hourly,,,$0.2316 hourly
+FX96-48ms v2,FX96-48ms v2,1832 GiB,96,19.08 GiB/vCPU,0,0 GiB,$10.623 hourly,,,$1.9631 hourly,$15.039 hourly,,,$2.7792 hourly
+FX96mds v2,FX96mds v2,1832 GiB,96,19.08 GiB/vCPU,0,5280 GiB,$13.13 hourly,,,$2.4264 hourly,$17.546 hourly,,,$3.2425 hourly
+FX96ms v2,FX96ms v2,1832 GiB,96,19.08 GiB/vCPU,0,0 GiB,$10.623 hourly,,,$1.9631 hourly,$15.039 hourly,,,$2.7792 hourly
+G1,G1,28 GiB,2,14 GiB/vCPU,0,384 GiB,$0.55 hourly,,,$0.1016 hourly,$0.61 hourly,,,$0.1127 hourly
+G2,G2,56 GiB,4,14 GiB/vCPU,0,768 GiB,$1.10 hourly,,,$0.2033 hourly,$1.22 hourly,,,$0.2255 hourly
+G3,G3,112 GiB,8,14 GiB/vCPU,0,1536 GiB,,,,,,,,
+G4,G4,224 GiB,16,14 GiB/vCPU,0,3072 GiB,,,,,,,,
+G5,G5,448 GiB,32,14 GiB/vCPU,0,6144 GiB,,,,,,,,
+GS1,Gs1,28 GiB,2,14 GiB/vCPU,0,56 GiB,$0.55 hourly,,,$0.1016 hourly,$0.61 hourly,,,$0.1127 hourly
+GS2,Gs2,56 GiB,4,14 GiB/vCPU,0,112 GiB,$1.10 hourly,,,$0.2033 hourly,$1.22 hourly,,,$0.2255 hourly
+GS3,Gs3,112 GiB,8,14 GiB/vCPU,0,224 GiB,,,,,,,,
+GS4,Gs4,224 GiB,16,14 GiB/vCPU,0,448 GiB,,,,,,,,
+GS5,Gs5,448 GiB,32,14 GiB/vCPU,0,896 GiB,,,,,,,,
+H16,H16,112 GiB,16,7 GiB/vCPU,0,2000 GiB,$1.807 hourly,,,$0.3339 hourly,$3.508 hourly,,,$0.6483 hourly
+H16m,H16m,224 GiB,16,14 GiB/vCPU,0,2000 GiB,$2.422 hourly,,,$0.4476 hourly,$4.699 hourly,,,$0.8684 hourly
+H16mr,H16mr,224 GiB,16,14 GiB/vCPU,0,2000 GiB,$2.664 hourly,,,$0.4923 hourly,$5.169 hourly,,,$0.9552 hourly
+H16r,H16r,112 GiB,16,7 GiB/vCPU,0,2000 GiB,$1.988 hourly,,,$0.3674 hourly,$3.858 hourly,,,$0.713 hourly
+H8,H8,56 GiB,8,7 GiB/vCPU,0,1000 GiB,$0.904 hourly,,,$0.1671 hourly,$1.754 hourly,,,$0.3241 hourly
+H8m,H8m,112 GiB,8,14 GiB/vCPU,0,1000 GiB,$1.211 hourly,,,$0.2238 hourly,$2.35 hourly,,,$0.4343 hourly
+HB120-96rs v3,HB120-96rs v3,456 GiB,120,3.8 GiB/vCPU,0,2100 GiB,$3.60 hourly,,,$0.6653 hourly,$9.12 hourly,,,$2.5965 hourly
+HB120rs v2,HB120rs v2,456 GiB,120,3.8 GiB/vCPU,0,480 GiB,$3.60 hourly,,,$1.0235 hourly,$9.12 hourly,,,$2.5965 hourly
+HB120rs v3,HB120rs v3,456 GiB,120,3.8 GiB/vCPU,0,2100 GiB,$3.60 hourly,,,$0.6653 hourly,$9.12 hourly,,,$1.6854 hourly
+HB176-96rs v4,HB176-96rs v4,768 GiB,176,4.36 GiB/vCPU,0,3600 GiB,$7.20 hourly,,,$2.1794 hourly,$15.296 hourly,,,$4.8504 hourly
+HB176rs v4,HB176rs v4,768 GiB,176,4.36 GiB/vCPU,0,3600 GiB,$7.20 hourly,,,$2.1794 hourly,$15.296 hourly,,,$4.8504 hourly
+HB368-96rs v5,HB368-96rs v5,438 GiB,368,1.19 GiB/vCPU,0,15360 GiB,,,,,,,,
+HB368rs v5,HB368rs v5,438 GiB,368,1.19 GiB/vCPU,0,15360 GiB,,,,,,,,
+HB60-45rs,HB60-45rs,228 GiB,60,3.8 GiB/vCPU,0,700 GiB,$2.28 hourly,,,$0.4213 hourly,$5.04 hourly,,,$0.9314 hourly
+HB60rs,HB60rs,228 GiB,60,3.8 GiB/vCPU,0,700 GiB,$2.28 hourly,,,$0.4213 hourly,$5.04 hourly,,,$0.9314 hourly
+HC44-32rs,HC44-32rs,352 GiB,44,8 GiB/vCPU,0,700 GiB,$3.168 hourly,,,$0.8573 hourly,$5.192 hourly,,,$1.4745 hourly
+HC44rs,HC44rs,352 GiB,44,8 GiB/vCPU,0,700 GiB,$3.168 hourly,,,$0.8573 hourly,$5.192 hourly,,,$1.4745 hourly
+HX176-96rs,HX176-96rs,1408 GiB,176,8 GiB/vCPU,0,3600 GiB,$8.64 hourly,,,$1.5967 hourly,$16.736 hourly,,,$3.0928 hourly
+HX176rs,HX176rs,1408 GiB,176,8 GiB/vCPU,0,3600 GiB,$8.64 hourly,,,$1.5967 hourly,$16.736 hourly,,,$3.0928 hourly
+L12aos v4,L12aos v4,96 GiB,12,8 GiB/vCPU,0,8640 GiB,$1.356 hourly,,,$0.2658 hourly,$1.908 hourly,,,$0.374 hourly
+L16aos v4,L16aos v4,128 GiB,16,8 GiB/vCPU,0,11520 GiB,$1.808 hourly,,,$0.3544 hourly,$2.544 hourly,,,$0.4986 hourly
+L16as v3,L16as v3,128 GiB,16,8 GiB/vCPU,0,160 GiB,$1.248 hourly,,,$0.2306 hourly,$1.984 hourly,,,$0.3666 hourly
+L16as v4,L16as v4,128 GiB,16,8 GiB/vCPU,0,3840 GiB,$1.376 hourly,,,$0.2697 hourly,$2.112 hourly,,,$0.414 hourly
+L16s,L16s,128 GiB,16,8 GiB/vCPU,0,2807 GiB,,,,,,,,
+L16s v2,L16s v2,128 GiB,16,8 GiB/vCPU,0,160 GiB,$1.248 hourly,,,$0.2306 hourly,$1.984 hourly,,,$0.3666 hourly
+L16s v3,L16s v3,128 GiB,16,8 GiB/vCPU,0,160 GiB,$1.392 hourly,,,$0.401 hourly,$2.128 hourly,,,$0.6131 hourly
+L16s v4,L16s v4,128 GiB,16,8 GiB/vCPU,0,3840 GiB,$1.392 hourly,,,$0.2572 hourly,$2.128 hourly,,,$0.3933 hourly
+L24aos v4,L24aos v4,192 GiB,24,8 GiB/vCPU,0,17280 GiB,$2.712 hourly,,,$0.5316 hourly,$3.816 hourly,,,$0.7479 hourly
+L2aos v4,L2aos v4,16 GiB,2,8 GiB/vCPU,0,1440 GiB,$0.226 hourly,,,$0.0443 hourly,$0.318 hourly,,,$0.0623 hourly
+L2as v4,L2as v4,16 GiB,2,8 GiB/vCPU,0,480 GiB,$0.172 hourly,,,$0.0337 hourly,$0.264 hourly,,,$0.0517 hourly
+L2s v4,L2s v4,16 GiB,2,8 GiB/vCPU,0,480 GiB,$0.174 hourly,,,$0.0322 hourly,$0.266 hourly,,,$0.0492 hourly
+L32aos v4,L32aos v4,256 GiB,32,8 GiB/vCPU,0,23040 GiB,$3.616 hourly,,,$0.7087 hourly,$5.088 hourly,,,$0.9972 hourly
+L32as v3,L32as v3,256 GiB,32,8 GiB/vCPU,0,320 GiB,$2.496 hourly,,,$0.4613 hourly,$3.968 hourly,,,$0.7333 hourly
+L32as v4,L32as v4,256 GiB,32,8 GiB/vCPU,0,7680 GiB,$2.752 hourly,,,$0.5394 hourly,$4.224 hourly,,,$0.8279 hourly
+L32s,L32s,256 GiB,32,8 GiB/vCPU,0,5630 GiB,,,,,,,,
+L32s v2,L32s v2,256 GiB,32,8 GiB/vCPU,0,320 GiB,$2.496 hourly,,,$0.4613 hourly,$3.968 hourly,,,$0.7333 hourly
+L32s v3,L32s v3,256 GiB,32,8 GiB/vCPU,0,320 GiB,$2.784 hourly,,,$0.8021 hourly,$4.256 hourly,,,$1.2262 hourly
+L32s v4,L32s v4,256 GiB,32,8 GiB/vCPU,0,7680 GiB,$2.784 hourly,,,$0.5145 hourly,$4.256 hourly,,,$0.7865 hourly
+L48as v3,L48as v3,384 GiB,48,8 GiB/vCPU,0,480 GiB,$3.744 hourly,,,$0.6919 hourly,$5.952 hourly,,,$1.0999 hourly
+L48as v4,L48as v4,384 GiB,48,8 GiB/vCPU,0,11520 GiB,$4.128 hourly,,,$0.8091 hourly,$6.336 hourly,,,$1.2419 hourly
+L48s v2,L48s v2,384 GiB,48,8 GiB/vCPU,0,480 GiB,$3.744 hourly,,,$0.6919 hourly,$5.952 hourly,,,$1.0999 hourly
+L48s v3,L48s v3,384 GiB,48,8 GiB/vCPU,0,480 GiB,$4.176 hourly,,,$1.2031 hourly,$6.384 hourly,,,$1.8392 hourly
+L48s v4,L48s v4,384 GiB,48,8 GiB/vCPU,0,11520 GiB,$4.176 hourly,,,$0.7717 hourly,$6.384 hourly,,,$1.1798 hourly
+L4aos v4,L4aos v4,32 GiB,4,8 GiB/vCPU,0,2880 GiB,$0.452 hourly,,,$0.0886 hourly,$0.636 hourly,,,$0.1247 hourly
+L4as v4,L4as v4,32 GiB,4,8 GiB/vCPU,0,960 GiB,$0.344 hourly,,,$0.0674 hourly,$0.528 hourly,,,$0.1035 hourly
+L4s,L4s,32 GiB,4,8 GiB/vCPU,0,678 GiB,$0.343 hourly,,,$0.0634 hourly,$0.889 hourly,,,$0.1643 hourly
+L4s v4,L4s v4,32 GiB,4,8 GiB/vCPU,0,960 GiB,$0.348 hourly,,,$0.0643 hourly,$0.532 hourly,,,$0.0983 hourly
+L64as v3,L64as v3,512 GiB,64,8 GiB/vCPU,0,640 GiB,$4.992 hourly,,,$0.9225 hourly,$7.936 hourly,,,$1.4666 hourly
+L64as v4,L64as v4,512 GiB,64,8 GiB/vCPU,0,15360 GiB,$5.504 hourly,,,$1.0788 hourly,$8.448 hourly,,,$1.6558 hourly
+L64s v2,L64s v2,512 GiB,64,8 GiB/vCPU,0,640 GiB,$4.992 hourly,,,$0.9225 hourly,$7.936 hourly,,,$1.4666 hourly
+L64s v3,L64s v3,512 GiB,64,8 GiB/vCPU,0,640 GiB,$5.568 hourly,,,$1.6041 hourly,$8.512 hourly,,,$2.4523 hourly
+L64s v4,L64s v4,512 GiB,64,8 GiB/vCPU,0,15360 GiB,$5.568 hourly,,,$1.029 hourly,$8.512 hourly,,,$1.573 hourly
+L80as v3,L80as v3,640 GiB,80,8 GiB/vCPU,0,800 GiB,$6.24 hourly,,,$1.1532 hourly,$9.92 hourly,,,$1.8332 hourly
+L80as v4,L80as v4,640 GiB,80,8 GiB/vCPU,0,19200 GiB,$6.88 hourly,,,$1.3485 hourly,$10.56 hourly,,,$2.0698 hourly
+L80s v2,L80s v2,640 GiB,80,8 GiB/vCPU,0,800 GiB,$6.24 hourly,,,$1.1532 hourly,$9.92 hourly,,,$1.8332 hourly
+L80s v3,L80s v3,640 GiB,80,8 GiB/vCPU,0,800 GiB,$6.96 hourly,,,$2.0052 hourly,$10.64 hourly,,,$3.0654 hourly
+L80s v4,L80s v4,640 GiB,80,8 GiB/vCPU,0,19200 GiB,$6.96 hourly,,,$1.2862 hourly,$10.64 hourly,,,$1.9663 hourly
+L8aos v4,L8aos v4,64 GiB,8,8 GiB/vCPU,0,5760 GiB,$0.904 hourly,,,$0.1772 hourly,$1.272 hourly,,,$0.2493 hourly
+L8as v3,L8as v3,64 GiB,8,8 GiB/vCPU,0,80 GiB,$0.624 hourly,,,$0.1153 hourly,$0.992 hourly,,,$0.1833 hourly
+L8as v4,L8as v4,64 GiB,8,8 GiB/vCPU,0,1920 GiB,$0.688 hourly,,,$0.1348 hourly,$1.056 hourly,,,$0.207 hourly
+L8s,L8s,64 GiB,8,8 GiB/vCPU,0,1388 GiB,$0.686 hourly,,,$0.1268 hourly,,,,
+L8s v2,L8s v2,64 GiB,8,8 GiB/vCPU,0,80 GiB,$0.624 hourly,,,$0.1153 hourly,$0.992 hourly,,,$0.1833 hourly
+L8s v3,L8s v3,64 GiB,8,8 GiB/vCPU,0,80 GiB,$0.696 hourly,,,$0.2005 hourly,$1.064 hourly,,,$0.3065 hourly
+L8s v4,L8s v4,64 GiB,8,8 GiB/vCPU,0,1920 GiB,$0.696 hourly,,,$0.1286 hourly,$1.056 hourly,,,$0.207 hourly
+L96as v4,L96as v4,768 GiB,96,8 GiB/vCPU,0,23040 GiB,$8.256 hourly,,,$1.6182 hourly,$12.672 hourly,,,$2.4837 hourly
+L96s v4,L96s v4,768 GiB,96,8 GiB/vCPU,0,23040 GiB,$8.352 hourly,,,$1.5435 hourly,$12.768 hourly,,,$2.3595 hourly
+M128,M128,2048 GiB,128,16 GiB/vCPU,0,14336 GiB,$13.338 hourly,,,$2.4649 hourly,$35.814 hourly,,,$6.6184 hourly
+M128bds 3 v3,M128bds3 v3,2794 GiB,128,21.83 GiB/vCPU,0,6000 GiB,$45.96 hourly,,,$8.4934 hourly,$51.85 hourly,,,$9.5819 hourly
+M128bds v3,M128bds v3,1024 GiB,128,8 GiB/vCPU,0,400 GiB,$11.71 hourly,,,$2.164 hourly,$17.60 hourly,,,$3.2525 hourly
+M128bs v3,M128bs v3,1024 GiB,128,8 GiB/vCPU,0,0 GiB,$11.16 hourly,,,$2.0624 hourly,,,,$2.6075 hourly
+M128dms v2,M128dms v2,3892 GiB,128,30.41 GiB/vCPU,0,4096 GiB,$26.69 hourly,,,$4.9323 hourly,$32.578 hourly,,,$6.0204 hourly
+M128ds v2,M128ds v2,2048 GiB,128,16 GiB/vCPU,0,4096 GiB,$13.34 hourly,,,$2.4652 hourly,$19.228 hourly,,,$3.5533 hourly
+M128m,M128m,3892 GiB,128,30.41 GiB/vCPU,0,14336 GiB,$26.688 hourly,,,$4.9319 hourly,$35.814 hourly,,,$6.6184 hourly
+M128ms,M128ms,3892 GiB,128,30.41 GiB/vCPU,0,4096 GiB,$26.688 hourly,,,$4.9319 hourly,$35.814 hourly,,,$6.6184 hourly
+M128ms v2,M128ms v2,3892 GiB,128,30.41 GiB/vCPU,0,0 GiB,$26.269 hourly,,,$4.8545 hourly,$32.157 hourly,,,$5.9426 hourly
+M128s,M128s,2048 GiB,128,16 GiB/vCPU,0,4096 GiB,$13.338 hourly,,,$2.4649 hourly,$19.226 hourly,,,$3.553 hourly
+M128s v2,M128s v2,2048 GiB,128,16 GiB/vCPU,0,0 GiB,$12.919 hourly,,,$2.3874 hourly,$18.807 hourly,,,$3.4755 hourly
+M12ds v3,M12ds v3,240 GiB,12,20 GiB/vCPU,0,400 GiB,$1.63 hourly,,,$0.3012 hourly,$2.18 hourly,,,$0.4029 hourly
+M12s v3,M12s v3,240 GiB,12,20 GiB/vCPU,0,0 GiB,$1.54 hourly,,,$0.2846 hourly,$2.09 hourly,,,$0.3862 hourly
+M16-8ms,M16-8ms,437.5 GiB,16,27.34 GiB/vCPU,0,256 GiB,$3.073 hourly,,,$0.5679 hourly,$4.2138 hourly,,,$0.7787 hourly
+M16bds v3,M16bds v3,128 GiB,16,8 GiB/vCPU,0,400 GiB,$1.46 hourly,,,$0.2698 hourly,$2.20 hourly,,,$0.4066 hourly
+M16bs v3,M16bs v3,128 GiB,16,8 GiB/vCPU,0,0 GiB,$1.40 hourly,,,$0.2587 hourly,$2.13 hourly,,,$0.3936 hourly
+M16ms,M16ms,437.5 GiB,16,27.34 GiB/vCPU,0,512 GiB,$3.073 hourly,,,$0.5679 hourly,$4.2138 hourly,,,$0.7787 hourly
+M176-88bs v3,M176-88bs v3,1536 GiB,176,8.73 GiB/vCPU,0,0 GiB,$16.11 hourly,,,$2.9771 hourly,$19.40 hourly,,,$3.5851 hourly
+M176bds 4 v3,M176bds4 v3,3892 GiB,176,22.11 GiB/vCPU,0,8000 GiB,$62.83 hourly,,,$11.611 hourly,$70.93 hourly,,,$13.1079 hourly
+M176bds v3,M176bds v3,1536 GiB,176,8.73 GiB/vCPU,0,400 GiB,$16.11 hourly,,,$2.9771 hourly,$24.20 hourly,,,$4.4722 hourly
+M176bs v3,M176bs v3,1536 GiB,176,8.73 GiB/vCPU,0,0 GiB,$15.34 hourly,,,$2.8348 hourly,,,,$3.5851 hourly
+M176ds 3 v3,M176ds3 v3,2794 GiB,176,15.88 GiB/vCPU,0,400 GiB,$19.00 hourly,,,$3.5112 hourly,$27.10 hourly,,,$5.0081 hourly
+M176ds 4 v3,M176ds4 v3,3892 GiB,176,22.11 GiB/vCPU,0,400 GiB,$26.47 hourly,,,$4.8917 hourly,$34.56 hourly,,,$6.3867 hourly
+M176s 3 v3,M176s3 v3,2794 GiB,176,15.88 GiB/vCPU,0,0 GiB,$17.88 hourly,,,$3.3042 hourly,$25.98 hourly,,,$4.8011 hourly
+M176s 4 v3,M176s4 v3,3892 GiB,176,22.11 GiB/vCPU,0,0 GiB,$24.91 hourly,,,$4.6034 hourly,$33.00 hourly,,,$6.0984 hourly
+M192idms v2,M192idms v2,4096 GiB,192,21.33 GiB/vCPU,0,4096 GiB,$32.064 hourly,,,$5.9254 hourly,$40.896 hourly,,,$7.5576 hourly
+M192ids v2,M192ids v2,2048 GiB,192,10.67 GiB/vCPU,0,4096 GiB,$16.032 hourly,,,$2.9627 hourly,$24.864 hourly,,,$4.5949 hourly
+M192ims v2,M192ims v2,4096 GiB,192,21.33 GiB/vCPU,0,0 GiB,$31.643 hourly,,,$5.8476 hourly,$40.476 hourly,,,$7.48 hourly
+M192is v2,M192is v2,2048 GiB,192,10.67 GiB/vCPU,0,0 GiB,$15.611 hourly,,,$2.8849 hourly,$24.444 hourly,,,$4.5173 hourly
+M208ms v2,M208ms v2,5700 GiB,208,27.4 GiB/vCPU,0,4096 GiB,$44.62 hourly,,,$8.2458 hourly,$54.188 hourly,,,$10.0139 hourly
+M208s v2,M208s v2,2850 GiB,208,13.7 GiB/vCPU,0,4096 GiB,$22.31 hourly,,,$4.1229 hourly,$31.878 hourly,,,$5.8911 hourly
+M24ds v3,M24ds v3,480 GiB,24,20 GiB/vCPU,0,400 GiB,$3.26 hourly,,,$0.6024 hourly,$4.37 hourly,,,$0.8076 hourly
+M24s v3,M24s v3,480 GiB,24,20 GiB/vCPU,0,0 GiB,$3.07 hourly,,,$0.5673 hourly,$4.18 hourly,,,$0.7725 hourly
+M32-8ms,M32-8ms,875 GiB,32,27.34 GiB/vCPU,0,1024 GiB,$6.146 hourly,,,$1.1358 hourly,$8.4276 hourly,,,$1.5574 hourly
+M32bds v3,M32bds v3,256 GiB,32,8 GiB/vCPU,0,400 GiB,$2.93 hourly,,,$0.5415 hourly,$4.40 hourly,,,$0.8131 hourly
+M32bs v3,M32bs v3,256 GiB,32,8 GiB/vCPU,0,0 GiB,$2.79 hourly,,,$0.5156 hourly,$4.26 hourly,,,$0.7872 hourly
+M32dms v2,M32dms v2,875 GiB,32,27.34 GiB/vCPU,0,1024 GiB,$6.146 hourly,,,$1.1358 hourly,$7.618 hourly,,,$1.4078 hourly
+M32ls,M32ls,256 GiB,32,8 GiB/vCPU,0,1024 GiB,$2.873 hourly,,,$0.5309 hourly,$4.345 hourly,,,$0.803 hourly
+M32ms,M32ms,875 GiB,32,27.34 GiB/vCPU,0,1024 GiB,$6.146 hourly,,,$1.1358 hourly,$8.4276 hourly,,,$1.5574 hourly
+M32ms v2,M32ms v2,875 GiB,32,27.34 GiB/vCPU,0,0 GiB,$6.041 hourly,,,$1.1164 hourly,$7.513 hourly,,,$1.3884 hourly
+M32ts,M32ts,192 GiB,32,6 GiB/vCPU,0,1024 GiB,$2.707 hourly,,,$0.5003 hourly,$4.179 hourly,,,$0.7723 hourly
+M416bs v3,M416bs v3,3800 GiB,416,9.13 GiB/vCPU,0,0 GiB,$48.14 hourly,,,$8.8963 hourly,$67.276 hourly,,,$12.4326 hourly
+M416ds 6 v3,M416ds6 v3,5700 GiB,416,13.7 GiB/vCPU,0,400 GiB,$58.0665 hourly,,,$10.7307 hourly,$77.2025 hourly,,,$14.267 hourly
+M416ds 8 v3,M416ds8 v3,7600 GiB,416,18.27 GiB/vCPU,0,400 GiB,$77.422 hourly,,,$14.3076 hourly,$96.558 hourly,,,$17.8439 hourly
+M416ms v2,M416ms v2,11400 GiB,416,27.4 GiB/vCPU,0,8192 GiB,$99.15 hourly,,,$18.3229 hourly,$118.29 hourly,,,$21.86 hourly
+M416s 6 v3,M416s6 v3,5700 GiB,416,13.7 GiB/vCPU,0,0 GiB,$55.3014 hourly,,,$10.2197 hourly,$74.4374 hourly,,,$13.756 hourly
+M416s 8 v2,M416s_8_v2,7600 GiB,416,18.27 GiB/vCPU,0,4096 GiB,$66.11 hourly,,,$12.2171 hourly,$85.25 hourly,,,$15.7542 hourly
+M416s 8 v3,M416s8 v3,7600 GiB,416,18.27 GiB/vCPU,0,0 GiB,$73.7352 hourly,,,$13.6263 hourly,$92.8712 hourly,,,$17.1626 hourly
+M416s v2,M416s v2,5700 GiB,416,13.7 GiB/vCPU,0,8192 GiB,$49.58 hourly,,,$9.1624 hourly,$68.716 hourly,,,$12.6987 hourly
+M48bds v3,M48bds v3,384 GiB,48,8 GiB/vCPU,0,400 GiB,$4.39 hourly,,,$0.8113 hourly,$6.60 hourly,,,$1.2197 hourly
+M48bs v3,M48bs v3,384 GiB,48,8 GiB/vCPU,0,0 GiB,$4.18 hourly,,,$0.7725 hourly,$6.39 hourly,,,$1.1809 hourly
+M48ds 1 v3,M48ds1 v3,974 GiB,48,20.29 GiB/vCPU,0,400 GiB,$6.62 hourly,,,$1.2234 hourly,$8.83 hourly,,,$1.6318 hourly
+M48s 1 v3,M48s1 v3,974 GiB,48,20.29 GiB/vCPU,0,0 GiB,$6.23 hourly,,,$1.1513 hourly,$8.44 hourly,,,$1.5597 hourly
+M624ds 12 v3,M624ds12 v3,11400 GiB,624,18.27 GiB/vCPU,0,400 GiB,$116.1329 hourly,,,$21.4614 hourly,,,,
+M624s 12 v3,M624s12 v3,11400 GiB,624,18.27 GiB/vCPU,0,0 GiB,$110.6028 hourly,,,$20.4394 hourly,,,,
+M64,M64,1024 GiB,64,16 GiB/vCPU,0,7168 GiB,$6.669 hourly,,,$1.2324 hourly,$14.641 hourly,,,$2.7057 hourly
+M64-32bds1 v3,M64-32bds1 v3,1397 GiB,64,21.83 GiB/vCPU,0,3000 GiB,$22.98 hourly,,,$4.2467 hourly,$25.92 hourly,,,$4.79 hourly
+M64bds 1 v3,M64bds1 v3,1397 GiB,64,21.83 GiB/vCPU,0,3000 GiB,$22.98 hourly,,,$4.2467 hourly,,,,$4.79 hourly
+M64bds v3,M64bds v3,512 GiB,64,8 GiB/vCPU,0,400 GiB,$5.86 hourly,,,$1.0829 hourly,$8.80 hourly,,,$1.6262 hourly
+M64bs v3,M64bs v3,512 GiB,64,8 GiB/vCPU,0,0 GiB,$5.58 hourly,,,$1.0312 hourly,,,,$1.5745 hourly
+M64dms v2,M64dms v2,1792 GiB,64,28 GiB/vCPU,0,2048 GiB,$10.34 hourly,,,$1.9108 hourly,$13.284 hourly,,,$2.4549 hourly
+M64ds v2,M64ds v2,1024 GiB,64,16 GiB/vCPU,0,2048 GiB,$6.669 hourly,,,$1.2324 hourly,$9.613 hourly,,,$1.7765 hourly
+M64ls,M64ls,512 GiB,64,8 GiB/vCPU,0,2048 GiB,$5.415 hourly,,,$1.0007 hourly,$8.359 hourly,,,$1.5447 hourly
+M64m,M64m,1792 GiB,64,28 GiB/vCPU,0,7168 GiB,$10.337 hourly,,,$1.9103 hourly,$14.641 hourly,,,$2.7057 hourly
+M64ms,M64ms,1792 GiB,64,28 GiB/vCPU,0,2048 GiB,$10.337 hourly,,,$1.9103 hourly,$14.641 hourly,,,$2.7057 hourly
+M64ms v2,M64ms v2,1792 GiB,64,28 GiB/vCPU,0,0 GiB,$10.13 hourly,,,$1.872 hourly,$13.073 hourly,,,$2.4159 hourly
+M64s,M64s,1024 GiB,64,16 GiB/vCPU,0,2048 GiB,$6.669 hourly,,,$1.2324 hourly,$9.613 hourly,,,$1.7765 hourly
+M64s v2,M64s v2,1024 GiB,64,16 GiB/vCPU,0,0 GiB,$6.459 hourly,,,$1.1936 hourly,$9.403 hourly,,,$1.7377 hourly
+M8-4ms,M8-4ms,218.75 GiB,8,27.34 GiB/vCPU,0,256 GiB,$1.5365 hourly,,,$0.2839 hourly,$2.1069 hourly,,,$0.3894 hourly
+M832ds 12 v3,M832ds12 v3,11400 GiB,832,13.7 GiB/vCPU,0,400 GiB,$116.506 hourly,,,$21.5303 hourly,,,,
+M832ids 16 v3,M832ids16 v3,15200 GiB,832,18.27 GiB/vCPU,0,400 GiB,$172.0488 hourly,,,$31.7946 hourly,,,,
+M832is 16 v3,M832is16 v3,15200 GiB,832,18.27 GiB/vCPU,0,0 GiB,$163.856 hourly,,,$30.2806 hourly,,,,
+M832s 12 v3,M832s12 v3,11400 GiB,832,13.7 GiB/vCPU,0,0 GiB,$110.9581 hourly,,,$20.5051 hourly,,,,
+M896ixds32 v3,M896ixds32 v3,30400 GiB,896,33.93 GiB/vCPU,0,4096 GiB,$410.40 hourly,,,$75.8419 hourly,,,,
+M8ms,M8ms,218.75 GiB,8,27.34 GiB/vCPU,0,256 GiB,$1.5365 hourly,,,$0.2839 hourly,$2.1069 hourly,,,$0.3894 hourly
+M96-48bds2 v3,M96-48bds2 v3,1946 GiB,96,20.27 GiB/vCPU,0,4500 GiB,$34.47 hourly,,,$6.3701 hourly,,,,
+M96bds 2 v3,M96bds2 v3,1946 GiB,96,20.27 GiB/vCPU,0,4500 GiB,$34.47 hourly,,,$6.3701 hourly,$38.88 hourly,,,$7.185 hourly
+M96bds v3,M96bds v3,768 GiB,96,8 GiB/vCPU,0,400 GiB,$8.79 hourly,,,$1.6244 hourly,,,,$2.4394 hourly
+M96bs v3,M96bs v3,768 GiB,96,8 GiB/vCPU,0,0 GiB,$8.37 hourly,,,$1.5468 hourly,,,,$2.3617 hourly
+M96ds 1 v3,M96ds1 v3,974 GiB,96,10.15 GiB/vCPU,0,400 GiB,$9.93 hourly,,,$1.8351 hourly,$14.34 hourly,,,$2.65 hourly
+M96ds 2 v3,M96ds2 v3,1946 GiB,96,20.27 GiB/vCPU,0,400 GiB,$13.23 hourly,,,$2.4449 hourly,$17.65 hourly,,,$3.2617 hourly
+M96s 1 v3,M96s1 v3,974 GiB,96,10.15 GiB/vCPU,0,0 GiB,$9.34 hourly,,,$1.726 hourly,$13.76 hourly,,,$2.5428 hourly
+M96s 2 v3,M96s2 v3,1946 GiB,96,20.27 GiB/vCPU,0,0 GiB,$12.45 hourly,,,$2.3008 hourly,$16.87 hourly,,,$3.1176 hourly
+NC12,NC12,112 GiB,12,9.33 GiB/vCPU,2X K80,680 GiB,$1.80 hourly,,,$0.3326 hourly,,,,
+NC128dsxlRTX6K v6,NC128dsxlRTX6K v6,512 GiB,128,4 GiB/vCPU,1.00,1024 GiB,,,,,,,,
+NC128ldsxlRTX6K v6,NC128ldsxlRTX6K v6,256 GiB,128,2 GiB/vCPU,1.00,1024 GiB,,,,,,,,
+NC12s v2,NC12s v2,224 GiB,12,18.67 GiB/vCPU,2X P100,672 GiB,$4.14 hourly,,,$0.7651 hourly,,,,
+NC12s v3,NC12s v3,224 GiB,12,18.67 GiB/vCPU,2X V100,672 GiB,$6.12 hourly,,,$1.131 hourly,$6.672 hourly,,,$1.233 hourly
+NC16ads A10 v4,NC16ads A10 v4,220 GiB,16,13.75 GiB/vCPU,1X A10,1460 GiB,,,,,,,,
+NC16as T4 v3,NC16as T4 v3,110 GiB,16,6.88 GiB/vCPU,1X T4,360 GiB,$1.204 hourly,,,$0.4452 hourly,$1.94 hourly,,,$0.7174 hourly
+NC24,NC24,224 GiB,24,9.33 GiB/vCPU,4X K80,1440 GiB,$3.60 hourly,,,$0.6653 hourly,$4.336 hourly,,,$0.8013 hourly
+NC24ads A100 v4,NC24ads A100 v4,220 GiB,24,9.17 GiB/vCPU,1X A100,958 GiB,$3.673 hourly,,,$0.7364 hourly,$4.777 hourly,,,$1.3404 hourly
+NC24r,NC24r,224 GiB,24,9.33 GiB/vCPU,4X K80,1440 GiB,$3.96 hourly,,,$0.7318 hourly,,,,
+NC24rs v2,NC24rs v2,448 GiB,24,18.67 GiB/vCPU,4X P100,1344 GiB,$9.108 hourly,,,$1.6832 hourly,,,,
+NC24rs v3,NC24rs v3,448 GiB,24,18.67 GiB/vCPU,4X V100,1344 GiB,$13.46 hourly,,,$2.4874 hourly,$14.56 hourly,,,$2.6907 hourly
+NC24s v2,NC24s v2,448 GiB,24,18.67 GiB/vCPU,4X P100,1344 GiB,$8.28 hourly,,,$1.5301 hourly,,,,
+NC24s v3,NC24s v3,448 GiB,24,18.67 GiB/vCPU,4X V100,1344 GiB,$12.24 hourly,,,$2.262 hourly,$13.344 hourly,,,$2.466 hourly
+NC256dsxlRTX6K v6,NC256dsxlRTX6K v6,1024 GiB,256,4 GiB/vCPU,2.00,2048 GiB,,,,,,,,
+NC256ldsxlRTX6K v6,NC256ldsxlRTX6K v6,512 GiB,256,2 GiB/vCPU,2.00,2048 GiB,,,,,,,,
+NC320dsxlRTX6K v6,NC320dsxlRTX6K v6,1280 GiB,320,4 GiB/vCPU,2.00,2048 GiB,,,,,,,,
+NC320ldsxlRTX6K v6,NC320ldsxlRTX6K v6,640 GiB,320,2 GiB/vCPU,2.00,2048 GiB,,,,,,,,
+NC32ads A10 v4,NC32ads A10 v4,440 GiB,32,13.75 GiB/vCPU,2X A10,2920 GiB,,,,,,,,
+NC40ads H100 v5,NC40ads H100 v5,320 GiB,40,8 GiB/vCPU,1X H100,3576 GiB,$6.98 hourly,,,$2.4912 hourly,$8.82 hourly,,,$3.1479 hourly
+NC48ads A100 v4,NC48ads A100 v4,440 GiB,48,9.17 GiB/vCPU,2X A100,1916 GiB,$7.346 hourly,,,$1.4729 hourly,$9.554 hourly,,,$2.6809 hourly
+NC4as T4 v3,NC4as T4 v3,28 GiB,4,7 GiB/vCPU,1X T4,180 GiB,$0.526 hourly,,,$0.1945 hourly,$0.71 hourly,,,$0.2626 hourly
+NC6,NC6,56 GiB,6,9.33 GiB/vCPU,1X K80,340 GiB,$0.90 hourly,,,$0.1663 hourly,,,,
+NC64as T4 v3,NC64as T4 v3,440 GiB,64,6.88 GiB/vCPU,4X T4,2880 GiB,$4.352 hourly,,,$1.6094 hourly,$7.296 hourly,,,$2.6981 hourly
+NC6s v2,NC6s v2,112 GiB,6,18.67 GiB/vCPU,1X P100,336 GiB,$2.07 hourly,,,$0.3825 hourly,,,,
+NC6s v3,NC6s v3,112 GiB,6,18.67 GiB/vCPU,1X V100,336 GiB,$3.06 hourly,,,$0.5655 hourly,$3.336 hourly,,,$0.6165 hourly
+NC80adis H100 v5,NC80adis H100 v5,640 GiB,80,8 GiB/vCPU,2X H100,7152 GiB,$13.96 hourly,,,$4.9823 hourly,$17.64 hourly,,,$6.2957 hourly
+NC8ads A10 v4,NC8ads A10 v4,110 GiB,8,13.75 GiB/vCPU,1/2X A10,730 GiB,,,,,,,,
+NC8as T4 v3,NC8as T4 v3,56 GiB,8,7 GiB/vCPU,1X T4,360 GiB,$0.752 hourly,,,$0.2781 hourly,$1.12 hourly,,,$0.4142 hourly
+NC96ads A100 v4,NC96ads A100 v4,880 GiB,96,9.17 GiB/vCPU,4X A100,3832 GiB,$14.692 hourly,,,$2.9457 hourly,$19.108 hourly,,,$5.3617 hourly
+NCC40ads H100 v5,NCC40ads H100 v5,320 GiB,40,8 GiB/vCPU,1X H100,3576 GiB,,,,,,,,
+ND12s,ND12s,224 GiB,12,18.67 GiB/vCPU,2X P40,672 GiB,$4.14 hourly,,,$0.7651 hourly,,,,
+ND24rs,ND24rs,448 GiB,24,18.67 GiB/vCPU,4X P40,1344 GiB,$9.108 hourly,,,$1.6832 hourly,,,,
+ND24s,ND24s,448 GiB,24,18.67 GiB/vCPU,4X P40,1344 GiB,$8.28 hourly,,,$1.5301 hourly,,,,
+ND40rs v2,ND40rs v2,672 GiB,40,16.8 GiB/vCPU,8X V100 (NVlink),2900 GiB,$22.032 hourly,,,$4.0715 hourly,$23.872 hourly,,,$4.4115 hourly
+ND6s,ND6s,112 GiB,6,18.67 GiB/vCPU,1X P40,336 GiB,$2.07 hourly,,,$0.3825 hourly,,,,
+ND96amsr A100 v4,ND96amsr A100 v4,1900 GiB,96,19.79 GiB/vCPU,8x 80GB A100 (NVlink),6400 GiB,$32.77 hourly,,,$8.5202 hourly,$37.186 hourly,,,$9.6684 hourly
+ND96asr A100 v4,ND96asr A100 v4,900 GiB,96,9.38 GiB/vCPU,8x A100 (NVlink),6500 GiB,$27.197 hourly,,,$5.9833 hourly,$31.613 hourly,,,$6.9549 hourly
+ND96isr H100 v5,ND96isr H100 v5,1900 GiB,96,19.79 GiB/vCPU,8x H100,28000 GiB,$98.32 hourly,,,$18.1695 hourly,$102.736 hourly,,,$18.9856 hourly
+ND96isr H200 v5,ND96isr H200 v5,1900 GiB,96,19.79 GiB/vCPU,8x H200,28000 GiB,,,,,,,,
+NG16ads V620 v1,NG16ads V620 v1,32 GiB,16,2 GiB/vCPU,1/2,512 GiB,,,,,,,,
+NG32adms V620 v1,NG32adms V620 v1,176 GiB,32,5.5 GiB/vCPU,1,1024 GiB,,,,,,,,
+NG32ads V620 v1,NG32ads V620 v1,64 GiB,32,2 GiB/vCPU,1,1024 GiB,,,,,,,,
+NG8ads V620 v1,NG8ads V620 v1,16 GiB,8,2 GiB/vCPU,1/4,256 GiB,,,,,,,,
+NM16ads MA35D,NM16ads MA35D,30 GiB,16,1.88 GiB/vCPU,1x ASIC VPU,71 GiB,$1.95 hourly,,,$0.3604 hourly,$2.686 hourly,,,$0.4964 hourly
+Standard NP10s,NP10s,168 GiB,10,16.8 GiB/vCPU,0,700 GiB,$1.65 hourly,,,$0.3049 hourly,,,,
+Standard NP20s,NP20s,336 GiB,20,16.8 GiB/vCPU,0,1400 GiB,$3.30 hourly,,,$0.6098 hourly,,,,
+Standard NP40s,NP40s,672 GiB,40,16.8 GiB/vCPU,0,2800 GiB,$6.60 hourly,,,$1.2197 hourly,,,,
+NV12,NV12,112 GiB,12,9.33 GiB/vCPU,2X M60,680 GiB,$2.28 hourly,,,$0.4213 hourly,,,,
+NV12ads A10 v5,NV12ads A10 v5,110 GiB,12,9.17 GiB/vCPU,1/3X A10,320 GiB,$0.908 hourly,,,$0.1678 hourly,$1.46 hourly,,,$0.2698 hourly
+NV12ads V710 v5,NV12ads v710 v5,64 GiB,12,5.33 GiB/vCPU,1/2 V710,768 GiB,$1.00 hourly,,,$0.1848 hourly,$1.552 hourly,,,$0.2868 hourly
+NV12s v3,NV12s v3,112 GiB,12,9.33 GiB/vCPU,1X M60,736 GiB,$1.14 hourly,,,$0.2107 hourly,$1.692 hourly,,,$0.3127 hourly
+Standard NV16as v4,NV16as v4,56 GiB,16,3.5 GiB/vCPU,1/2 MI25 (8GB VRAM),352 GiB,,,,,$1.668 hourly,,,$0.3082 hourly
+NV18ads A10 v5,NV18ads A10 v5,220 GiB,18,12.22 GiB/vCPU,1/2X A10,720 GiB,$1.60 hourly,,,$0.2957 hourly,$2.428 hourly,,,$0.4487 hourly
+NV24,NV24,224 GiB,24,9.33 GiB/vCPU,4X M60,1440 GiB,$4.56 hourly,,,$0.8427 hourly,,,,
+NV24ads V710 v5,NV24ads V710 v5,128 GiB,24,5.33 GiB/vCPU,1 V710,1536 GiB,$2.00 hourly,,,$0.3696 hourly,$3.104 hourly,,,$0.5736 hourly
+NV24s v3,NV24s v3,224 GiB,24,9.33 GiB/vCPU,2X M60,1474 GiB,$2.28 hourly,,,$0.4213 hourly,$3.384 hourly,,,$0.6254 hourly
+NV28ads v710 v5,NV28ads v710 v5,160 GiB,28,5.71 GiB/vCPU,1 V710,1536 GiB,$2.40 hourly,,,$0.4435 hourly,,,,
+Standard NV32as v4,NV32as v4,112 GiB,32,3.5 GiB/vCPU,1x MI25 (16GB VRAM),700 GiB,,,,,$3.336 hourly,,,$0.6165 hourly
+NV36adms A10 v5,NV36adms A10 v5,880 GiB,36,24.44 GiB/vCPU,1X A10,720 GiB,$4.52 hourly,,,$0.8353 hourly,$6.176 hourly,,,$1.1413 hourly
+NV36ads A10 v5,NV36ads A10 v5,440 GiB,36,12.22 GiB/vCPU,1X A10,720 GiB,$3.20 hourly,,,$0.5914 hourly,$4.856 hourly,,,$0.8974 hourly
+NV48s v3,NV48s v3,448 GiB,48,9.33 GiB/vCPU,4X M60,2948 GiB,$4.56 hourly,,,$0.8427 hourly,$6.768 hourly,,,$1.2507 hourly
+NV4ads V710 v5,NV4ads V710 v5,16 GiB,4,4 GiB/vCPU,1/6 V710,256 GiB,$0.333 hourly,,,$0.0615 hourly,$0.517 hourly,,,$0.0955 hourly
+Standard NV4as v4,NV4as v4,14 GiB,4,3.5 GiB/vCPU,1/8th MI25 (2GB VRAM),88 GiB,,,,,$0.417 hourly,,,$0.0771 hourly
+NV6,NV6,56 GiB,6,9.33 GiB/vCPU,1X M60,340 GiB,$1.14 hourly,,,$0.2107 hourly,,,,
+NV6adsv5,NV6adsv5,55 GiB,6,9.17 GiB/vCPU,1/6X A10,180 GiB,$0.454 hourly,,,$0.0839 hourly,$0.73 hourly,,,$0.1349 hourly
+NV72ads A10 v5,NV72ads A10 v5,880 GiB,72,12.22 GiB/vCPU,2X A10,1400 GiB,$6.52 hourly,,,$1.2049 hourly,$9.832 hourly,,,$1.817 hourly
+NV8ads V710 v5,NV8ads v710 v5,32 GiB,8,4 GiB/vCPU,1/3 V710,512 GiB,$0.667 hourly,,,$0.1233 hourly,$1.035 hourly,,,$0.1913 hourly
+Standard NV8as v4,NV8as v4,28 GiB,8,3.5 GiB/vCPU,1/4th MI25 (4GB VRAM),176 GiB,,,,,$0.834 hourly,,,$0.1541 hourly
+S192,S192,2048 GiB,192,10.67 GiB/vCPU,0,8192 GiB,,,,,,,,
+S192m,S192m,4096 GiB,192,21.33 GiB/vCPU,0,16384 GiB,,,,,,,,
+S192xm,S192xm,6144 GiB,192,32 GiB/vCPU,0,16384 GiB,,,,,,,,
+S224,S224,3072 GiB,224,13.71 GiB/vCPU,0,6125 GiB,,,,,,,,
+S224m,S224m,6144 GiB,224,27.43 GiB/vCPU,0,10250 GiB,,,,,,,,
+S224om,S224om,3072 GiB,224,13.71 GiB/vCPU,0,10250 GiB,,,,,,,,
+S224oo,S224oo,1536 GiB,224,6.86 GiB/vCPU,0,8187 GiB,,,,,,,,
+S224oom,S224oom,3072 GiB,224,13.71 GiB/vCPU,0,14375 GiB,,,,,,,,
+S224ooo,S224ooo,1536 GiB,224,6.86 GiB/vCPU,0,12312 GiB,,,,,,,,
+S32m,S32m,1536 GiB,32,48 GiB/vCPU,0,0 GiB,,,,,,,,
+S384,S384,4096 GiB,384,10.67 GiB/vCPU,0,16384 GiB,,,,,,,,
+S384m,S384m,6144 GiB,384,16 GiB/vCPU,0,18432 GiB,,,,,,,,
+S384xm,S384xm,8192 GiB,384,21.33 GiB/vCPU,0,22528 GiB,,,,,,,,
+S384xxm,S384xxm,12000 GiB,384,31.25 GiB/vCPU,0,28250 GiB,,,,,,,,
+S448,S448,6144 GiB,448,13.71 GiB/vCPU,0,10250 GiB,,,,,,,,
+S448m,S448m,12288 GiB,448,27.43 GiB/vCPU,0,18500 GiB,,,,,,,,
+S448om,S448om,6144 GiB,448,13.71 GiB/vCPU,0,18500 GiB,,,,,,,,
+S448oo,S448oo,3072 GiB,448,6.86 GiB/vCPU,0,14375 GiB,,,,,,,,
+S448oom,S448oom,6144 GiB,448,13.71 GiB/vCPU,0,26750 GiB,,,,,,,,
+S448ooo,S448ooo,3840 GiB,448,8.57 GiB/vCPU,0,22625 GiB,,,,,,,,
+S576m,S576m,12000 GiB,576,20.83 GiB/vCPU,0,28250 GiB,,,,,,,,
+S64m,S64m,3072 GiB,64,48 GiB/vCPU,0,0 GiB,,,,,,,,
+S672,S672,9216 GiB,672,13.71 GiB/vCPU,0,14375 GiB,,,,,,,,
+S672m,S672m,18432 GiB,672,27.43 GiB/vCPU,0,26750 GiB,,,,,,,,
+S672om,S672om,9216 GiB,672,13.71 GiB/vCPU,0,26750 GiB,,,,,,,,
+S672oo,S672oo,4608 GiB,672,6.86 GiB/vCPU,0,20563 GiB,,,,,,,,
+S672oom,S672oom,9216 GiB,672,13.71 GiB/vCPU,0,39125 GiB,,,,,,,,
+S672ooo,S672ooo,5760 GiB,672,8.57 GiB/vCPU,0,32938 GiB,,,,,,,,
+S896,S896,12288 GiB,896,13.71 GiB/vCPU,0,18500 GiB,,,,,,,,
+S896m,S896m,24576 GiB,896,27.43 GiB/vCPU,0,35000 GiB,,,,,,,,
+S896om,S896om,12288 GiB,896,13.71 GiB/vCPU,0,35000 GiB,,,,,,,,
+S896oo,S896oo,6144 GiB,896,6.86 GiB/vCPU,0,26750 GiB,,,,,,,,
+S896oom,S896oom,12288 GiB,896,13.71 GiB/vCPU,0,51500 GiB,,,,,,,,
+S896ooo,S896ooo,7680 GiB,896,8.57 GiB/vCPU,0,43250 GiB,,,,,,,,
+S96,S96,768 GiB,96,8 GiB/vCPU,0,3072 GiB,,,,,,,,

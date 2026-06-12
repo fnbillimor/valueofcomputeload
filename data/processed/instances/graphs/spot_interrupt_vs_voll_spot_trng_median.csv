@@ -1,0 +1,77 @@
+Linux Spot Interrupt Frequency,voll_spot_usd_per_mwh_trng_median,instance_type,gpu_model_clean,gpu_vintage_group,interrupt_category_order
+<5%,2056.840490797546,g4ad.16xlarge,V520,Legacy / Older Vintage,0
+<5%,1114.2281879194632,g4ad.2xlarge,V520,Legacy / Older Vintage,0
+<5%,1339.1411042944785,g4ad.4xlarge,V520,Legacy / Older Vintage,0
+<5%,1248.40490797546,g4ad.8xlarge,V520,Legacy / Older Vintage,0
+<5%,484.225352112676,g4ad.xlarge,V520,Legacy / Older Vintage,0
+>20%,1963.6641221374043,g4dn.12xlarge,T4,Transitional / Early AI,4
+>20%,2111.5789473684213,g4dn.16xlarge,T4,Transitional / Early AI,4
+>20%,2163.7735849056608,g4dn.2xlarge,T4,Transitional / Early AI,4
+>20%,2201.025641025641,g4dn.4xlarge,T4,Transitional / Early AI,4
+>20%,2035.625,g4dn.8xlarge,T4,Transitional / Early AI,4
+>20%,2381.450381679389,g4dn.metal,T4,Transitional / Early AI,4
+10-15%,2168.8888888888887,g4dn.xlarge,T4,Transitional / Early AI,2
+>20%,2986.7567567567567,g5.12xlarge,A10G,Mainstream Modern AI,4
+>20%,4262.970297029703,g5.16xlarge,A10G,Mainstream Modern AI,4
+>20%,5278.636363636363,g5.24xlarge,A10G,Mainstream Modern AI,4
+15-20%,2764.038461538461,g5.2xlarge,A10G,Mainstream Modern AI,3
+>20%,4694.488636363636,g5.48xlarge,A10G,Mainstream Modern AI,4
+>20%,3721.016949152543,g5.4xlarge,A10G,Mainstream Modern AI,4
+>20%,4956.986301369863,g5.8xlarge,A10G,Mainstream Modern AI,4
+>20%,2997.5257731958764,g5.xlarge,A10G,Mainstream Modern AI,4
+10-15%,2384.8,g5g.16xlarge,T4G,Mainstream Modern AI,2
+5-10%,2813.134328358209,g5g.2xlarge,T4G,Mainstream Modern AI,1
+5-10%,2464.6153846153848,g5g.4xlarge,T4G,Mainstream Modern AI,1
+5-10%,4477.599999999999,g5g.8xlarge,T4G,Mainstream Modern AI,1
+>20%,2626.8,g5g.metal,T4G,Mainstream Modern AI,4
+5-10%,1624.7154471544716,g5g.xlarge,T4G,Mainstream Modern AI,1
+5-10%,5225.2336448598135,g6.12xlarge,L4,Mainstream Modern AI,1
+10-15%,4842.525773195876,g6.16xlarge,L4,Mainstream Modern AI,2
+>20%,6077.1126760563375,g6.24xlarge,L4,Mainstream Modern AI,4
+10-15%,5928.671328671329,g6.2xlarge,L4,Mainstream Modern AI,2
+15-20%,5932.482394366197,g6.48xlarge,L4,Mainstream Modern AI,3
+>20%,5638.483146067416,g6.4xlarge,L4,Mainstream Modern AI,4
+>20%,6978.024193548388,g6.8xlarge,L4,Mainstream Modern AI,4
+>20%,4589.641434262948,g6.xlarge,L4,Mainstream Modern AI,4
+>20%,2987.792207792208,g6e.12xlarge,L40S,Mainstream Modern AI,4
+>20%,3490.248447204969,g6e.16xlarge,L40S,Mainstream Modern AI,4
+>20%,2423.928571428571,g6e.24xlarge,L40S,Mainstream Modern AI,4
+5-10%,2649.107142857143,g6e.2xlarge,L40S,Mainstream Modern AI,1
+10-15%,2828.928571428572,g6e.48xlarge,L40S,Mainstream Modern AI,2
+>20%,3152.0168067226887,g6e.4xlarge,L40S,Mainstream Modern AI,4
+15-20%,3211.578947368421,g6e.8xlarge,L40S,Mainstream Modern AI,3
+>20%,2456.9585253456216,g6e.xlarge,L40S,Mainstream Modern AI,4
+>20%,4979.032258064517,g6f.2xlarge,L4,Mainstream Modern AI,4
+15-20%,5413.306451612904,g6f.4xlarge,L4,Mainstream Modern AI,3
+<5%,3808.988764044944,g6f.large,L4,Mainstream Modern AI,0
+5-10%,4577.41935483871,g6f.xlarge,L4,Mainstream Modern AI,1
+>20%,1994.3272727272729,g7e.12xlarge,GB202,Mainstream Modern AI,4
+>20%,1900.4,g7e.24xlarge,GB202,Mainstream Modern AI,4
+15-20%,1643.6026490066226,g7e.2xlarge,GB202,Mainstream Modern AI,3
+>20%,2134.4,g7e.48xlarge,GB202,Mainstream Modern AI,4
+10-15%,1801.2151898734176,g7e.4xlarge,GB202,Mainstream Modern AI,2
+15-20%,2050.6046511627906,g7e.8xlarge,GB202,Mainstream Modern AI,3
+>20%,5895.505617977528,gr6.4xlarge,L4,Mainstream Modern AI,4
+10-15%,8020.766129032259,gr6.8xlarge,L4,Mainstream Modern AI,2
+>20%,5293.548387096775,gr6f.4xlarge,L4,Mainstream Modern AI,4
+>20%,645.8928571428571,inf1.24xlarge,Inf1,Transitional / Early AI,4
+>20%,803.4782608695651,inf1.2xlarge,Inf1,Transitional / Early AI,4
+>20%,522.1428571428571,inf1.6xlarge,Inf1,Transitional / Early AI,4
+>20%,486.31578947368416,inf1.xlarge,Inf1,Transitional / Early AI,4
+>20%,4041.25,inf2.24xlarge,Inf2,Mainstream Modern AI,4
+>20%,5782.272727272727,inf2.48xlarge,Inf2,Mainstream Modern AI,4
+>20%,4901.896551724139,inf2.8xlarge,Inf2,Mainstream Modern AI,4
+>20%,1385.3731343283582,inf2.xlarge,Inf2,Mainstream Modern AI,4
+>20%,1643.290133779264,p3.16xlarge,V100,Transitional / Early AI,4
+>20%,1025.2173913043478,p3.2xlarge,V100,Transitional / Early AI,4
+>20%,1319.2224080267558,p3.8xlarge,V100,Transitional / Early AI,4
+>20%,2562.1875,p3dn.24xlarge,V100,Transitional / Early AI,4
+15-20%,3020.311614730878,p4d.24xlarge,A100,Mainstream Modern AI,3
+15-20%,4249.71671388102,p4de.24xlarge,A100,Mainstream Modern AI,3
+<5%,4824.13961038961,p5.48xlarge,H100,Mainstream Modern AI,0
+<5%,5135.892857142857,p5.4xlarge,H100,Mainstream Modern AI,0
+<5%,2969.654062751408,p5en.48xlarge,H200,Emerging / Frontier AI,0
+10-15%,3467.758620689656,p6-b200.48xlarge,B200,Emerging / Frontier AI,2
+<5%,2731.0344827586205,trn1.2xlarge,Inf1,Transitional / Early AI,0
+<5%,3578.850574712644,trn1.32xlarge,Inf1,Transitional / Early AI,0
+<5%,2712.3563218390805,trn1n.32xlarge,Inf1,Transitional / Early AI,0

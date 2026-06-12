@@ -1,0 +1,21 @@
+﻿Instance Type,Region,vCPUs,Memory (GiB),GPU Name,Instance Price,Price Diff %,Provider,,,
+g5g.xlarge,US West (Oregon) (us-west-2),4,8,T4g,0.42,-48%,EC2,,,
+g4dn.xlarge,US West (Oregon) (us-west-2),4,16,T4,0.526,-35%,EC2,,,
+g6.xlarge,US West (Oregon) (us-west-2),4,16,L4,0.8048,0%,EC2,,,
+g6.2xlarge,US West (Oregon) (us-west-2),8,32,L4,0.9776,21%,EC2,,,
+g5.xlarge,US West (Oregon) (us-west-2),4,16,A10G,1.006,25%,EC2,,,
+Instance Type,,vCPUs,Memory (GiB),GPU,Price/Hour,Price Diff %,,,,
+g2-standard-4,us-west4,4,16,nvidia-l4,$0.80 ,-1.08% (us-west4),0.79610514,us-west4,"Las Vegas, United States",1216.73
+c3-standard-4,us-west3,4,16,N/A,$0.24 ,-69.89% (us-west3),0.24235299999999999,us-west3,"Salt Lake City, United States",1021.52
+n2-standard-4,us-west3,4,16,N/A,$0.23 ,-71.01% (us-west3),0.23330399999999998,us-west3,"Salt Lake City, United States",1021.52
+c3-standard-4-lssd,us-west4,4,16,N/A,$0.23 ,-71.79% (us-west4),0.22707112000000002,us-west4,"Las Vegas, United States",1216.73
+g2-standard-8,us-west4,8,32,nvidia-l4,$0.96 ,+19.46% (us-west4),0.96143698,us-west4,"Las Vegas, United States",1216.73
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,

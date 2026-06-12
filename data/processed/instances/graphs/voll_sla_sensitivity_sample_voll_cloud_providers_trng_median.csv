@@ -1,0 +1,127 @@
+panel,cloud_platform,cloud_platform_label,base_voll_usd_per_mwh,scenario_label,H_CUMULATIVE,U_mth,service_credit_share,plot_x_jitter_hours,voll_incl_sla_usd_per_mwh
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,5000.0,trng_median,0.0,0.1,0.0,-0.04,5000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,5000.0,trng_median,1.0,0.1,0.0,-0.04,5000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,5000.0,trng_median,2.0,0.1,0.0,-0.04,5000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,5000.0,trng_median,3.0,0.1,0.1,-0.04,41500.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,5000.0,trng_median,4.0,0.1,0.0,-0.04,5000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,5000.0,trng_median,5.0,0.1,0.0,-0.04,5000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,5000.0,trng_median,6.0,0.1,0.0,-0.04,5000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,5000.0,trng_median,7.0,0.1,0.3,-0.04,114500.00000000001
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,5000.0,trng_median,8.0,0.1,0.0,-0.04,5000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,5000.0,trng_median,9.0,0.1,0.0,-0.04,5000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,5000.0,trng_median,10.0,0.1,0.0,-0.04,5000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,5000.0,trng_median,11.0,0.1,0.0,-0.04,5000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,5000.0,trng_median,12.0,0.1,0.0,-0.04,5000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,5000.0,trng_median,13.0,0.1,0.0,-0.04,5000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,5000.0,trng_median,14.0,0.1,0.0,-0.04,5000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,5000.0,trng_median,15.0,0.1,0.0,-0.04,5000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,5000.0,trng_median,16.0,0.1,0.0,-0.04,5000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,5000.0,trng_median,17.0,0.1,0.0,-0.04,5000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,5000.0,trng_median,18.0,0.1,0.0,-0.04,5000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,5000.0,trng_median,19.0,0.1,0.0,-0.04,5000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,5000.0,trng_median,20.0,0.1,0.0,-0.04,5000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,10000.0,trng_median,0.0,0.1,0.0,-0.04,10000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,10000.0,trng_median,1.0,0.1,0.0,-0.04,10000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,10000.0,trng_median,2.0,0.1,0.0,-0.04,10000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,10000.0,trng_median,3.0,0.1,0.1,-0.04,83000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,10000.0,trng_median,4.0,0.1,0.0,-0.04,10000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,10000.0,trng_median,5.0,0.1,0.0,-0.04,10000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,10000.0,trng_median,6.0,0.1,0.0,-0.04,10000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,10000.0,trng_median,7.0,0.1,0.3,-0.04,229000.00000000003
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,10000.0,trng_median,8.0,0.1,0.0,-0.04,10000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,10000.0,trng_median,9.0,0.1,0.0,-0.04,10000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,10000.0,trng_median,10.0,0.1,0.0,-0.04,10000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,10000.0,trng_median,11.0,0.1,0.0,-0.04,10000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,10000.0,trng_median,12.0,0.1,0.0,-0.04,10000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,10000.0,trng_median,13.0,0.1,0.0,-0.04,10000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,10000.0,trng_median,14.0,0.1,0.0,-0.04,10000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,10000.0,trng_median,15.0,0.1,0.0,-0.04,10000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,10000.0,trng_median,16.0,0.1,0.0,-0.04,10000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,10000.0,trng_median,17.0,0.1,0.0,-0.04,10000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,10000.0,trng_median,18.0,0.1,0.0,-0.04,10000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,10000.0,trng_median,19.0,0.1,0.0,-0.04,10000.0
+H_CUMULATIVE,aws_ec2_instance,AWS EC2,10000.0,trng_median,20.0,0.1,0.0,-0.04,10000.0
+H_CUMULATIVE,gcp,GCP,5000.0,trng_median,0.0,0.1,0.1,0.0,41500.0
+H_CUMULATIVE,gcp,GCP,5000.0,trng_median,1.0,0.1,0.0,0.0,5000.0
+H_CUMULATIVE,gcp,GCP,5000.0,trng_median,2.0,0.1,0.0,0.0,5000.0
+H_CUMULATIVE,gcp,GCP,5000.0,trng_median,3.0,0.1,0.0,0.0,5000.0
+H_CUMULATIVE,gcp,GCP,5000.0,trng_median,4.0,0.1,0.0,0.0,5000.0
+H_CUMULATIVE,gcp,GCP,5000.0,trng_median,5.0,0.1,0.0,0.0,5000.0
+H_CUMULATIVE,gcp,GCP,5000.0,trng_median,6.0,0.1,0.0,0.0,5000.0
+H_CUMULATIVE,gcp,GCP,5000.0,trng_median,7.0,0.1,0.25,0.0,96250.0
+H_CUMULATIVE,gcp,GCP,5000.0,trng_median,8.0,0.1,0.0,0.0,5000.0
+H_CUMULATIVE,gcp,GCP,5000.0,trng_median,9.0,0.1,0.0,0.0,5000.0
+H_CUMULATIVE,gcp,GCP,5000.0,trng_median,10.0,0.1,0.0,0.0,5000.0
+H_CUMULATIVE,gcp,GCP,5000.0,trng_median,11.0,0.1,0.0,0.0,5000.0
+H_CUMULATIVE,gcp,GCP,5000.0,trng_median,12.0,0.1,0.0,0.0,5000.0
+H_CUMULATIVE,gcp,GCP,5000.0,trng_median,13.0,0.1,0.0,0.0,5000.0
+H_CUMULATIVE,gcp,GCP,5000.0,trng_median,14.0,0.1,0.0,0.0,5000.0
+H_CUMULATIVE,gcp,GCP,5000.0,trng_median,15.0,0.1,0.0,0.0,5000.0
+H_CUMULATIVE,gcp,GCP,5000.0,trng_median,16.0,0.1,0.0,0.0,5000.0
+H_CUMULATIVE,gcp,GCP,5000.0,trng_median,17.0,0.1,0.0,0.0,5000.0
+H_CUMULATIVE,gcp,GCP,5000.0,trng_median,18.0,0.1,0.0,0.0,5000.0
+H_CUMULATIVE,gcp,GCP,5000.0,trng_median,19.0,0.1,0.0,0.0,5000.0
+H_CUMULATIVE,gcp,GCP,5000.0,trng_median,20.0,0.1,0.0,0.0,5000.0
+H_CUMULATIVE,gcp,GCP,10000.0,trng_median,0.0,0.1,0.1,0.0,83000.0
+H_CUMULATIVE,gcp,GCP,10000.0,trng_median,1.0,0.1,0.0,0.0,10000.0
+H_CUMULATIVE,gcp,GCP,10000.0,trng_median,2.0,0.1,0.0,0.0,10000.0
+H_CUMULATIVE,gcp,GCP,10000.0,trng_median,3.0,0.1,0.0,0.0,10000.0
+H_CUMULATIVE,gcp,GCP,10000.0,trng_median,4.0,0.1,0.0,0.0,10000.0
+H_CUMULATIVE,gcp,GCP,10000.0,trng_median,5.0,0.1,0.0,0.0,10000.0
+H_CUMULATIVE,gcp,GCP,10000.0,trng_median,6.0,0.1,0.0,0.0,10000.0
+H_CUMULATIVE,gcp,GCP,10000.0,trng_median,7.0,0.1,0.25,0.0,192500.0
+H_CUMULATIVE,gcp,GCP,10000.0,trng_median,8.0,0.1,0.0,0.0,10000.0
+H_CUMULATIVE,gcp,GCP,10000.0,trng_median,9.0,0.1,0.0,0.0,10000.0
+H_CUMULATIVE,gcp,GCP,10000.0,trng_median,10.0,0.1,0.0,0.0,10000.0
+H_CUMULATIVE,gcp,GCP,10000.0,trng_median,11.0,0.1,0.0,0.0,10000.0
+H_CUMULATIVE,gcp,GCP,10000.0,trng_median,12.0,0.1,0.0,0.0,10000.0
+H_CUMULATIVE,gcp,GCP,10000.0,trng_median,13.0,0.1,0.0,0.0,10000.0
+H_CUMULATIVE,gcp,GCP,10000.0,trng_median,14.0,0.1,0.0,0.0,10000.0
+H_CUMULATIVE,gcp,GCP,10000.0,trng_median,15.0,0.1,0.0,0.0,10000.0
+H_CUMULATIVE,gcp,GCP,10000.0,trng_median,16.0,0.1,0.0,0.0,10000.0
+H_CUMULATIVE,gcp,GCP,10000.0,trng_median,17.0,0.1,0.0,0.0,10000.0
+H_CUMULATIVE,gcp,GCP,10000.0,trng_median,18.0,0.1,0.0,0.0,10000.0
+H_CUMULATIVE,gcp,GCP,10000.0,trng_median,19.0,0.1,0.0,0.0,10000.0
+H_CUMULATIVE,gcp,GCP,10000.0,trng_median,20.0,0.1,0.0,0.0,10000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,5000.0,trng_median,0.0,0.1,0.1,0.04,41500.0
+H_CUMULATIVE,azure_virtual_machines,Azure,5000.0,trng_median,1.0,0.1,0.0,0.04,5000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,5000.0,trng_median,2.0,0.1,0.0,0.04,5000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,5000.0,trng_median,3.0,0.1,0.0,0.04,5000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,5000.0,trng_median,4.0,0.1,0.0,0.04,5000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,5000.0,trng_median,5.0,0.1,0.0,0.04,5000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,5000.0,trng_median,6.0,0.1,0.0,0.04,5000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,5000.0,trng_median,7.0,0.1,0.25,0.04,96250.0
+H_CUMULATIVE,azure_virtual_machines,Azure,5000.0,trng_median,8.0,0.1,0.0,0.04,5000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,5000.0,trng_median,9.0,0.1,0.0,0.04,5000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,5000.0,trng_median,10.0,0.1,0.0,0.04,5000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,5000.0,trng_median,11.0,0.1,0.0,0.04,5000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,5000.0,trng_median,12.0,0.1,0.0,0.04,5000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,5000.0,trng_median,13.0,0.1,0.0,0.04,5000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,5000.0,trng_median,14.0,0.1,0.0,0.04,5000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,5000.0,trng_median,15.0,0.1,0.0,0.04,5000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,5000.0,trng_median,16.0,0.1,0.0,0.04,5000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,5000.0,trng_median,17.0,0.1,0.0,0.04,5000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,5000.0,trng_median,18.0,0.1,0.0,0.04,5000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,5000.0,trng_median,19.0,0.1,0.0,0.04,5000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,5000.0,trng_median,20.0,0.1,0.0,0.04,5000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,10000.0,trng_median,0.0,0.1,0.1,0.04,83000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,10000.0,trng_median,1.0,0.1,0.0,0.04,10000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,10000.0,trng_median,2.0,0.1,0.0,0.04,10000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,10000.0,trng_median,3.0,0.1,0.0,0.04,10000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,10000.0,trng_median,4.0,0.1,0.0,0.04,10000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,10000.0,trng_median,5.0,0.1,0.0,0.04,10000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,10000.0,trng_median,6.0,0.1,0.0,0.04,10000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,10000.0,trng_median,7.0,0.1,0.25,0.04,192500.0
+H_CUMULATIVE,azure_virtual_machines,Azure,10000.0,trng_median,8.0,0.1,0.0,0.04,10000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,10000.0,trng_median,9.0,0.1,0.0,0.04,10000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,10000.0,trng_median,10.0,0.1,0.0,0.04,10000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,10000.0,trng_median,11.0,0.1,0.0,0.04,10000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,10000.0,trng_median,12.0,0.1,0.0,0.04,10000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,10000.0,trng_median,13.0,0.1,0.0,0.04,10000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,10000.0,trng_median,14.0,0.1,0.0,0.04,10000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,10000.0,trng_median,15.0,0.1,0.0,0.04,10000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,10000.0,trng_median,16.0,0.1,0.0,0.04,10000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,10000.0,trng_median,17.0,0.1,0.0,0.04,10000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,10000.0,trng_median,18.0,0.1,0.0,0.04,10000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,10000.0,trng_median,19.0,0.1,0.0,0.04,10000.0
+H_CUMULATIVE,azure_virtual_machines,Azure,10000.0,trng_median,20.0,0.1,0.0,0.04,10000.0

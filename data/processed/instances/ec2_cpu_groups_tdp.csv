@@ -1,0 +1,15 @@
+cpu_model_clean,cpu_tdp_w_package,threads_per_package,cpu_tdp_w_per_vcpu,cpu_source_type,cpu_source_name,cpu_source_note,cpu_mapping_status
+AMD EPYC 7R13 Processor,280.0,96.0,2.9166666666666665,benchmark_proxy,"Closest EPYC Milan custom-SKU benchmark/reference listings, serverorbit",AWS custom Milan part; package TDP inferred from common benchmark/reference sources.,resolved
+AMD EPYC 7R32,280.0,96.0,2.9166666666666665,benchmark_proxy,"Closest EPYC Rome custom-SKU benchmark/reference listings, phoronix",AWS custom Rome part; package TDP inferred from common benchmark/reference sources.,resolved
+AWS Graviton2 Processor,110.0,64.0,1.71875,secondary_reference,AWS Graviton2 public specs plus benchmark study,Best-effort package TDP proxy for Graviton2; no single public AWS TDP figure.,resolved
+Intel Xeon E5-2670 (Sandy Bridge),115.0,16.0,7.1875,vendor spec,Common Sandy Bridge Xeon benchmark/reference listings,Direct vendor-like proxy value.,resolved
+Intel Xeon E5-2686 v4 (Broadwell),145.0,36.0,4.027777777777778,benchmark_proxy,Broadwell Xeon benchmark reference listings,"AWS-associated custom part; direct vendor-like proxy value, CPU World.",resolved
+Intel Xeon Family,250.0,32.0,7.8125,family_proxy,Generic Xeon family proxy from common reference sites,Very generic label; conservative proxy used.,resolved
+Intel Xeon Platinum 8175 (Skylake),240.0,48.0,5.0,benchmark_proxy,Closest Skylake Xeon benchmark/reference listings,Proxy package TDP from common reference sources of 8175M.,resolved
+Intel Xeon Platinum 8259 (Cascade Lake),210.0,48.0,4.375,benchmark_proxy,"Closest Cascade Lake benchmark/reference listings, CPU World",Custom AWS-adjacent SKU; inferred from common reference sites.,resolved
+Intel Xeon Platinum 8275CL (Cascade Lake),240.0,48.0,5.0,benchmark_proxy,"Closest Cascade Lake benchmark/reference listings, CPU World",Custom AWS SKU; inferred from common reference sites.,resolved
+Intel Xeon Platinum 8275L,165.0,48.0,3.4375,benchmark_proxy,Closest Cascade Lake benchmark/reference listings,No clean public Intel datasheet for exact AWS context; Intel for 8276L proxy used.,resolved
+Intel Xeon Scalable (Emerald Rapids),350.0,96.0,3.6458333333333335,family_proxy,Representative Emerald Rapids Xeon benchmark/reference listings,Generic family label in source data; representative family proxy used. 8568Y+ proxy used,resolved
+Intel Xeon Scalable (Icelake),270.0,64.0,4.21875,family_proxy,Representative Ice Lake Xeon benchmark/reference listings,Generic family label in source data; representative family proxy used. Xeon Platinum 8368 3.4GHz,resolved
+Intel Xeon Scalable (Sapphire Rapids),205.0,64.0,3.203125,family_proxy,Representative Sapphire Rapids Xeon benchmark/reference listings,Generic family label in source data; representative family proxy used. 6438N/M/Y+ proxy used,resolved
+NVIDIA Grace,500.0,72.0,6.944444444444445,official_vendor_spec,NVIDIA Grace CPU Superchip product architecture/specs,Direct vendor value.,resolved
