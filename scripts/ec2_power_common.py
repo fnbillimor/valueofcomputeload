@@ -379,13 +379,15 @@ CPU_LOOKUP = {
         "source_note": "Used average of all models with 3.2Ghz clock speed in Emerald Rapids listing",
     },
     "Intel Xeon Family": {
-        "cpu_tdp_w_package": 210.0,
+        "cpu_tdp_w_package": 210.00,
         "threads_per_package": 48.0,
         "source_type": "family_proxy",
         "source_name": "identical config to 8259 (Cascade Lake) model",
         "source_note": "Used CPU World benchmark for 8259CL.",
     },
 }
+
+
 
 
 def cpu_lookup_record(cpu_model) -> Dict[str, Any]:
