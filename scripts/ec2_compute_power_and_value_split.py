@@ -64,6 +64,7 @@ def main():
     )
 
     df["gpu_model_clean"] = df[gpu_model_col].apply(normalize_gpu_model) if gpu_model_col else pd.NA
+    df = df[~df["gpu_model_clean"].isin(["Inf1", "Inf2"])].copy()
     df["cpu_model_clean"] = df[cpu_model_col].apply(normalize_cpu_model) if cpu_model_col else pd.NA
     df["gpu_count"] = df[gpu_count_col].apply(parse_numeric) if gpu_count_col else pd.NA
     df["vcpu_count"] = df[vcpu_col].apply(parse_numeric) if vcpu_col else pd.NA
@@ -148,12 +149,12 @@ def main():
         out["total_cpu_power_w"] = (
             out["vcpu_count"].fillna(0)
             * out["cpu_tdp_w_per_vcpu"].fillna(0)
-            * (cpu_util / PUE_FACTOR)
+            * (cpu_util * PUE_FACTOR)
         )
         out["total_gpu_power_w"] = (
             out["gpu_count"].fillna(0)
             * out["gpu_tdp_w_per_gpu"].fillna(0)
-            * (gpu_util / PUE_FACTOR)
+            * (gpu_util * PUE_FACTOR)
         )
         out["total_ram_power_w"] = out["memory_gib"].fillna(0).apply(
             lambda x: scenario_ram_w(x, ram_state)

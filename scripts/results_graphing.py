@@ -516,6 +516,21 @@ def relevant_service_credit_share(
     return credit_share
 
 
+def relevant_service_credit_share_abs(
+    h_cumulative: float = H_CUMULATIVE,
+    cloud_platform: str = SLA_CLOUD_PLATFORM,
+    ) -> float:
+    bands = SERVICE_CREDIT_BANDS.get(cloud_platform)
+    if bands is None:
+        valid = sorted(SERVICE_CREDIT_BANDS)
+        raise ValueError(f"Unknown SLA cloud platform '{cloud_platform}'. Valid options: {valid}")
+
+    credit_share = 0.0
+    for downtime_threshold_hrs, service_credit in sorted(bands):
+        if h_cumulative + 1 > downtime_threshold_hrs: #h_cumulative + 1 > downtime_threshold_hrs:
+            credit_share = service_credit
+    return credit_share
+
 def add_sla_adjusted_ondemand_voll(
     df: pd.DataFrame,
     scenarios: Sequence[str],
@@ -2043,7 +2058,7 @@ def plot_voll_boxplot_basis_scenario_panel(
 def plot_voll_boxplot_sla_spot_scenario_panel(
     df_power: pd.DataFrame,
     scenarios: Sequence[str] = ("trng_median", "inf_median"),
-    h_cumulative_values: Sequence[float] = (0.0, 4.0),
+    h_cumulative_values: Sequence[float] = (0.0, 3.0),
     u_mth: float = U_MTH,
     cloud_platform: str = SLA_CLOUD_PLATFORM,
     hours_per_month: float = HOURS_PER_MONTH,
@@ -2105,7 +2120,7 @@ def plot_voll_boxplot_sla_spot_scenario_panel(
                 df_plot[adjusted_col] = pd.to_numeric(df_plot[base_col], errors="coerce") * multiplier
                 scenario_cols[scenario] = adjusted_col
             basis = f"ondemand_sla_h{str(h_cumulative).replace('.', 'p')}"
-            label = f"On-demand incl. SLA ({h_cumulative:g} hrs cumulative downtime)"
+            label = f"On-demand incl. SLA ({(h_cumulative+1):g} hrs cumulative downtime)"
         row_specs.append(
             {
                 "basis": basis,
@@ -3433,13 +3448,16 @@ def plot_sla_sensitivity_canonical_gpu_panel(
 
     h_credit_shares = np.array(
         [
-            relevant_service_credit_share(
+            relevant_service_credit_share_abs(
                 h_cumulative=float(h_value),
                 cloud_platform=cloud_platform,
             )
             for h_value in h_values_array
         ]
     )
+    h_credit_shares_prev = np.zeros_like(h_credit_shares)
+    h_credit_shares_prev[1:] = h_credit_shares[:-1]
+    h_credit_shares_diff = h_credit_shares - h_credit_shares_prev
     fixed_h_credit_share = relevant_service_credit_share(
         h_cumulative=h_cumulative-1,
         cloud_platform=cloud_platform,
@@ -3454,7 +3472,7 @@ def plot_sla_sensitivity_canonical_gpu_panel(
         label = f"{row[gpu_col]} ({row[instance_col]})"
         line_style = "-" if row["gpu_vintage_group"] == "Mainstream Modern AI" else "--"
  
-        h_panel_voll = base_voll * (1 + h_credit_shares * hours_per_month * u_mth )
+        h_panel_voll = base_voll * (1 + h_credit_shares_diff * hours_per_month * u_mth )
         axes[0].plot(
             h_values_array,
             h_panel_voll,
@@ -3475,7 +3493,13 @@ def plot_sla_sensitivity_canonical_gpu_panel(
             label=label,
         )
 
-        for h_value, voll_value, credit_share in zip(h_values_array, h_panel_voll, h_credit_shares):
+        for h_value, voll_value, credit_share, credit_share_prev, credit_share_diff in zip(
+            h_values_array,
+            h_panel_voll,
+            h_credit_shares,
+            h_credit_shares_prev,
+            h_credit_shares_diff,
+        ):
             records.append(
                 {
                     "panel": "H_CUMULATIVE",
@@ -3489,6 +3513,8 @@ def plot_sla_sensitivity_canonical_gpu_panel(
                     "H_CUMULATIVE": h_value,
                     "U_mth": u_mth,
                     "service_credit_share": credit_share,
+                    "service_credit_share_prev": credit_share_prev,
+                    "service_credit_share_diff": credit_share_diff,
                     "voll_ondemand_incl_sla_usd_per_mwh": voll_value,
                 }
             )
@@ -3608,18 +3634,22 @@ def plot_sla_sensitivity_sample_voll_cloud_panel(
         platform_label = SLA_CLOUD_PLATFORM_LABELS.get(cloud_platform, cloud_platform)
         h_credit_shares = np.array(
             [
-                relevant_service_credit_share(
+                relevant_service_credit_share_abs(
                     h_cumulative=float(h_value),
                     cloud_platform=cloud_platform,
                 )
                 for h_value in h_values_array
             ]
         )
+        h_credit_shares_prev = np.zeros_like(h_credit_shares)
+        h_credit_shares_prev[1:] = h_credit_shares[:-1]
+        h_credit_shares_diff = h_credit_shares - h_credit_shares_prev
+        
         for voll_idx, base_voll in enumerate(sample_voll_array):
             line_style = line_styles[voll_idx % len(line_styles)]
             label = f"{platform_label}, ${base_voll:,.0f}/MWh"
 
-            h_panel_voll = base_voll * (1 + h_credit_shares * hours_per_month * u_mth)
+            h_panel_voll = base_voll * (1 + h_credit_shares_diff * hours_per_month * u_mth)
             plot_x_jitter = (platform_idx - jitter_center) * plot_x_jitter_hours
             ax.plot(
                 h_values_array + plot_x_jitter,
@@ -3631,7 +3661,13 @@ def plot_sla_sensitivity_sample_voll_cloud_panel(
                 label=label,
             )
 
-            for h_value, voll_value, credit_share in zip(h_values_array, h_panel_voll, h_credit_shares):
+            for h_value, voll_value, credit_share, credit_share_prev, credit_share_diff in zip(
+                h_values_array,
+                h_panel_voll,
+                h_credit_shares,
+                h_credit_shares_prev,
+                h_credit_shares_diff,
+            ):
                 records.append(
                     {
                         "panel": "H_CUMULATIVE",
@@ -3642,6 +3678,8 @@ def plot_sla_sensitivity_sample_voll_cloud_panel(
                         "H_CUMULATIVE": h_value,
                         "U_mth": u_mth,
                         "service_credit_share": credit_share,
+                        "service_credit_share_prev": credit_share_prev,
+                        "service_credit_share_diff": credit_share_diff,
                         "plot_x_jitter_hours": plot_x_jitter,
                         "voll_incl_sla_usd_per_mwh": voll_value,
                     }
@@ -3899,7 +3937,7 @@ def run_example() -> None:
     plot_voll_boxplot_sla_spot_scenario_panel(
         df_power=df_power,
         scenarios=("trng_median", "inf_median"),
-        h_cumulative_values=(4.0,),
+        h_cumulative_values=(3.0,),
         save_png=True,
         save_csv=True,
         show=False,

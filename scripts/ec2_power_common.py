@@ -97,7 +97,7 @@ RAM_IDLE_W_PER_GB = 0.0 #0.19
 RAM_ACTIVE_W_PER_GB = 0.0 #0.54
 OTHER_COMPONENTS_FACTOR = 0.0 #0.20
 
-PUE_FACTOR = 1.15 
+PUE_FACTOR = 1.1 
 
 # ============================================================
 # IO helpers
@@ -213,8 +213,8 @@ GPU_TDP_W = {
     "V520": 225,
     "QA100": 75,
     "AWST2": 500,
-    "Inf1": 75,
-    "Inf2": 100,
+    "Inf1": 150, #was 75
+    "Inf2": 150, #was 100
 }
 
 GPU_SOURCE_TYPE = {
@@ -231,7 +231,7 @@ GPU_SOURCE_TYPE = {
     "H200": "official_vendor_spec",
     "B200": "official_vendor_spec",
     "B300": "official_vendor_spec",
-    "K520": "official_vendor_spec",
+    "K520": "public benchmark reference",
     "GB202": "official_vendor_spec",
     "V520": "official_vendor_spec",
     "QA100": "official_vendor_spec",
@@ -295,7 +295,7 @@ CPU_LOOKUP = {
         "source_note": "Direct vendor value.",
     },
     "AWS Graviton2 Processor": {
-        "cpu_tdp_w_package": 110.0,
+        "cpu_tdp_w_package": 150.0,
         "threads_per_package": 64.0,
         "source_type": "secondary_reference",
         "source_name": "AWS Graviton2 public specs plus benchmark study",
@@ -312,7 +312,7 @@ CPU_LOOKUP = {
         "cpu_tdp_w_package": 280.0,
         "threads_per_package": 96.0,
         "source_type": "benchmark_proxy",
-        "source_name": "Closest EPYC Rome custom-SKU benchmark/reference listings, phoronix",
+        "source_name": "Closest EPYC Rome custom-SKU benchmark/reference listings, serversupply",
         "source_note": "AWS custom Rome part; package TDP inferred from common benchmark/reference sources.",
     },
     "Intel Xeon Platinum 8259 (Cascade Lake)": {

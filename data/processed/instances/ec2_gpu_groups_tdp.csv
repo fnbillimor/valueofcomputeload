@@ -7,9 +7,9 @@ B300,1100,official_vendor_spec,resolved
 GB202,600,official_vendor_spec,resolved
 H100,700,official_vendor_spec,resolved
 H200,700,official_vendor_spec,resolved
-Inf1,75,Public third-party,resolved
-Inf2,100,Public third-party,resolved
-K520,225,official_vendor_spec,resolved
+Inf1,150,Public third-party,resolved
+Inf2,150,Public third-party,resolved
+K520,225,public benchmark reference,resolved
 K80,300,official_datasheet,resolved
 L4,72,official_datasheet,resolved
 L40S,350,official_datasheet,resolved
