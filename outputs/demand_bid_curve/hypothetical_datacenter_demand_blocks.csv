@@ -1,0 +1,7 @@
+service_type,vocl_basis,workload,service_share,workload_share_within_service,total_load_share,load_gw,median_vocl_usd_per_mwh
+On-demand,On-demand,Emerging / Frontier AI,0.9,0.5,0.45,36.0,11600
+On-demand,On-demand,Mainstream Modern AI,0.9,0.4,0.36,28.8,8300
+On-demand,On-demand,Transitional / Early AI,0.9,0.1,0.09,7.2,8100
+Interruptible,Spot,Emerging / Frontier AI,0.1,0.5,0.05,4.0,2800
+Interruptible,Spot,Mainstream Modern AI,0.1,0.4,0.04,3.2,3300
+Interruptible,Spot,Transitional / Early AI,0.1,0.1,0.01,0.8,2500

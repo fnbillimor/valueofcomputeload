@@ -1,0 +1,7 @@
+bid_rank,service_type,vocl_basis,workload,load_gw,cumulative_load_start_gw,cumulative_load_end_gw,median_vocl_usd_per_mwh
+1,On-demand,On-demand,Emerging / Frontier AI,36.0,0.0,36.0,11600
+2,On-demand,On-demand,Mainstream Modern AI,28.8,36.0,64.8,8300
+3,On-demand,On-demand,Transitional / Early AI,7.2,64.8,72.0,8100
+4,Interruptible,Spot,Mainstream Modern AI,3.2,72.0,75.2,3300
+5,Interruptible,Spot,Emerging / Frontier AI,4.0,75.2,79.2,2800
+6,Interruptible,Spot,Transitional / Early AI,0.8,79.2,80.0,2500
