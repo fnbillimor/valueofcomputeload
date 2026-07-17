@@ -800,7 +800,7 @@ def plot_ondemand_reference(
             linewidth=linewidth,
             linestyle="-",
             drawstyle="steps-post",
-            label=f"On-Demand Implied VOLL ({scenario})",
+            label=f"On-Demand VoCL ({scenario})",
         )
         return trajectory
 
@@ -813,7 +813,7 @@ def plot_ondemand_reference(
                 color="black",
                 linewidth=linewidth,
                 linestyle="-",
-                label=f"On-Demand Implied VOLL ({scenario})",
+                label=f"On-Demand VoCL ({scenario})",
             )
     return None
 
@@ -859,13 +859,13 @@ def plot_voll_timeseries(
         daily["voll_min"],
         daily["voll_max"],
         alpha=style.envelope_alpha,
-        label="Spot VOLL - Min-max envelope",
+        label="Spot VoCL - Min-max envelope",
     )
     ax.plot(
         daily["date"],
         daily["voll_mean"],
         linewidth=2.4,
-        label=f"Spot VOLL - Ave ({scenario})",
+        label=f"Spot VoCL - Ave ({scenario})",
     )
 
     ondemand_trajectory = plot_ondemand_reference(
@@ -881,7 +881,7 @@ def plot_voll_timeseries(
     #add_reference_lines(ax, style)
     location_text = f" - {location}" if location else ""
     ax.set_title(
-        f"Implied VoCL for {instance_name} ({provider.upper()}{location_text})\nScenario: {scenario}",
+        f"VoCL for {instance_name} ({provider.upper()}{location_text})\nScenario: {scenario}",
         fontsize=14,
         pad=14,
     )
@@ -998,7 +998,7 @@ def plot_voll_timeseries_locations(
             daily["voll_mean"],
             linewidth=2.2,
             color=color,
-            label=f"{location} spot VOLL - Ave",
+            label=f"{location} spot VoCL - Ave",
         )
 
     ondemand_trajectory = plot_ondemand_reference(
@@ -1012,7 +1012,7 @@ def plot_voll_timeseries_locations(
     combined_daily = add_historical_ondemand_to_daily(combined_daily, ondemand_trajectory)
 
     ax.set_title(
-        f"Implied VoCL for {instance_name} ({provider.upper()}) by location\nScenario: {scenario}",
+        f"VoCL for {instance_name} ({provider.upper()}) by location\nScenario: {scenario}",
         fontsize=14,
         pad=14,
     )
@@ -1153,7 +1153,7 @@ def plot_voll_spot_timeseries_clouds(
             linewidth=2.3,
             color=color,
             linestyle="--",
-            label=f"{series_name} spot VOLL - Ave",
+            label=f"{series_name} spot VoCL - Ave",
         )
 
     aws_ondemand_trajectory = historical_ondemand_voll_trajectory(
@@ -1174,7 +1174,7 @@ def plot_voll_spot_timeseries_clouds(
         linewidth=2.2,
         linestyle="-",
         drawstyle="steps-post",
-        label=f"EC2 on-demand implied VOLL ({scenario})",
+        label=f"EC2 on-demand VoCL ({scenario})",
     )
 
     azure_ondemand_voll = azure_ondemand_price / power_mw
@@ -1183,7 +1183,7 @@ def plot_voll_spot_timeseries_clouds(
         color="tab:orange",
         linewidth=2.2,
         linestyle="-",
-        label=f"Azure on-demand implied VOLL ({scenario})",
+        label=f"Azure on-demand VoCL ({scenario})",
     )
     combined_daily = pd.merge_asof(
         combined_daily.sort_values("date"),
@@ -1271,7 +1271,7 @@ def plot_voll_ondemand_regions(
 
     base_voll = pd.to_numeric(pd.Series([power_row[base_voll_col]]), errors="coerce").iloc[0]
     if pd.isna(base_voll) or base_voll <= 0:
-        raise ValueError(f"Invalid base on-demand VOLL for {instance_name} {scenario}: {base_voll}")
+        raise ValueError(f"Invalid base on-demand VoCL for {instance_name} {scenario}: {base_voll}")
 
     df_prices = load_csv(regional_price_file, label="regional on-demand price data")
     required_cols = ["Geography", "Region Name", "Region", "Instance Price"]
@@ -1332,7 +1332,7 @@ def plot_voll_ondemand_regions(
     ax.set_ylabel("On-demand VoCL ($/MWh)")
     ax.set_title(
         f"On-demand VoCL by region for {instance_name}\n"
-        f"Scenario: {scenario}, scaled from {base_region} on-demand VOLL"
+        f"Scenario: {scenario}, scaled from {base_region} on-demand VoCL"
     )
     tidy_axis(ax, style)
 
@@ -2774,7 +2774,7 @@ def plot_flexibility_discount_by_gpu(
         s=46,
         marker="D",
         zorder=4,
-        label="Discount (% of on-demand VOLL)",
+        label="Discount (% of on-demand VoCL)",
     )
 
     ax_bar.set_ylabel("Discount ($/MWh)")
@@ -2788,7 +2788,7 @@ def plot_flexibility_discount_by_gpu(
 
     ax_bar.legend(
         [bars, points],
-        ["Discount ($/MWh)", "Discount (% of on-demand VOLL)"],
+        ["Discount ($/MWh)", "Discount (% of on-demand VoCL)"],
         frameon=False,
         loc="best",
     )
