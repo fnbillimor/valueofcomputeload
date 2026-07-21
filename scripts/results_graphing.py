@@ -3339,7 +3339,7 @@ def plot_forward_curve_boxplot_by_gpu_panel(
             fontsize=9,
         )
 
-    fig.suptitle("Contracting discount distribution: on-demand minus 1-year reserved VOLL", y=0.99)
+    fig.suptitle("Contracting discount distribution: on-demand minus 1-year reserved VoCL", y=0.99)
     fig.tight_layout(rect=(0, 0.12, 1, 0.93))
 
     df_out = pd.concat(

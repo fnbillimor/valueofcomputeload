@@ -137,7 +137,7 @@ def plot_box_by_group_then_dataset(
     value_col: str,
     label_inf: str = "Inference",
     label_trn: str = "Training",
-    ref_line: float = 1.0,
+    ref_line=None,
     figsize=(7.0, 3.2),
     showfliers: bool = False,
     output_path=None,
@@ -281,16 +281,18 @@ def plot_inf_vs_trn_hist(
         raise ValueError("One of the datasets is empty after cleaning.")
 
     fig, axes = plt.subplots(1, 2, figsize=figsize, sharey=False)
-
+    
+    ref_line_inf = 0.9
     axes[0].hist(inf, bins=bins, density=density)
-    axes[0].axvline(ref_line, linestyle="--", linewidth=1)
+    axes[0].axvline(ref_line_inf, linestyle="--", linewidth=1)
     axes[0].set_xlabel("Power-to-TDP Multiple")
     axes[0].set_ylabel("Density" if density else "Frequency")
     axes[0].set_title("Inference", fontsize=8)
     axes[0].grid(axis="y", linestyle="--", alpha=0.5)
 
+    ref_line_trng = 1.1
     axes[1].hist(trn, bins=bins, density=density)
-    axes[1].axvline(ref_line, linestyle="--", linewidth=1)
+    axes[1].axvline(ref_line_trng, linestyle="--", linewidth=1)
     axes[1].set_xlabel("Power-to-TDP Multiple")
     axes[1].set_title("Training", fontsize=8)
     axes[1].grid(axis="y", linestyle="--", alpha=0.5)
@@ -337,7 +339,7 @@ GPU_plot = plot_box_by_group_then_dataset(
     mlperf_trn_input,
     group_col="GPU",
     value_col=value_col,
-    ref_line=1.0,
+    ref_line=None,
     output_path=GPU_OUTPUT_FILE,
     order_type="alphabetical",
     figsize=COMMON_FIGSIZE,
@@ -361,7 +363,7 @@ NUM_plot = plot_box_by_group_then_dataset(
     mlperf_trn_input,
     group_col="Total Accelerators",
     value_col=value_col,
-    ref_line=1.0,
+    ref_line=None,
     output_path=NUM_OUTPUT_FILE,
     order_type="numeric",
     figsize=COMMON_FIGSIZE,
@@ -401,7 +403,7 @@ MOD_plot = plot_box_by_group_then_dataset(
     mlperf_trn_input,
     group_col="Benchmark Model",
     value_col=value_col,
-    ref_line=1.0,
+    ref_line=None,
     output_path=MOD_OUTPUT_FILE,
     order_type="alphabetical",
     figsize=ONECOL_COMMON_FIGSIZE,
@@ -433,7 +435,7 @@ MOD_group_plot = plot_box_by_group_then_dataset(
     mlperf_trn_input,
     group_col="Benchmark Model Group",
     value_col=value_col,
-    ref_line=1.0,
+    ref_line=None,
     output_path=MOD_GROUP_OUTPUT_FILE,
     order_type="alphabetical",
     figsize=ONECOL_COMMON_FIGSIZE,
