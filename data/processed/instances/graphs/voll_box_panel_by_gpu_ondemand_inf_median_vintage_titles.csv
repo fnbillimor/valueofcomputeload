@@ -1,0 +1,77 @@
+gpu_model_clean,gpu_vintage_group,instance_type,ondemand_inf_median
+QA100,Mainstream Modern AI,dl2q.24xlarge,11482.66983561101
+K520,Legacy / Older Vintage,g2.2xlarge,2324.126217931528
+K520,Legacy / Older Vintage,g2.8xlarge,2324.126217931528
+M60,Legacy / Older Vintage,g3.16xlarge,3159.645232815964
+M60,Legacy / Older Vintage,g3.4xlarge,3159.645232815964
+M60,Legacy / Older Vintage,g3.8xlarge,3159.645232815964
+M60,Legacy / Older Vintage,g3s.xlarge,2396.548969483943
+V520,Legacy / Older Vintage,g4ad.16xlarge,3223.647518126045
+V520,Legacy / Older Vintage,g4ad.2xlarge,2201.342281879194
+V520,Legacy / Older Vintage,g4ad.4xlarge,3223.647518126045
+V520,Legacy / Older Vintage,g4ad.8xlarge,3223.647518126045
+V520,Legacy / Older Vintage,g4ad.xlarge,1615.4502774221082
+T4,Transitional / Early AI,g4dn.12xlarge,8064.316635745205
+T4,Transitional / Early AI,g4dn.16xlarge,12559.884559884558
+T4,Transitional / Early AI,g4dn.2xlarge,7234.247234247233
+T4,Transitional / Early AI,g4dn.4xlarge,8686.868686868684
+T4,Transitional / Early AI,g4dn.8xlarge,10466.570466570463
+T4,Transitional / Early AI,g4dn.metal,8064.316635745205
+T4,Transitional / Early AI,g4dn.xlarge,6072.150072150072
+A10G,Mainstream Modern AI,g5.12xlarge,7742.287742287741
+A10G,Mainstream Modern AI,g5.16xlarge,12289.228922892287
+A10G,Mainstream Modern AI,g5.24xlarge,9348.025711662074
+A10G,Mainstream Modern AI,g5.2xlarge,7062.9370629370615
+A10G,Mainstream Modern AI,g5.48xlarge,9348.025711662074
+A10G,Mainstream Modern AI,g5.4xlarge,8341.037493579865
+A10G,Mainstream Modern AI,g5.8xlarge,10161.892901618929
+A10G,Mainstream Modern AI,g5.xlarge,6285.535770071851
+T4G,Mainstream Modern AI,g5g.16xlarge,9557.645419714385
+T4G,Mainstream Modern AI,g5g.2xlarge,6328.069426660975
+T4G,Mainstream Modern AI,g5g.4xlarge,7780.126849894291
+T4G,Mainstream Modern AI,g5g.8xlarge,9557.645419714385
+T4G,Mainstream Modern AI,g5g.metal,9557.645419714385
+T4G,Mainstream Modern AI,g5g.xlarge,5344.786447148651
+L4,Mainstream Modern AI,g6.12xlarge,10860.00188803927
+L4,Mainstream Modern AI,g6.16xlarge,13264.60481099656
+L4,Mainstream Modern AI,g6.24xlarge,11870.820884905392
+L4,Mainstream Modern AI,g6.2xlarge,10358.126721763085
+L4,Mainstream Modern AI,g6.48xlarge,11870.820884905392
+L4,Mainstream Modern AI,g6.4xlarge,11263.193735103849
+L4,Mainstream Modern AI,g6.8xlarge,12306.9403714565
+L4,Mainstream Modern AI,g6.xlarge,9716.286369672824
+L40S,Mainstream Modern AI,g6e.12xlarge,6882.198609471335
+L40S,Mainstream Modern AI,g6e.16xlarge,14261.622435535475
+L40S,Mainstream Modern AI,g6e.24xlarge,9058.201058201055
+L40S,Mainstream Modern AI,g6e.2xlarge,6066.287878787878
+L40S,Mainstream Modern AI,g6e.48xlarge,9058.201058201055
+L40S,Mainstream Modern AI,g6e.4xlarge,7650.114591291061
+L40S,Mainstream Modern AI,g6e.8xlarge,10318.067897015264
+L40S,Mainstream Modern AI,g6e.xlarge,5197.598100823907
+L4,Mainstream Modern AI,g6f.2xlarge,11608.015640273705
+L4,Mainstream Modern AI,g6f.4xlarge,11608.015640273705
+L4,Mainstream Modern AI,g6f.large,13755.532856656451
+L4,Mainstream Modern AI,g6f.xlarge,11608.015640273705
+GB202,Mainstream Modern AI,g7e.12xlarge,6087.125803489438
+GB202,Mainstream Modern AI,g7e.24xlarge,6087.125803489438
+GB202,Mainstream Modern AI,g7e.2xlarge,5399.317680112381
+GB202,Mainstream Modern AI,g7e.48xlarge,6087.107438016528
+GB202,Mainstream Modern AI,g7e.4xlarge,6134.5607978519365
+GB202,Mainstream Modern AI,g7e.8xlarge,7425.229034531359
+L4,Mainstream Modern AI,gr6.4xlarge,13101.804562478716
+L4,Mainstream Modern AI,gr6.8xlarge,14946.236559139785
+L4,Mainstream Modern AI,gr6f.4xlarge,13025.415444770284
+K80,Legacy / Older Vintage,p2.16xlarge,5472.788081483734
+K80,Legacy / Older Vintage,p2.8xlarge,5472.788081483734
+K80,Legacy / Older Vintage,p2.xlarge,2875.8587633807315
+V100,Transitional / Early AI,p3.16xlarge,9303.739738522348
+V100,Transitional / Early AI,p3.2xlarge,9303.739738522348
+V100,Transitional / Early AI,p3.8xlarge,9303.739738522348
+V100,Transitional / Early AI,p3dn.24xlarge,10946.969696969694
+A100,Mainstream Modern AI,p4d.24xlarge,6027.009222661395
+A100,Mainstream Modern AI,p4de.24xlarge,7533.788976723758
+H100,Mainstream Modern AI,p5.48xlarge,9025.318116227205
+H100,Mainstream Modern AI,p5.4xlarge,9307.359307359306
+H200,Emerging / Frontier AI,p5en.48xlarge,10287.265251062514
+B200,Emerging / Frontier AI,p6-b200.48xlarge,13228.004179728314
+B300,Emerging / Frontier AI,p6-b300.48xlarge,15142.583732057416

@@ -9,6 +9,10 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 #import matplotlib
 
+from plot_style import configure_tex_fonts
+
+configure_tex_fonts()
+
 
 # ============================================================
 # Paths

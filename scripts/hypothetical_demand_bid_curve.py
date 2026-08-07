@@ -6,6 +6,10 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 import pandas as pd
 
+from plot_style import configure_tex_fonts
+
+configure_tex_fonts()
+
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 OUTPUT_DIR = BASE_DIR / "data" / "processed" / "instances" / "graphs"

@@ -15,6 +15,10 @@ import matplotlib.ticker as mticker
 import numpy as np
 import pandas as pd
 
+from plot_style import configure_tex_fonts
+
+configure_tex_fonts()
+
 try:
     from scipy.stats import gaussian_kde
 except ImportError:  # Optional dependency; only needed for KDE plots.
@@ -2147,9 +2151,13 @@ def plot_voll_boxplot_sla_spot_scenario_panel(
     if not row_specs:
         raise ValueError("No rows selected for the VOLL GPU scenario panel.")
 
-    fig_width = max(15, 0.72 * len(ordered_groups))
-    fig_height_by_rows = {1: 5.8, 2: 9.8}
-    fig_height = fig_height_by_rows.get(len(row_specs), 14.2)
+    if len(row_specs) == 1 and len(scenarios) == 1:
+        fig_width = max(10.5, 0.5 * len(ordered_groups))
+        fig_height = 7.2
+    else:
+        fig_width = max(15, 0.72 * len(ordered_groups))
+        fig_height_by_rows = {1: 5.8, 2: 9.8}
+        fig_height = fig_height_by_rows.get(len(row_specs), 14.2)
     fig, axes = plt.subplots(
         len(row_specs),
         len(scenarios),
@@ -2191,14 +2199,16 @@ def plot_voll_boxplot_sla_spot_scenario_panel(
         ncol=1,
         fontsize=8,
     )
-    fig.suptitle(
-        title or (
-            "VoCL distributions by GPU, SLA-adjusted on-demand, spot, and scenario"
-            if include_sla_rows
-            else "VoCL distributions by GPU, on-demand, spot, and scenario"
-        ),
-        y=0.995,
-    )
+    if title is not None:
+        figure_title = title
+    elif len(row_specs) == 1 and len(scenarios) == 1:
+        scenario_label = str(scenarios[0]).replace("_", " ")
+        figure_title = f"VoCL distributions by GPU, {row_specs[0]['label']}, {scenario_label}"
+    elif include_sla_rows:
+        figure_title = "VoCL distributions by GPU, SLA-adjusted on-demand, spot, and scenario"
+    else:
+        figure_title = "VoCL distributions by GPU, on-demand, spot, and scenario"
+    fig.suptitle(figure_title, y=0.995)
     fig.tight_layout(rect=(0, 0, 1, 0.975))
 
     metadata_cols = [gpu_col, "gpu_vintage_group"]
@@ -2218,6 +2228,10 @@ def plot_voll_boxplot_sla_spot_scenario_panel(
         filename_base = f"voll_box_panel_by_gpu_ondemand_sla_{safe_h}_spot_{safe_scenarios}"
     elif include_ondemand_row and include_spot_row:
         filename_base = f"voll_box_panel_by_gpu_ondemand_spot_{safe_scenarios}"
+    elif include_ondemand_row and not include_spot_row and not include_sla_rows:
+        filename_base = f"voll_box_panel_by_gpu_ondemand_{safe_scenarios}"
+    elif include_spot_row and not include_ondemand_row and not include_sla_rows:
+        filename_base = f"voll_box_panel_by_gpu_spot_{safe_scenarios}"
     elif include_sla_rows and not include_ondemand_row and not include_spot_row:
         filename_base = f"voll_box_panel_by_gpu_ondemand_sla_{safe_h}_{safe_scenarios}"
     else:
@@ -3932,6 +3946,28 @@ def run_example() -> None:
         show=False,
         include_vintage_titles=True,
         include_sla_rows=False,
+    )
+
+    plot_voll_boxplot_sla_spot_scenario_panel(
+        df_power=df_power,
+        scenarios=("inf_median",),
+        save_png=True,
+        save_csv=True,
+        show=False,
+        include_vintage_titles=True,
+        include_sla_rows=False,
+        include_spot_row=False,
+    )
+
+    plot_voll_boxplot_sla_spot_scenario_panel(
+        df_power=df_power,
+        scenarios=("inf_median",),
+        save_png=True,
+        save_csv=True,
+        show=False,
+        include_vintage_titles=True,
+        include_sla_rows=False,
+        include_ondemand_row=False,
     )
 
     plot_voll_boxplot_sla_spot_scenario_panel(

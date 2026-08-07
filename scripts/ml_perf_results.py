@@ -3,6 +3,10 @@ import re
 import pandas as pd
 import matplotlib.pyplot as plt
 
+from plot_style import configure_tex_fonts
+
+configure_tex_fonts()
+
 
 # ============================================================
 # Paths
