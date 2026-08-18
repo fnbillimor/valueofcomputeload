@@ -1,0 +1,2 @@
+series,path,reason
+H100,C:\Users\FarhadBillimoria\OneDrive - Aurora Energy Research\Documents\Personal\Endog_demand_AI\pyai\data\original\prices\H100\EC2_p548xlarge_us-west-2.csv,Datetime column 'Modified Date Time' not found in price data

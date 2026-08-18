@@ -429,6 +429,11 @@ def get_instance_row(
         df_power[instance_col].astype(str).str.strip() == str(instance_name).strip()
     ]
     if matches.empty:
+        normalized_target = normalize_instance_name(instance_name)
+        normalized_values = df_power[instance_col].astype(str).map(normalize_instance_name)
+        matches = df_power.loc[normalized_values == normalized_target]
+
+    if matches.empty:
         available = df_power[instance_col].dropna().astype(str).head(20).tolist()
         raise ValueError(
             f"No matching instance '{instance_name}' found. "
@@ -1047,6 +1052,313 @@ def plot_voll_timeseries_locations(
             f"voll_daily_locations_{provider}_{safe_instance}_{safe_locations}_{scenario}.csv",
             output_dir=output_dir,
         )
+    if show:
+        plt.show()
+    else:
+        plt.close(fig)
+    return combined_daily
+
+
+def plot_indexed_spot_vocl_timeseries_all_instances(
+    df_power: Optional[pd.DataFrame] = None,
+    scenario: str = "inf_median",
+    provider: str = "aws",
+    power_file: Path = DEFAULT_POWER_FILE,
+    prices_dir: Path = ORIGINAL_PRICES_DIR,
+    ymin: Optional[float] = None,
+    ymax: Optional[float] = None,
+    save_png: bool = True,
+    save_csv: bool = True,
+    show: bool = True,
+    output_dir: Path = DEFAULT_OUTPUT_DIR,
+    style: PlotStyle = PlotStyle(),
+) -> pd.DataFrame:
+    scenario = normalize_scenario(scenario)
+    if df_power is None:
+        df_power = load_power_data(power_file)
+
+    catalog = discover_price_files(prices_dir=prices_dir, provider=provider)
+    if catalog.empty:
+        raise ValueError(f"No {provider.upper()} spot price files found under {prices_dir}.")
+
+    region_priority = {"us-west-2": 0, "us-west-1": 1, "us-east-2": 2, "us-east-1": 3}
+    catalog = catalog.copy()
+    catalog["region_priority"] = catalog["region"].map(region_priority).fillna(len(region_priority))
+    catalog = catalog.sort_values(["family", "region_priority", "region", "instance_token"]).reset_index(drop=True)
+
+    daily_frames = []
+    skipped = []
+    for gpu_family, family_catalog in catalog.groupby("family", sort=True):
+        family_skipped = []
+        selected_daily = None
+        for _, record in family_catalog.iterrows():
+            instance_name = str(record["instance_token"])
+            region = str(record["region"])
+            label = str(gpu_family)
+            try:
+                df_price = load_price_data(filepath=Path(record["path"]))
+                df_voll = compute_voll_timeseries(
+                    df_price=df_price,
+                    df_power=df_power,
+                    instance_name=instance_name,
+                    provider=provider,
+                    scenarios=[scenario],
+                )
+                daily = daily_voll_summary(df_voll, scenario)
+            except Exception as exc:
+                family_skipped.append({"series": label, "path": record["path"], "reason": str(exc)})
+                continue
+
+            daily = daily.dropna(subset=["voll_mean"]).copy()
+            if daily.empty:
+                family_skipped.append({"series": label, "path": record["path"], "reason": "No daily VoCL data."})
+                continue
+
+            base_vocl = pd.to_numeric(daily["voll_mean"], errors="coerce").dropna()
+            if base_vocl.empty or float(base_vocl.iloc[0]) <= 0:
+                family_skipped.append({"series": label, "path": record["path"], "reason": "Invalid inception VoCL."})
+                continue
+
+            base_value = float(base_vocl.iloc[0])
+            daily["indexed_vocl"] = daily["voll_mean"] / base_value
+            daily["base_vocl_usd_per_mwh"] = base_value
+            daily["inception_date"] = daily["date"].iloc[0]
+            daily["series"] = label
+            daily["provider"] = provider
+            daily["gpu_family"] = gpu_family
+            daily["instance_token"] = instance_name
+            daily["region"] = region
+            daily["region_priority"] = int(record["region_priority"])
+            daily["price_file"] = str(record["path"])
+            selected_daily = daily
+            break
+
+        skipped.extend(family_skipped)
+        if selected_daily is not None:
+            daily_frames.append(selected_daily)
+
+    if not daily_frames:
+        raise ValueError(f"No indexed VoCL series could be built. Skipped: {skipped}")
+
+    combined_daily = pd.concat(daily_frames, ignore_index=True)
+    combined_daily = combined_daily.sort_values(["series", "date"]).reset_index(drop=True)
+
+    fig, ax = plt.subplots(figsize=style.figsize)
+    series_names = combined_daily["series"].drop_duplicates().tolist()
+    cmap = plt.colormaps.get_cmap("tab20").resampled(max(len(series_names), 1))
+    for idx, series_name in enumerate(series_names):
+        series = combined_daily.loc[combined_daily["series"] == series_name].copy()
+        ax.plot(
+            series["date"],
+            series["indexed_vocl"],
+            linewidth=1.8,
+            alpha=0.90,
+            color=cmap(idx),
+            label=series_name,
+        )
+
+    ax.axhline(1.0, color="black", linestyle="--", linewidth=1.1, alpha=0.55)
+    ax.set_title(
+        f"Indexed spot VoCL time series by instance-region\nScenario: {scenario}",
+        fontsize=14,
+        pad=14,
+    )
+    ax.set_xlabel("Date", fontsize=12)
+    ax.set_ylabel("Spot VoCL index (first observation = 1.0)", fontsize=12)
+    if ymin is not None or ymax is not None:
+        ax.set_ylim(bottom=ymin, top=ymax)
+
+    locator = mdates.AutoDateLocator()
+    ax.xaxis.set_major_locator(locator)
+    ax.xaxis.set_major_formatter(mdates.ConciseDateFormatter(locator))
+    ax.yaxis.set_major_formatter(mticker.StrMethodFormatter("{x:.1f}x"))
+    tidy_axis(ax, style)
+    ax.legend(frameon=False, fontsize=8, loc="center left", bbox_to_anchor=(1.01, 0.5))
+    fig.subplots_adjust(top=0.88, bottom=0.16, right=0.78, left=0.10)
+
+    filename_base = f"indexed_spot_vocl_timeseries_all_instances_{provider}_{scenario}"
+    if save_png:
+        save_current_figure(
+            fig,
+            f"{filename_base}.png",
+            output_dir=output_dir,
+            style=style,
+        )
+    if save_csv:
+        write_csv(
+            combined_daily,
+            f"{filename_base}.csv",
+            output_dir=output_dir,
+        )
+        if skipped:
+            write_csv(
+                pd.DataFrame(skipped),
+                f"{filename_base}_skipped.csv",
+                output_dir=output_dir,
+            )
+
+    if skipped:
+        print(f"Skipped {len(skipped)} price files while building indexed VoCL plot.")
+    if show:
+        plt.show()
+    else:
+        plt.close(fig)
+    return combined_daily
+
+
+def plot_spot_vocl_share_of_ondemand_timeseries_all_instances(
+    df_power: Optional[pd.DataFrame] = None,
+    scenario: str = "inf_median",
+    provider: str = "aws",
+    power_file: Path = DEFAULT_POWER_FILE,
+    prices_dir: Path = ORIGINAL_PRICES_DIR,
+    ymin: Optional[float] = None,
+    ymax: Optional[float] = None,
+    save_png: bool = True,
+    save_csv: bool = True,
+    show: bool = True,
+    output_dir: Path = DEFAULT_OUTPUT_DIR,
+    style: PlotStyle = PlotStyle(),
+) -> pd.DataFrame:
+    scenario = normalize_scenario(scenario)
+    if df_power is None:
+        df_power = load_power_data(power_file)
+
+    catalog = discover_price_files(prices_dir=prices_dir, provider=provider)
+    if catalog.empty:
+        raise ValueError(f"No {provider.upper()} spot price files found under {prices_dir}.")
+
+    region_priority = {"us-west-2": 0, "us-west-1": 1, "us-east-2": 2, "us-east-1": 3}
+    catalog = catalog.copy()
+    catalog["region_priority"] = catalog["region"].map(region_priority).fillna(len(region_priority))
+    catalog = catalog.sort_values(["family", "region_priority", "region", "instance_token"]).reset_index(drop=True)
+
+    daily_frames = []
+    skipped = []
+    for gpu_family, family_catalog in catalog.groupby("family", sort=True):
+        family_skipped = []
+        selected_daily = None
+        for _, record in family_catalog.iterrows():
+            instance_name = str(record["instance_token"])
+            region = str(record["region"])
+            label = str(gpu_family)
+            try:
+                df_price = load_price_data(filepath=Path(record["path"]))
+                df_voll = compute_voll_timeseries(
+                    df_price=df_price,
+                    df_power=df_power,
+                    instance_name=instance_name,
+                    provider=provider,
+                    scenarios=[scenario],
+                )
+                spot_vocl_col = f"VOLL_{scenario}"
+                ondemand_vocl_col = f"voll_ondemand_{scenario}"
+                if ondemand_vocl_col not in df_voll.columns:
+                    raise ValueError(f"Column not found: {ondemand_vocl_col}")
+
+                df_voll = df_voll.dropna(subset=["date", spot_vocl_col, ondemand_vocl_col]).copy()
+                df_voll[spot_vocl_col] = pd.to_numeric(df_voll[spot_vocl_col], errors="coerce")
+                df_voll[ondemand_vocl_col] = pd.to_numeric(df_voll[ondemand_vocl_col], errors="coerce")
+                df_voll = df_voll.loc[df_voll[ondemand_vocl_col] > 0].copy()
+                df_voll["spot_vocl_share_of_ondemand"] = df_voll[spot_vocl_col] / df_voll[ondemand_vocl_col]
+                daily = (
+                    df_voll.groupby("date")
+                    .agg(
+                        spot_vocl_share_mean=("spot_vocl_share_of_ondemand", "mean"),
+                        spot_vocl_share_min=("spot_vocl_share_of_ondemand", "min"),
+                        spot_vocl_share_max=("spot_vocl_share_of_ondemand", "max"),
+                        spot_vocl_mean=(spot_vocl_col, "mean"),
+                        ondemand_vocl_mean=(ondemand_vocl_col, "mean"),
+                        obs_count=("spot_vocl_share_of_ondemand", "count"),
+                    )
+                    .reset_index()
+                    .sort_values("date")
+                )
+            except Exception as exc:
+                family_skipped.append({"series": label, "path": record["path"], "reason": str(exc)})
+                continue
+
+            daily = daily.dropna(subset=["spot_vocl_share_mean"]).copy()
+            if daily.empty:
+                family_skipped.append({"series": label, "path": record["path"], "reason": "No daily spot/on-demand VoCL share data."})
+                continue
+
+            daily["series"] = label
+            daily["provider"] = provider
+            daily["gpu_family"] = gpu_family
+            daily["instance_token"] = instance_name
+            daily["region"] = region
+            daily["region_priority"] = int(record["region_priority"])
+            daily["price_file"] = str(record["path"])
+            selected_daily = daily
+            break
+
+        skipped.extend(family_skipped)
+        if selected_daily is not None:
+            daily_frames.append(selected_daily)
+
+    if not daily_frames:
+        raise ValueError(f"No spot/on-demand VoCL share series could be built. Skipped: {skipped}")
+
+    combined_daily = pd.concat(daily_frames, ignore_index=True)
+    combined_daily = combined_daily.sort_values(["series", "date"]).reset_index(drop=True)
+
+    fig, ax = plt.subplots(figsize=style.figsize)
+    series_names = combined_daily["series"].drop_duplicates().tolist()
+    cmap = plt.colormaps.get_cmap("tab10").resampled(max(len(series_names), 1))
+    for idx, series_name in enumerate(series_names):
+        series = combined_daily.loc[combined_daily["series"] == series_name].copy()
+        ax.plot(
+            series["date"],
+            series["spot_vocl_share_mean"],
+            linewidth=2.0,
+            alpha=0.92,
+            color=cmap(idx),
+            label=series_name,
+        )
+
+    ax.axhline(1.0, color="black", linestyle="--", linewidth=1.1, alpha=0.55)
+    ax.set_title(
+        f"Spot VoCL as a share of on-demand VoCL by GPU\nScenario: {scenario}",
+        fontsize=14,
+        pad=14,
+    )
+    ax.set_xlabel("Date", fontsize=12)
+    ax.set_ylabel("Spot VoCL / on-demand VoCL", fontsize=12)
+    if ymin is not None or ymax is not None:
+        ax.set_ylim(bottom=ymin, top=ymax)
+
+    locator = mdates.AutoDateLocator()
+    ax.xaxis.set_major_locator(locator)
+    ax.xaxis.set_major_formatter(mdates.ConciseDateFormatter(locator))
+    ax.yaxis.set_major_formatter(mticker.PercentFormatter(xmax=1.0))
+    tidy_axis(ax, style)
+    ax.legend(frameon=False, fontsize=9, loc="center left", bbox_to_anchor=(1.01, 0.5))
+    fig.subplots_adjust(top=0.88, bottom=0.16, right=0.82, left=0.10)
+
+    filename_base = f"spot_vocl_share_of_ondemand_timeseries_all_instances_{provider}_{scenario}"
+    if save_png:
+        save_current_figure(
+            fig,
+            f"{filename_base}.png",
+            output_dir=output_dir,
+            style=style,
+        )
+    if save_csv:
+        write_csv(
+            combined_daily,
+            f"{filename_base}.csv",
+            output_dir=output_dir,
+        )
+        if skipped:
+            write_csv(
+                pd.DataFrame(skipped),
+                f"{filename_base}_skipped.csv",
+                output_dir=output_dir,
+            )
+
+    if skipped:
+        print(f"Skipped {len(skipped)} price files while building spot/on-demand VoCL share plot.")
     if show:
         plt.show()
     else:
@@ -3879,6 +4191,26 @@ def run_example() -> None:
         azure_region="eastus",
         azure_ondemand_price=32.77,
         start_date="2024-01-25",
+        save_png=True,
+        save_csv=True,
+        show=False,
+    )
+
+    plot_indexed_spot_vocl_timeseries_all_instances(
+        df_power=df_power,
+        scenario=suite_scenario,
+        provider=provider,
+        ymin=0,
+        save_png=True,
+        save_csv=True,
+        show=False,
+    )
+
+    plot_spot_vocl_share_of_ondemand_timeseries_all_instances(
+        df_power=df_power,
+        scenario=suite_scenario,
+        provider=provider,
+        ymin=0,
         save_png=True,
         save_csv=True,
         show=False,
