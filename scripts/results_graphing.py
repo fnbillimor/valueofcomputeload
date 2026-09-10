@@ -19,6 +19,8 @@ from plot_style import configure_tex_fonts
 
 configure_tex_fonts()
 
+#graphing
+
 try:
     from scipy.stats import gaussian_kde
 except ImportError:  # Optional dependency; only needed for KDE plots.
